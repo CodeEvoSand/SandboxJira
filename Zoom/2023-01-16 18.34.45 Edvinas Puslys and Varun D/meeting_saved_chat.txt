@@ -1,4 +1,0 @@
-18:34:45 From philipsilva to Everyone:
-	https://gitlab.com/groups/gitlab-org/-/epics/5399
-18:41:34 From philipsilva to Everyone:
-	NLAPP

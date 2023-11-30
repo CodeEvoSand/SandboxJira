@@ -1,6 +1,0 @@
-14:49:10 From Varun D to Everyone:
-	https://community.atlassian.com/t5/Jira-questions/How-to-run-worklog-reports-at-an-individual-user-level/qaq-p/1438490
-14:51:58 From Varun D to Everyone:
-	https://jira.atlassian.com/browse/JRACLOUD-1781
-14:52:06 From Varun D to Everyone:
-	https://jira.atlassian.com/browse/JRACLOUD-3427

@@ -1,2 +1,0 @@
-16:43:50 From Varun D to Everyone:
-	https://community.developer.atlassian.com/t/post-html-issue-description-with-jira-rest-api-v3/38482/27
