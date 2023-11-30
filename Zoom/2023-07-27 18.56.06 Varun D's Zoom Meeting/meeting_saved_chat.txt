@@ -1,0 +1,8 @@
+18:56:06 From Varun D To Everyone:
+	https://trinitymobilitypvtltd.atlassian.net/rest/api/2/project/HKPFSAF
+18:57:32 From Varun D To Everyone:
+	HKPFSAFE
+19:00:29 From Varun D To Everyone:
+	https://id.atlassian.com/manage-profile/security/api-tokens
+19:09:20 From Varun D To Everyone:
+	https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/

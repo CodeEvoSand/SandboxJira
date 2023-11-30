@@ -1,0 +1,24 @@
+18:43:26 From Kostiantyn Mishchanchuk to Everyone:
+	sorry, I have to leave. Oleh please follow up :)
+18:44:24 From Oleh to Everyone:
+	sure
+18:44:42 From Oleh to Everyone:
+	BTW, do you hear me&
+18:44:43 From Oleh to Everyone:
+	?
+18:47:42 From Ben Vloemans to Everyone:
+	35Gjp0ERdUixyo94TCxluXFXrALmkbj4
+18:50:19 From Varun D to Everyone:
+	https://ismecompany.atlassian.net
+18:50:29 From Oleh to Everyone:
+	https://ismecompany.atlassian.net/
+18:54:37 From Oleh to Everyone:
+	https://api.atlassian.com/ex/jira/f61641ed-42ac-4b67-a2a2-e9225cecd970/rest/api/3/users/search
+18:57:48 From Luk Vloemans to Everyone:
+	I need to go to the next call - talk to you later, Ben
+18:58:03 From Ben Vloemans to Everyone:
+	Remco Dekkers
+18:59:37 From Varun D to Everyone:
+	r.dekkers@ism.nl
+19:01:44 From Oleh to Everyone:
+	https://developer.atlassian.com/cloud/jira/platform/oauth-2-3lo-apps/

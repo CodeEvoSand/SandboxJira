@@ -1,0 +1,10 @@
+15:36:15 From Varun D To Everyone:
+	https://confluence.atlassian.com/support/create-a-support-zip-790796819.html
+15:36:54 From Varun D To Everyone:
+	For Confluence go to   > General Configuration > Troubleshooting and support tools (under Administration).
+15:39:26 From Varun D To Everyone:
+	PKIX
+15:40:15 From Varun D To Everyone:
+	Path validation
+15:44:23 From Varun D To Everyone:
+	https://support.atlassian.com/requests/PCS-207044/

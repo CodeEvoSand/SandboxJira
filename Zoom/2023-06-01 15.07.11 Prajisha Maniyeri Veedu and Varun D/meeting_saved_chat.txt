@@ -1,0 +1,14 @@
+15:07:10 From Varun D to Everyone:
+	Error response code 500 when sending webhook to https://jenkins.muthootfinance.com:8443/jira-trigger-webhook-receiver?triggeredByUser=removedValue
+15:15:43 From Madan to Everyone:
+	https://developer.atlassian.com/cloud/jira/software/integrate-jsw-cloud-with-onpremises-tools/
+15:25:27 From sreenivas v to Everyone:
+	Jenkins 2.375.1
+15:32:48 From sreenivas v to Everyone:
+	2023-06-01 09:42:08.919+0000 [id=189]#011WARNING#011o.e.j.s.h.ContextHandler$Context#log: Error while serving https://jenkins.muthootfinance.com:8443/jira-trigger-webhook-receiver/	Jun  1 15:12:08 jenkins-poc jenkins[896933]: java.lang.IllegalArgumentException: Text must not be null or empty
+15:43:10 From Varun D to Everyone:
+	https://community.atlassian.com/t5/Jira-articles/Automation-for-Jira-Send-web-request-using-Jira-REST-API/ba-p/1443828
+15:54:40 From Varun D to Everyone:
+	message: Error response code 500 when sending webhook to https://jenkins.muthootfinance.com:8443/jira-trigger-webhook-receiver
+15:58:17 From sreenivas v to Everyone:
+	https://df76f661-4cbe-4768-a119-13992dc4ce2d.hello.atlassian-dev.net/x1/h1TCNOE_kSUnvJvlYYwiie0G5xc?jenkins_server_uuid=b53db8cf-c21e-4cbb-87b0-1576dbdc2756	https://api.media.atlassian.com/file/8f88642b-3cdc-4b39-8c89-6fb1b264f788/binary?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiIwNWIwOTQzMy05ZGMzLTRiMmMtODQ0YS0yZWE1NGI2ZmQ2NzMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOjYwNDAzNjUiOlsidXBkYXRlIiwicmVhZCIsImluc2VydCJdLCJ1cm46ZmlsZXN0b3JlOmZpbGUiOlsiY3JlYXRlIl0sInVybjpmaWxlc3RvcmU6ZmlsZToqIjpbImRlbGV0ZSJdLCJ1cm46ZmlsZXN0b3JlOmNodW5rOioiOlsiY3JlYXRlIiwicmVhZCJdLCJ1cm46ZmlsZXN0b3JlOnVwbG9hZCI6WyJjcmVhdGUiXSwidXJuOmZpbGVzdG9yZTp1cGxvYWQ6KiI6WyJyZWFkIiwiY3JlYXRlIiwidXBkYXRlIiwiZGVsZXRlIl19LCJuYmYiOjE2ODU1MTg4NzMsImV4cCI6MTY4NTU0MDQ3M30.SGkSkyfMZF3hq-R0JSiLS5GZ76R9bnslqo5NM0-QE9I&client=05b09433-9dc3-4b2c-844a-2ea54b6fd673&collection=6040365&max-age=43200&dl=true<https://transfer.atlassian.com/preview/6040365/attachment/8f88642b-3cdc-4b39-8c89-6fb1b264f788>

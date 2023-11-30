@@ -1,0 +1,12 @@
+14:07:30 From Varun D to Everyone:
+	here
+14:07:50 From blazej to Everyone:
+	=JEŻELI(CZY.PUSTA(N49);"Brak zadania w JiRA";INDEKS(JIRA("issueKey="&N49;"Status";0;0);2;0))
+14:09:14 From blazej to Everyone:
+	=if(if.empty(N49);"Brak zadania w JiRA";INDEKS(JIRA("issueKey="&N49;"Status";0;0);2;0))
+14:11:45 From blazej to Everyone:
+	=INDEKS(JIRA(CONCAT("issueKey=";B1);"Status";0;0);2;0)
+14:12:09 From blazej to Everyone:
+	#ADR!
+14:12:17 From blazej to Everyone:
+	=INDEKS(JIRA(CONCAT("issueKey=";B1);"Status";0;0);2;0)

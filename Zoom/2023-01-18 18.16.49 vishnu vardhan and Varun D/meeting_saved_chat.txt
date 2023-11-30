@@ -1,0 +1,2 @@
+18:16:49 From Varun D to Everyone:
+	status in (Approved, Authorize, "Awaiting approval") order by created DESC

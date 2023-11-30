@@ -1,0 +1,86 @@
+14:34:37 From Varun D to Everyone:
+	message: Error response code 503 when sending webhook to https://125.21.230.39:8443/jira-trigger-webhook-receiver?triggeredByUser=removedValue
+14:45:58 From Varun D to Everyone:
+	ttps://125.21.230.39:8443 -v
+	*   Trying 10.76.10.194:443...
+	* Connected to edge-outboundproxy01-prd-apse1.net.atlassian.com (10.76.10.194) port 443 (#0)
+	* allocate connect buffer
+	* Establish HTTP proxy tunnel to 125.21.230.39:8443
+	> CONNECT 125.21.230.39:8443 HTTP/1.1
+	> Host: 125.21.230.39:8443
+	> User-Agent: curl/7.87.0
+	> Proxy-Connection: Keep-Alive
+	> 
+	< HTTP/1.1 503 Service Unavailable
+	< Server: squid
+	< Mime-Version: 1.0
+	< Date: Mon, 08 May 2023 07:58:40 GMT
+	< Content-Type: text/html;charset=utf-8
+	< Content-Length: 3094
+	< X-Squid-Error: ERR_CONNECT_FAIL 110
+	< Vary: Accept-Language
+	< Content-Language: en
+	< 
+	* CONNECT tunnel failed, response 503
+	* Closing connection 0
+	curl: (56) CONNECT tunnel failed, response 503
+14:48:14 From Varun D to Everyone:
+	10.76.10.194
+14:51:47 From sreenivas to Everyone:
+	https://emsyne-tech.atlassian.net/plugins/servlet/webhooks
+14:51:57 From Varun D to Everyone:
+	IP range of Atlassian: https://support.atlassian.com/organization-administration/docs/ip-addresses-and-domains-for-atlassian-cloud-products/
+14:59:01 From Prajisha to Everyone:
+	@Sreeni I have to join another call now. Please continue this. Jeshee is available in the call in case you need any support.
+15:00:25 From sreenivas to Everyone:
+	@prajisha sure
+15:08:49 From Varun D to Everyone:
+	Exception javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target when sending webhook to https://125.21.230.39:8443/jira-trigger-webhook-receiver?triggeredByUser=removedValue
+15:09:54 From Adharsh to Everyone:
+	18.184.99.224
+15:14:54 From sreenivas to Everyone:
+	https://support.atlassian.com/organization-administration/docs/ip-addresses-and-domains-for-atlassian-cloud-products/
+15:15:15 From Varun D to Everyone:
+	13.52.5.96/28
+	13.236.8.224/28
+	18.136.214.96/28
+	18.184.99.224/28
+	18.234.32.224/28
+	18.246.31.224/28
+	52.215.192.224/28
+	104.192.137.240/28
+	104.192.138.240/28
+	104.192.140.240/28
+	104.192.142.240/28
+	104.192.143.240/28
+	185.166.143.240/28
+	185.166.142.240/28
+	
+	2401:1d80:3000:100::/61
+	2401:1d80:3000:200::/61
+	2401:1d80:3000:300::/61
+	2401:1d80:3000:400::/61
+	2401:1d80:3000:500::/61
+	2401:1d80:3000:600::/61
+	2401:1d80:3000:700::/61
+	2406:da18:809:e04::/63
+	2406:da18:809:e06::/64
+	2406:da1c:1e0:a204::/63
+	2406:da1c:1e0:a206::/64
+	2600:1f14:824:304::/63
+	2600:1f14:824:306::/64
+	2600:1f18:2146:e304::/63
+	2600:1f18:2146:e306::/64
+	2600:1f1c:cc5:2304::/63
+	2a05:d014:f99:dd04::/63
+	2a05:d014:f99:dd06::/64
+	2a05:d018:34d:5804::/63
+	2a05:d018:34d:5806::/64
+15:18:52 From sreenivas to Everyone:
+	@Adarsh, Can u enable the port 8080 on this ipaddress  125 21.230.39
+15:19:27 From Varun D to Everyone:
+	https://developer.atlassian.com/server/jira/platform/webhooks/
+15:21:24 From Varun D to Everyone:
+	https://developer.atlassian.com/cloud/jira/software/webhooks/
+15:22:08 From Varun D to Everyone:
+	the URL where the callback should be sent. Only secure HTTPS URLs and up to 5 redirects per URL are allowed.

@@ -1,0 +1,14 @@
+16:33:55 From Nilesh Vaghela To Everyone:
+	Can we record this?
+16:48:22 From Varun D To Everyone:
+	https://support.atlassian.com/security-and-access-policies/docs/manage-your-users-third-party-apps/
+17:03:14 From Varun D To Everyone:
+	https://www.atlassian.com/partners
+17:19:54 From Varun D To Everyone:
+	https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-users/#api-rest-api-2-user-bulk-get
+17:20:12 From Varun D To Everyone:
+	https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-users/#api-rest-api-2-users-search-get
+17:24:05 From Nilesh Vaghela To Everyone:
+	https://developer.atlassian.com/platform/marketplace/rest/v2/api-group-apps/#api-addons-addonkey-get
+17:28:19 From Nilesh Vaghela To Everyone:
+	curl --request GET \	  --url 'https://marketplace.atlassian.com/rest/2/addons/{addonKey}/approval' \	  --user 'email@example.com:<api_token>' \	  --header 'Accept: application/json'
