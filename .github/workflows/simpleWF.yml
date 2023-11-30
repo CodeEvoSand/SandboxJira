@@ -20,20 +20,6 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-
-DEV:
-runs on: ubuntu-latest
-environment: DEV
-
-QA: 
-runs on: ubuntu-latest
-environment: Staging
-
-PROD: 
-runs on: ubuntu-latest
-environment: Production
-
-
   # This workflow contains a single job called "greet"
   greet:
     # The type of runner that the job will run on
