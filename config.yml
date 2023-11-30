@@ -10,6 +10,7 @@ deployments:
       - "Test"
       - "TST-*"
       - "тест"
+      - "QA"
     staging:
       - "Pre-Prod"
       - "STG-*"
