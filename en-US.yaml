@@ -1,0 +1,3774 @@
+# Special string naming convention
+# INSTALLER_, CMDLINE_INSTALLER_ - all strings used by installer
+# BACKEND_ - all strings used by backend
+# FRONTEND_ - strings for UI packaging
+
+
+######################### Application
+FRONTEND_APPLICATION_NAME: "Logi Options+"
+FRONTEND_APPLICATION_TITLE: "Logi Options+"
+FRONTEND_APPLICATION_DESCRIPTION: "Logi Options+ Application"
+# Do not translate the following string (Logi Voice)
+LOGIVOICE_APPLICATION_TITLE: "Logi Voice"
+
+######################### Macros Screen
+CREATE_MACRO: Create Smart Action
+MACROS_TITLE: Smart Actions
+MY_MACROS: Installed
+DISCOVER: Discover
+EXPECTED_IN_THE_FUTURE: Expected in the future
+ACTIVE: Active
+INACTIVE_DRAFT: Draft
+INACTIVE_MANUALLY: Inactive
+RENAME: Rename
+DUPLICATE: Duplicate
+EXPORT: Export
+REMOVE: Remove
+MACROS_WHEN: "If"
+MACROS_THEN: "Then"
+MACROS_OR: "Or"
+MACROS_ADD_TRIGGER: "Add trigger"
+MACROS_ADD_ACTION: "Add action"
+MACROS_APPLICATION: "Application"
+MACROS_KEYSTROKE: "Keystroke"
+MACROS_TEXT: "Text"
+MACROS_DEVICE: "Device"
+MACROS_KEY_SHORTCUT: "Key shortcut"
+MACROS_SYSTEM: "System"
+MACROS_CONFIRM_BUTTON: "Confirm"
+MACROS_VOICE: Voice
+MACROS_DELAY: Delay
+MACROS_MAXIMUM_TRIGGER_AMOUNT: Maximum amount of trigger reached
+MACROS_MAXIMUM_ACTION_AMOUNT: Maximum amount of action reached
+REMOVE_AGREEMENT: Yes. Remove
+NO: No
+YES: Yes
+REMOVE_TITLE_AGREEMENT: Are your sure you want to remove
+MACROS_SAVE_NEW_TITLE: Save your Smart Action
+MACROS_RENAME_TITLE: Rename your Smart Action
+MACROS_NAME_INPUT: Name
+MACROS_DESCRIPTION_INPUT: Description
+MACROS_CANCEL_BUTTON: Cancel
+MACROS_UNTITLED: Untitled
+MACROS_DRAFT: Draft
+MACROS_CONTINUE: Continue
+MACROS_SAVE_CHANGES_BEFORE: Save changes before exiting?
+MACROS_A_TRIGGER: a trigger
+MACROS_AN_ACTION: an action
+MACROS_IS_ADDED: is added
+MACROS_WILL_BE_INACTIVE: will be inactive until
+MACRO: Smart Action
+MACRO_TRIGGER_NOT_ADDED: Trigger is not added
+MACRO_ACTION_NOT_ADDED: Action is not added
+MACRO_PLUGIN_IS_NOT_INSTALLED: Plugin is not installed
+MACRO_APP_IS_NOT_AVAILABLE: Application is not available
+MACRO_KEYSTROKE_RECORD_BUTTON_RELEASE: Record in advanced mode
+MACRO_KEYSTROKE_RECORD_STANDARD_DELAY: Record with fixed delay
+MACRO_KEYSTROKE_START_RECORDING: Start recording
+MACRO_KEYSTROKE_STOP_RECORDING: Stop recording
+MACRO_KEYSTROKE_CONTINUE_RECORDING: Continue recording
+MACRO_KEYSTROKE_EMPTY_FIELD_HINT: Your keystrokes will be displayed here. Press “Start Recording” to begin.
+MACRO_TEXT_PLACEHOLDER: "Type or paste your text here (max 1000 characters)"
+MACROS_VIEW_MACRO: View Smart Action
+MACROS_ONBOARD_TITLE: What is a Smart Action?
+MACROS_ONBOARD_DESCRIPTION: A Smart Action allows you to assign multiple actions to a single trigger. If you press button A, the smart action will automatically perform actions B, C, D.
+MACROS_ONBOARD_EXPLAIN_TITLE: You can create your own Smart Actions from scratch
+MACROS_ONBOARD_EXPLAIN_DESCRIPTION: First, you’ll choose the trigger, then the actions you’d like it to perform.
+MACROS_ONBOARD_EXPLORE_TITLE:  Explore the possibilities with Smart Actions ready made for you.
+MACROS_ONBOARD_EXPLORE_DESCRIPTION: Simply choose one of our Smart Action templates, press GET, assign it to your device and it is ready to go! Once installed, you can use them as is or customize them to meet your needs.
+MACROS_ONBOARD_START_TITLE:  Let’s take a look at what Smart Actions can do
+MACROS_ONBOARD_START_DESCRIPTION:  Press the next button below to learn more about Logi Smart Actions
+MACROS_ONBOARD_END_TITLE:  You are now ready to start using Logi Smart Actions.
+MACROS_ONBOARD_END_DESCRIPTION:  Get ready to streamline your workflow.
+MACROS_RESTART: RESTART
+MACROS_BETA: BETA
+MACROS_ONBOARD_POPUP_TITLE: Logi Smart Actions is now available for all your connected devices.
+MACROS_ONBOARD_POPUP_DESCRIPTION: Be more productive and automate workflow with Logi Smart Actions. So you can focus on what’s most important.
+MACROS_START: START
+MACROS_SECONDS: s
+MACROS_EMPTY_LIST_DESCRIPTION: Click on Create to add your first Smart Action
+MACROS_SYSTEM_ACTIONS: System Actions
+MACROS_SELECT_APPLICATION: Select application
+MACROS_COPY: Copy
+MACROS_SEC_DELAY: sec delay
+MACROS_SEC: sec
+MACROS_ACTIONS: actions
+MACROS_RENAME_SUBTITLE: Give your smart action a name and a description.
+MACROS_IMPORT: Import
+MACROS_CREATE: Create
+MACROS_SELECT_FILE: Select a File
+MACROS_CONFIRM_TRIGGER: Confirm trigger
+MACROS_INSTALL: Install
+MACROS_KEYSTROKE_RECORDING_ERROR_SCREEN_HEADING: Oops. Something went wrong on our side.
+MACROS_KEYSTROKE_RECORDING_ERROR_SCREEN_DESCRIPTION: Sorry for the inconvenience, please try again or return to the main page.
+MACROS_TRY_AGAIN: Try again
+MACROS_TO_MAIN_PAGE: To main page
+MACROS_PLUGIN_CONFIGURED_TITLE: Smart Action configured
+MACROS_PLUGIN_CONFIGURED_DESCRIPTION: Success! You can now use this application for customizing Smart Actions!
+MACROS_PLUGIN_ERROR_BUTTON_SKIP: SKIP
+MACROS_SELECT_BUTTON: Select button
+MACROS_BUTTON_IS_PRESSED: "{SLOT_NAME} is pressed"
+INCOMPATIBLE_PLATFORM: Oops. This file was created for a different OS. We could not upload this Smart Action
+FAILED_TO_WRITE: Oops. This Smart Action could not be downloaded
+FAILED_TO_PARSE: Oops. There is something wrong with this file. We could not upload this Smart Action
+NO_SUCH_PATH: Oops. Something went wrong
+UNKNOWN: Oops. Something went wrong
+MACROS_KEYSTROKES_NOT_VALID_WARNING: Some of the keystrokes are not valid. Do you really want to save?
+MACROS_MOST_RECENT: Most Recent
+MACROS_ALPHABETIC: Alphabetic
+MACROS_MOST_USED: Most Used
+MACROS_LOGIN: Login
+MACROS_ASK_FOR_LOGIN_TITLE: Login to use Smart Actions
+MACROS_ASK_FOR_LOGIN_DESCRIPTION: By logging in, you can access more features and back up your device settings to the cloud.
+MACROS_NO_MATCHING_CARDS: No matching Smart Action was found.
+MACROS_USERVOICE_TITLE: Help us make Smart Actions better!
+MACROS_LOGOUT_INFO: Your Smart Actions were disabled. Please login to continue using them.
+MACROS_DO_NOT_STORE_SENSITIVE_INFO: Please do not use Smart Actions to store sensitive information.
+MACRO_EARLY_ACCESS: EARLY ACCESS
+MACRO_JOIN_SMART_ACTIONS_BETA: JOIN SMART ACTIONS BETA
+MACRO_EARLY_ACCESS_DESCRIPTION: To have early access to beta features, you need to be logged in and have "{SHARE_ANALYTICS_DATA}" turned on.
+MACRO_EARLY_ACCESS_LOGIN_TITLE: Login to get early access
+MACRO_EARLY_ACCESS_LOGIN_DESCRIPTION: By logging in, you can access more features and back up your device settings to the cloud.
+MACRO_EARLY_ACCESS_SHARE_DATA_DESCRIPTION: Help us improve our products and services by automatically sending diagnostics and usage data.
+MACRO_TURN_ON_TO_JOIN_BETA: TURN ON TO JOIN BETA
+MACRO_ONBOARDING_FIRST_TITLE: INTRODUCING SMART ACTIONS
+MACRO_ONBOARDING_FIRST_DESCRIPTION: Press the next button below to learn more about Smart Actions
+MACRO_ONBOARDING_NO_THANKS: NO THANKS
+MACRO_ONBOARDING_LATER: Later
+MACRO_ONBOARDING_SECOND_TITLE: What are Smart Actions?
+MACRO_ONBOARDING_SECOND_DESCRIPTION: Smart Actions give you the power to automate repetitive tasks. Just one click or press of a key and Smart Actions will perform multiple actions you want to automate.
+MACRO_ONBOARDING_SECOND_TRIGGER_TOOLTIP: "Trigger: Key press"
+MACRO_ONBOARDING_SECOND_ACTION_TOOLTIP: "Action: Mute mic"
+MACRO_ONBOARDING_THIRD_TITLE: Save time
+MACRO_ONBOARDING_THIRD_DESCRIPTION: Jump straight in by choosing one of our Smart Actions templates.
+MACRO_ONBOARDING_FOURTH_TITLE: Or create your own
+MACRO_ONBOARDING_FOURTH_DESCRIPTION: Select a trigger and actions to set your Smart Actions into motion.
+MACRO_ONBOARDING_FIFTH_TITLE: YOU ARE ALL SET
+MACRO_ONBOARDING_FIFTH_DESCRIPTION: You can now explore our Smart Action templates or create your own
+MACRO_ONBOARDING_RESTART : RESTART
+MACRO_TEMPLATES_TAB_BANNER: "On this tab, you can find Smart Actions templates that we have created for you. Simply choose one of them, press “GET”, assign it to your device and you are ready to go! Once installed, you can use them as is or customize to meet your needs."
+MACRO_MANAGE_TAB_BANNER: "On this tab, you see your Smart Actions. You can add Smart Actions from the available templates or create a new one from scratch using the “Create” button. Feel free to experiment with Smart Actions to fit your needs. You can use the “Export/Import as a file” feature to share the Smart Actions you’ve created with your friends and colleagues."
+MACRO_DEVICE_TOOLTIP: Allows you to assign a trigger to a key on your keyboard or mouse button. You can also assign it to a specific app profile.
+MACRO_APPLICATION_TOOLTIP: Allows you to open/close/bring to foreground your installed apps. Apps with additional app-specific actions will be available for you on the top of your list. More app-specific actions coming soon!
+MACRO_KEYSTROKE_TOOLTIP: Allows you to play back shortcuts or any sequences of key presses and releases.
+MACRO_TEXT_TOOLTIP: Allows you to paste text. It can be a URL, directory path, piece of code, command, message, or email template.
+MACRO_SYSTEM_TOOLTIP: Allows you to take System Actions like shut down, open files, copy, delete, and many more.
+MACRO_DELAY_TOOLTIP: Allows you to create delays between the actions that you have added. Useful when you need to wait for the preceding action to complete before executing the subsequent action.
+
+######################### Predefined MACROS
+MACRO_NAME_PULL_PROJECT_CHANGES: Pull project changes
+MACRO_DESCRIPTION_PULL_PROJECT_CHANGES: Use git pull command
+MACRO_NAME_OPEN_URLS: Open URLs
+MACRO_DESCRIPTION_OPEN_URLS: When I opened a browser, open my favorite URLs
+MACRO_NAME_BE_RIGHT_BACK: Be right back
+MACRO_DESCRIPTION_BE_RIGHT_BACK: When I need to jump from a meeting
+MACRO_NAME_MORNING_SETUP: Morning Setup
+MACRO_DESCRIPTION_MORNING_SETUP: Open my favourite apps
+MACRO_NAME_FOCUS_TIME: Focus Time
+MACRO_DESCRIPTION_FOCUS_TIME: Take a pause from my work
+MACRO_NAME_MEETING_HELPER: Meeting Helper
+MACRO_DESCRIPTION_MEETING_HELPER: Quick preparations after joining Zoom call
+MACRO_NAME_SEARCH_SLACK: Search in Slack
+MACRO_DESCRIPTION_SEARCH_SLACK: Search for mentions of my project in Slack
+MACRO_NAME_CHECK_CODE_CHANGE: Check Uncommitted Code Changes
+MACRO_DESCRIPTION_CHECK_CODE_CHANGE: Check Uncommitted Code Changes in Terminal
+MACRO_NAME_REBASE_MASTER: Rebase the master
+MACRO_DESCRIPTION_REBASE_MASTER: Rebase the master
+MACRO_NAME_EASY_SPEED_CHANGE: Easy Speed Change (Premiere Pro)
+MACRO_DESCRIPTION_EASY_SPEED_CHANGE: Select clip, go to speed/duration, update the value and apply changes
+MACRO_NAME_SET_IN_OUT_POINTS: Set In and Out Points (Premiere Pro)
+MACRO_DESCRIPTION_SET_IN_OUT_POINTS: Select the project panel, select next clip, open the clip and start In Point
+MACROS_TEMPLATE_TAB: Templates
+MACROS_MANAGE_TAB: Manage
+MACROS_GET: Get
+
+
+
+######################### Device Home Screen
+SETTINGS: Settings
+ACCOUNT: Account
+NOTIFICATION: Notifications
+MACROS: SMART ACTIONS
+VOICE: Logi Voice
+
+DEVICE_LIST_WELCOME_GOOD_MORNING: Good Morning
+DEVICE_LIST_WELCOME_GOOD_AFTERNOON: Good Afternoon
+DEVICE_LIST_WELCOME_GOOD_EVENING: Good Evening
+
+DEVICE_LIST_CONNECT_YOUR_DEVICES: CONNECT YOUR DEVICE(S)
+DEVICE_LIST_DISCONNECTED: INACTIVE
+DEVICE_LIST_ASSET_DOWNLOADING: CONFIGURING
+DEVICE_LIST_RETRY: RETRY
+DEVICE_LIST_DOWNLOAD_FAILED_CHECK_NETWORK: "Download failed \n Check network"
+DEVICE_LIST_FETCH_MIGARTION_SETTINGS: Fetching settings from Options
+
+# ADD DEVICES MODAL
+DEVICE_LIST_ADD_DEVICE: ADD DEVICE
+DEVICE_LIST_ADD_DEVICE_MODAL_BOLT_NOT_INSTALLED_TITLE: Download connection app
+DEVICE_LIST_ADD_DEVICE_MODAL_BOLT_NOT_INSTALLED_DESCRIPTION: Please download our device connection app 'Logi Bolt' to connect via any Logi USB receiver. The app will be integrated into Options+ soon.
+DEVICE_LIST_ADD_DEVICE_MODAL_BOLT_OLD_VERSION_INSTALLED_TITLE: Update connection app
+DEVICE_LIST_ADD_DEVICE_MODAL_BOLT_OLD_VERSION_INSTALLED_DESCRIPTION: You seem to have an older version of Logi Bolt installed. Please download the latest version by clicking the button below to connect via any Logi USB receiver. The app will be integrated into Options+ soon.
+DEVICE_LIST_ADD_DEVICE_MODAL_BUTTON_GENERAL_DOWNLOAD_APP: DOWNLOAD APP
+DEVICE_LIST_ADD_DEVICE_MODAL_BUTTON_CONNECT_VIA_BLUETOOTH: OR CONNECT VIA{BLUETOOTH_ICON}BLUETOOTH
+# In place of {BLUETOOTH_ICON}, an icon(small image) will be present
+
+DEVICE_DETECTION_ERROR: ERROR
+DEVICE_DETECTION_ERROR_FIX_DEVICE: FIX DEVICE
+DEVICE_QUARANTINE_RESTART_DEVICE_TITLE: Restart device
+DEVICE_QUARANTINE_RESTART_DEVICE_DESCRIPTION: Turn off your device and turn it back on to resolve the error.
+DEVICE_QUARANTINE_RESTART_DEVICE_BUTTON_TEXT: GOT IT
+SECURE_INPUT_ENABLED_ERROR_TITLE: Restart computer
+SECURE_INPUT_ENABLED_ERROR_DESCRIPTION: "{APP_NAME} is preventing the device from being recognized. Please restart {APP_NAME} or your computer to resolve the error.{BREAK}{LEARN_MORE}"
+SECURE_INPUT_ENABLED_ERROR_LEARN_MORE: Learn more
+SECURE_INPUT_ALWAYS_ENABLED_ERROR_TITLE: Connect via USB receiver
+SECURE_INPUT_ALWAYS_ENABLED_ERROR_DESCRIPTION: "{APP_NAME} is preventing the device from being recognized. Please connect your device via a USB receiver or pause the app to resolve the error.{BREAK}{LEARN_MORE}"
+DEVICE_UPDATE_FIRMWARE: UPDATE FIRMWARE
+
+# Device Pairing
+
+DEVICE_PAIRING_CONNECT: CONNECT
+
+DEVICE_PAIRING_FOOTER_DESCRIPTION: Look for a matching logo mark on the bottom of your device to see if it's a Bolt or Unifying device.
+
+DEVICE_DETECTION_RESTART_DEVICE: Restart your device
+DEVICE_DETACTION_RESTART_DEVCIE_DESCRIPTION: Turn off your device and turn it back on to connect it.
+DEVICE_DETECTION_STOP_SEARCHING: STOP SEARCHING
+
+DEVICE_DETECTED_MOUSE_TITLE: "Detected %0 device"
+DEVICE_DETECTED_MOUSE_DESCRIPTION: Please confirm if it is your mouse by moving the cursor with it.
+DEVICE_DETECTED_MOUSE_MOVING: CONFIRM
+DEVICE_DETECTED_MOUSE_NOT_MOVING: CANCEL
+
+DEVICE_DETECTED_KEYBOARD_TITLE: "Detected %0 device"
+DEVICE_DETECTED_KEYBOARD_DESCRIPTION: Please confirm if it is your keyboard by typing with it.
+DEVICE_DETECTED_KEYBOARD_TYPING: CONFIRM
+DEVICE_DETECTED_KEYBOARD_NOT_TYPING: CANCEL
+KEYBOARD_DETECTION_INPUT_PLACEHOLDER: Type anything
+
+DEVICE_DETECTION_SUCCESS_TITLE: "Your %0 device is connected and ready to be set up!"
+UNIFYING_DEVICE_DETECTION_SUCCESS_DESCRIPTION: Your device has been successfully connected to your Logi Unifying receiver.
+USB_DEVICE_DETECTION_SUCCESS_DESCRIPTION: Your device has been successfully connected to your Logi USB receiver.
+BOLT_DEVICE_DETECTION_SUCCESS_DESCRIPTION: Your device has been successfully connected to your Logi Bolt receiver.
+DEVICE_DETECTION_SUCCESS_SETUP_BUTTON: SETUP DEVICE
+DEVICE_DETECTION_SUCCESS_LATER_BUTTON: CONNECT ANOTHER DEVICE
+DEVICE_DETECTION_SUCCESS_DESCRIPTION: Your device has been successfully connected to your Logi Unifying receiver
+
+UNSUPPORTED_DEVICE_DETECTION_SUCCESS_TITLE: "Your %0 device is connected to your receiver!"
+OPTIONS_SUPPORTED_DEVICE_DETECTION_SUCCESS_DESCRIPTION: The device is not supported in Options+ yet. Please use the Logi Options software to configure it.
+OPTIONS_SUPPORTED_DEVICE_DETECTION_SUCCESS_SETUP_BUTTON: DOWNLOAD LOGI OPTIONS
+OPEN_OPTIONS_SUPPORTED_DEVICE_DETECTION_SUCCESS_SETUP_BUTTON: OPEN LOGI OPTIONS
+
+UNSUPPORTED_DEVICE_DETECTION_SUCCESS_DESCRIPTION: Please note that the device is not supported in Options+ yet.
+UNSUPPORTED_DEVICE_DETECTION_SUCCESS_CLOSE: CLOSE
+
+DEVICE_DETECTION_TIMEOUT_TITLE: Timeout
+DEVICE_DETECTION_TIMEOUT_DESCRIPTION: Your session has expired due to inactivity. Please try again.
+DEVICE_DETECTION_TIMEOUT_TRY_AGAIN: TRY AGAIN
+DEVICE_DETECTION_TIMEOUT_CANCEL: CANCEL
+
+DEVICE_DETECTION_OTP_ERROR_TITLE: Lifespan exhausted
+DEVICE_DETECTION_OTP_ERROR_DESCRIPTION: Receiver cannot be used to pair a new device as it has reached it's erase/write cycles limit. Connect a new receiver to continue.
+DEVICE_DETECTION_OTP_ERROR_BUTTON: SELECT DIFFERENT RECEIVER
+
+PAIRING_ABRUBTED_TITLE: Pairing abrupted
+PAIRING_ABRUBTED_DESCRIPTION: Cancelling the pairing will abrupt the connection overall. Do you still want to cancel pairing?
+PAIRING_ABRUBTED_CANCEL_PAIRING: CANCEL PAIRING
+PAIRING_ABDRUBTED_CONTINUE_PAIRING: CONTINUE PAIRING
+
+PAIRING_ERROR_TITLE: Pairing error
+PAIRING_ERROR_DESCRIPTION: We could not pair your device. Please try again.
+PAIRING_ERROR_TRY_AGAIN: TRY AGAIN
+PAIRING_ERROR_CANCEL: CANCEL
+
+UNSUPPORTED_DEVICE_TITLE: Unsupported device
+UNSUPPORTED_DEVICE_DESCRIPTION: The device you are trying to pair is not compatible. Please try with a supported device.
+
+DEVICE_PAIRING_DISCOVERY_TITLE: Long press to connect
+DEVICE_PAIRING_DISCOVERY_DESCRIPTION: Press and hold the connect button on your device for 3 seconds to put it in pairing mode.
+DEVICE_PAIRING_CANCEL_DISCOVERY: STOP SEARCHING
+DEVICE_PAIRING_START_DISCOVERY: SEARCH AGAIN
+DEVICE_PAIRING_NO_DEVICES_FOUND: No devices found
+DEVICE_PAIRING_DEVICES_FOUND: "%0 devices found"
+
+DEVICE_PAIRING_NO_RECEIVER: No receiver connected
+UNIFYING_RECEIVER: Logi Unifying receiver
+BOLT_RECEIVER: Logi Bolt receiver
+NON_UNIFYING_RECEIVER: Logi USB receiver
+BLUETOOTH_CONNECTION: Bluetooth
+UNIFYING_NO_DEVICE_PAIRED_DESCRIPTION: "Connect up to %0 Unifying devices"
+BOLT_NO_DEVICE_PAIRED_DESCRIPTION: "Connect up to %0 Bolt devices"
+NON_UNIFYING_NO_DEVICE_PAIRED_DESCRIPTION: Connect device
+
+DEVICE_DETECTION_HEADER_SEARCHING: Searching devices...
+DEVICE_DETECTION_HEADER_CONNECTIVITY_SELECTION: Select connection type
+DEVICE_DETECTION_HEADER_MOUSE_CONFIRMATION: Confirm your mouse
+DEVICE_DETECTION_HEADER_KEYBOARD_CONFIRMATION: Confirm your keyboard
+
+DEVICE_VERIFICATION_TITLE: Verify your device
+DEVICE_VERIFICATION_KEYBOARD_DESCRIPTION: Type the following numbers on your keyboard and press Enter to verify this device.
+DEVICE_VERIFICATION_MOUSE_DESCRIPTION: Follow the instructions and click the buttons on your mouse to verify this device.
+DEVICE_VERIFICATION_CANCEL: CANCEL
+
+DEVICE_VERIFICATION_FAILURE_TITLE: Failed to verify device
+MOUSE_VERIFICATION_FAILURE_DESCRIPTION: Oops, looks like the clicks didn't match the pattern.
+KEYS_VERIFICATION_FAILURE_DESCRIPTION: Oops, looks like the numbers pressed didn't match the code.
+DEVICE_VERIFICATION_FAILURE_TRY_AGAIN: TRY AGAIN
+DEVICE_VERIFICATION_FAILURE_CANCEL: CANCEL
+
+DEVICE_DISCONNECTION_FAILURE_TITLE: Error connecting device
+DEVICE_DISCONNECTION_FAILURE_DESCRIPTION: Please make sure the device is turned on and in range.
+
+DEVICE_PARING_ERROR_TITLE: Abort pairing process?
+DEVICE_PARING_ERROR_DESCRIPTION: You are about to abort your device pairing process.
+DEVICE_PARING_ERROR_ABORT: ABORT PAIRING
+DEVICE_PARING_ERROR_CONTINUE: CONTINUE PAIRING
+
+UNIFYING_RECEIVER_FULL_TITLE: No space available in the receiver
+RECEIVER_FULL_DESCRIPTION: The receiver is at its devices limit. Please remove a device to continue.
+RECEIVER_FULL_BUTTON_TEXT: CONNECT VIA BLUETOOTH
+RECEIVER_FULL_CANCEL_TEXT: ADD A NEW UNIFYING RECEIVER
+
+MOUSE_CLICK_TYPE_LEFT: CLICK LEFT
+MOUSE_CLICK_TYPE_RIGHT: CLICK RIGHT
+MOUSE_CLICK_TYPE_BOTH: CLICK LEFT & RIGHT
+MOUSE_CLICK_TYPE_UP: CLICK UP
+MOUSE_CLICK_TYPE_DOWN: CLICK DOWN
+MOUSE_CLICK_TYPE_ERGONIC_BOTH: CLICK UP & DOWN
+MOUSE_CLICK_TYPE_LEFT_UP: CLICK UP
+MOUSE_CLICK_TYPE_LEFT_DOWN: CLICK DOWN
+MOUSE_CLICK_TYPE_LEFT_ERGONIC_BOTH: CLICK UP & DOWN
+
+RECEIVER_FULL_TITLE: Receiver is full
+RECEIVER_FULL_ERROR_DESCRIPTION: The receiver is at its devices limit. Please remove a device to continue.
+RECEIVER_FULL_MODAL_CLOSE: CLOSE
+
+DEVICE_UNPAIR_MODAL_TITLE: "Remove %0?"
+DEVICE_UNPAIR_MODAL_DESCRIPTION: The device will not reconnect automatically. You will have to pair the device again to use it.
+DEVICE_UNPAIR_MODAL_DISABLED_DESCRIPTION: To remove the device, unplug the USB cable and plug it back in to reconnect automatically.
+DEVICE_UNPAIR_MODAL_BUTTON_ACTION: YES,REMOVE
+DEVICE_UNPAIR_MODAL_CANCEL_ACTION: CANCEL
+DEVICE_UNPAIR_TOOLTIP: Remove device
+
+DEVICE_UNPAIR_SETTINGS_TITLE: Remove device
+DEVICE_UNPAIR_SETTINGS_BUTTON: REMOVE DEVICE
+
+DEVICE_RESOURCES_LOADING_TITLE: Downloading device information
+DEVICE_RESOURCES_LOADING_DESCRIPTION: This may take a few seconds.
+
+DEVICE_RESOURCES_LOADING_ERROR_TITLE: Error downloading device information
+DEVICE_RESOURCES_LOADING_ERROR_DESCRIPTION: Oops, something went wrong. Please check your network connection and try again.
+DEVICE_RESOURCES_LOADING_ERROR_TRY_AGAIN: TRY AGAIN
+DEVICE_RESOURCES_LOADING_ERROR_CANCEL: CANCEL
+
+# Battery Indication start
+BATTERY_LEVEL_CRITICAL: Battery level is critical
+BATTERY_LEVEL_LOW: Battery level is low
+BATTERY_LEVEL_GOOD: Battery level is good
+BATTERY_LEVEL_FULL: Battery is full
+# Currently not used
+BATTERY_LEVEL_READING: Reading battery level
+BATTERY_CHARGING: Charging
+BATTERY_CONNECTION_USB: Connected via USB Receiver
+BATTERY_CONNECTION_UNIFYING: Connected via Unifying Receiver
+BATTERY_CONNECTION_BOLT: Connected via Bolt Receiver
+BATTERY_CONNECTION_BLE: Connected via Bluetooth
+BATTERY_CONNECTION_USE_CABLE: Connected via USB cable
+BATTERY_CHARGING_PERCENTAGE: Charging {BATTERY_PERCENTAGE}%
+BATTERY_PERCENTAGE: Battery level {BATTERY_PERCENTAGE}%
+# Battery Indication end
+
+# Device Home Screen END
+
+
+
+
+######################### Application settings page
+
+# Developer page for changing pipeline channel
+APPLICATION_SETTINGS_UPDATES_CHANNEL_NAME_PLACEHOLDER: CHANNEL
+APPLICATION_SETTINGS_UPDATES_CHANNEL_PASSWORD_PLACEHOLDER: PASSWORD
+APPLICATION_SETTINGS_UPDATES_CHANNEL_TOKEN_PLACEHOLDER: TOKEN
+APPLICATION_SETTINGS_UPDATES_CHANNEL_HEADER: "Set new Options+ channel"
+APPLICATION_SETTINGS_UPDATES_CHANNEL_BUTTON: SET NEW CHANNEL
+APPLICATION_SETTINGS_UPDATES_CHANNEL_TOKEN_HEADER: "Set token"
+APPLICATION_SETTINGS_UPDATES_SHOW_ADVANCED_OPTIONS: Show advanced options
+
+APPLICATION_SETTINGS_SUPPORTED_LANGUAGE: Language
+APPLICATION_SETTINGS_HEADING: Application settings
+APPLICATION_SETTINGS_GENERAL_HEADING: GENERAL
+APPLICATION_SETTINGS_GENERAL_VERSION_NAME: "Logi Options+ version {VERSION_TEXT}"
+APPLICATION_SETTINGS_GENERAL_AUTO_UPDATE: Automatically install updates
+APPLICATION_SETTINGS_NEW_UPDATE_AVAILABLE: A new version is available
+APPLICATION_SETTINGS_THEME: Color theme
+
+# This two are combined
+APPLICATION_SETTINGS_GENERAL_LATEST_VERSION: You have the latest version! {LINK_TEXT}
+# {LINK_TEXT} will be replaced by "See release notes"
+APPLICATION_SETTINGS_SEE_RELEASE_NOTES: See release notes
+
+# Not used for internal
+#APPLICATION_SETTINGS_SEE_WHAT_NEW: See what’s new
+APPLICATION_SETTINGS_GENERAL_FEEDBACK_TITLE: Feedback
+APPLICATION_SETTINGS_GENERAL_FEEDBACK_DESCRIPTION: Share new ideas and suggest improvements using the button below. Please note that whilst we look at all feedback, we cannot always get back to you. If you need to report an issue or require support, please use the support button above.
+APPLICATION_SETTINGS_GENERAL_FEEDBACK_ACTION: SUBMIT FEEDBACK
+
+# Logging section in application settings
+APPLICATION_SETTINGS_GENERAL_LOGGING_TITLE: Logging
+APPLICATION_SETTINGS_GENERAL_LOGGING_DESCRIPTION_DISABLED: Press the start logging button, reproduce the issue and share the log file with us.
+APPLICATION_SETTINGS_GENERAL_LOGGING_DESCRIPTION_ENABLED: Data is being logged.
+APPLICATION_SETTINGS_GENERAL_LOGGING_DESCRIPTION_ARCHIVING: Compressing and saving logs on desktop.
+APPLICATION_SETTINGS_GENERAL_LOGGING_DESCRIPTION_FINISHED: Log file has been saved on desktop.
+APPLICATION_SETTINGS_GENERAL_LOGGING_ACTION_START: START LOGGING
+APPLICATION_SETTINGS_GENERAL_LOGGING_ACTION_STOP: STOP LOGGING
+
+# Supoort section in application settings
+APPLICATION_SETTINGS_GENERAL_SUPPORT_TITLE: Troubleshooting and Support
+APPLICATION_SETTINGS_GENERAL_SUPPORT_DESCRIPTION: Report issues or request support with the button below.
+APPLICATION_SETTINGS_GENERAL_SUPPORT_ACTION: SUPPORT
+
+# TODO: combine
+APPLICATION_SETTINGS_GENERAL_ANALYTICS_DESCRIPTION: Help us improve our products and services by automatically sending diagnostics and usage data.
+APPLICATION_SETTINGS_LEARN_MORE_ABOUT: Learn more about our {PRIVACY_POLICY}.
+APPLICATION_SETTINGS_GENERAL_LICENCE_AGREEMENT_TITLE: End User License Agreement
+APPLICATION_SETTINGS_GENERAL_LICENCE_AGREEMENT_DESCRIPTION: © {year} Logitech. Logitech, Logi, Logicool and other Logitech trademarks are owned by Logitech and may be registered. All other trademarks are the property of their respective owners.
+
+APPLICATION_SETTINGS_UPDATES_INITIALIZING: NOT READY YET
+APPLICATION_SETTINGS_CHECK_FOR_UPDATE: CHECK FOR UPDATE
+APPLICATION_SETTINGS_RESET_STATE: RESET STATE
+APPLICATION_SETTINGS_CHECKING_FOR_UPDATES: Checking for updates…
+APPLICATION_SETTINGS_DOWNLOAD_UPDATE: DOWNLOAD UPDATE
+APPLICATION_SETTINGS_DOWNLOADING_UPDATE: Downloading update
+APPLICATION_SETTINGS_INSTALL_UPDATE: INSTALL AND RELAUNCH
+APPLICATION_SETTINGS_UPDATE_ERROR: Failed to download the update. Please check your network connection.
+APPLICATION_SETTINGS_RETRY_STATE: TRY AGAIN
+APPLICATION_SETTINGS_NEW_KEYS_AVAILABLE: New devices are ready
+APPLICATION_SETTINGS_RELAUNCH: RELAUNCH APP
+
+# Notifications Section start
+NOTIFICATIONS_SETTINGS_TITLE: NOTIFICATIONS
+NOTIFICATIONS_SETTINGS_LOW_BATTERY_NOTIFICATION: Low battery notification
+NOTIFICATIONS_SETTINGS_LOCK_NOTIFICATION_OSX: Caps lock and Fn lock notifications
+NOTIFICATIONS_SETTINGS_LOCK_NOTIFICATION_WIN: Caps lock, Num lock, Scroll lock and Fn lock notifications
+NOTIFICATIONS_SETTINGS_MIC_MUTE_UNMUTE_NOTIFICATION: Mic mute/unmute notification
+# Notifications Section end
+
+
+
+######################### Device configuration screen
+
+# Main menu
+DEVICE_DETAILS_BUTTONS: BUTTONS
+DEVICE_DETAILS_POINTANDSCROLL: POINT AND SCROLL
+DEVICE_DETAILS_FLOW: FLOW
+DEVICE_DETAILS_KEYS: KEYS
+DEVICE_DETAILS_KEYS_CROWN: KEYS + CROWN
+DEVICE_DETAILS_SETTINGS: SETTINGS
+DEVICE_DETAILS_CROWN: CROWN
+DEVICE_DETAILS_EASYSWITCH: EASY-SWITCH
+DEVICE_DETAILS_BACKLIGHTING: BACKLIGHTING
+DEVICE_DETAILS_ILLUMINATION_LIGHT: LIGHTING
+
+
+
+
+######################### Assignments/Tasks/Cards
+ASSIGNMENT_NAME_NONE: None
+ASSIGNMENT_NAME_MIDDLE_BUTTON: Middle button
+ASSIGNMENT_NAME_CHANGE_POINTER_SPEED: Change pointer speed
+ASSIGNMENT_NAME_VOLUME_MUTE: Mute/Unmute speaker
+
+ASSIGNMENT_NAME_BRIGHTNESS_UP_DOWN: Brightness up/down
+ASSIGNMENT_NAME_BRIGHTNESS_DOWN: Brightness down
+ASSIGNMENT_NAME_BRIGHTNESS_UP: Brightness up
+ASSIGNMENT_NAME_LAUNCH_PAD: Launchpad
+ASSIGNMENT_NAME_BACKLIGHT_DOWN: Backlight down
+ASSIGNMENT_NAME_BACKLIGHT_UP: Backlight up
+ASSIGNMENT_NAME_APP_MENU: App menu
+ASSIGNMENT_NAME_LOOK_UP: Look up
+ASSIGNMENT_NAME_LOCK: Lock
+ASSIGNMENT_NAME_BACK: Back
+ASSIGNMENT_NAME_FORWARD: Forward
+ASSIGNMENT_NAME_FORWARD_BACK: Forward/Back
+ASSIGNMENT_NAME_COPY: Copy
+ASSIGNMENT_NAME_CUT: Cut
+ASSIGNMENT_NAME_PASTE: Paste
+ASSIGNMENT_NAME_UNDO: Undo
+ASSIGNMENT_NAME_REDO: Redo
+ASSIGNMENT_NAME_CALCULATOR: Calculator
+ASSIGNMENT_NAME_DONOTHING: Do nothing
+ASSIGNMENT_NAME_TASK_VIEW: Task view
+ASSIGNMENT_NAME_ACTION_CENTER: Action center
+ASSIGNMENT_NAME_EJECT: Eject
+ASSIGNMENT_NAME_CLOSE: Close window
+ASSIGNMENT_NAME_THIS_PC: This PC
+ASSIGNMENT_NAME_NEW_BROWSER_TAB: New browser tab
+ASSIGNMENT_NAME_SEARCH: Search
+ASSIGNMENT_NAME_SHUT_DOWN: Shut down
+ASSIGNMENT_NAME_SLEEP: Sleep
+ASSIGNMENT_NAME_HOME_PAGE_BROWSER: Home page (Browser)
+ASSIGNMENT_NAME_ADVANCED_CLICK: Advanced click
+ASSIGNMENT_NAME_SWITCH_LANGUAGE: Input language
+ASSIGNMENT_NAME_TOGGLE_MIC: Mute/Unmute mic
+ASSIGNMENT_NAME_SCROLL_LEFT: Scroll left
+ASSIGNMENT_NAME_SCROLL_RIGHT: Scroll right
+ASSIGNMENT_NAME_LOGI_VOICE: Logi Voice
+
+ASSIGNMENT_NAME_HORIZONTAL_SCROLL: Horizontal scroll
+ASSIGNMENT_NAME_HORIZONTALSCROLL: Horizontal scroll
+ASSIGNMENT_NAME_VIRTUAL_DESKTOP: Virtual desktop
+ASSIGNMENT_NAME_MODE_SHIFT: Shift wheel mode
+ASSIGNMENT_NAME_POINTER_SETTINGS: Pointer speed
+ASSIGNMENT_NAME_SCROLL_WHEEL_SETTINGS: Scroll wheel
+ASSIGNMENT_NAME_THUMBWHEEL_SETTINGS: Thumb wheel
+
+ASSIGNMENT_NAME_ZOOM_USING_SCROLL_WHEEL: Zoom using scroll wheel
+ASSIGNMENT_NAME_RIGHT_CLICK: Right click
+
+ASSIGNMENT_NAME_DELETE: Delete
+
+ASSIGNMENT_NAME_PAGE_DOWN: Page down
+ASSIGNMENT_NAME_PAGE_UP: Page up
+ASSIGNMENT_NAME_END: End
+ASSIGNMENT_NAME_HOME: Home
+ASSIGNMENT_NAME_INSERT: Insert
+
+ASSIGNMENT_NAME_WECHAT_SCREEN_CAPTURE: Screen capture WeChat
+ASSIGNMENT_NAME_WECHAT_EMOJI: Emoji WeChat
+
+#ThumbWheel Cards and internal cards
+ASSIGNMENT_NAME_SWITCH_APPLICATIONS: Switch application
+ASSIGNMENT_NAME_ZOOM_IN_OUT: Zoom in/out
+ASSIGNMENT_NAME_ZOOM_IN: Zoom in
+ASSIGNMENT_NAME_ZOOM_OUT: Zoom out
+#ASSIGNMENT_NAME_HORIZONTALSCROLL: Horizontal scroll
+#ASSIGNMENT_NAME_HORIZONTALSCROLL_LEFT: Horizontal scroll left
+#ASSIGNMENT_NAME_HORIZONTALSCROLL_RIGHT: Horizontal scroll right
+ASSIGNMENT_NAME_VOLUME_CONTROL: Volume up/down
+ASSIGNMENT_NAME_VOLUME_CONTROL_CRAFT: Volume control
+ASSIGNMENT_NAME_NEXT_PREVIOUS_TRACK: Next/Previous
+ASSIGNMENT_NAME_NAVIGATE_BETWEEN_APPS: Navigate between apps
+
+#Gesture cards and internal cards
+ASSIGNMENT_NAME_WINDOW_MANAGEMENT: Windows management
+ASSIGNMENT_NAME_ARRANGE_WINDOWS: Arrange windows
+ASSIGNMENT_NAME_MAXIMIZE_WINDOW: Maximize window
+ASSIGNMENT_NAME_MINIMIZE_WINDOW: Minimize window
+ASSIGNMENT_NAME_VIRTUAL_DESKTOPS: Virtual desktops
+ASSIGNMENT_NAME_APPLICATION_NAVIGATION: App navigation
+ASSIGNMENT_NAME_ZOOM_ROTATE: Zoom / Rotate
+ASSIGNMENT_NAME_SMART_ZOOM: Smart zoom
+ASSIGNMENT_NAME_PAN: Pan
+ASSIGNMENT_NAME_DESKTOP_LEFT: Desktop left
+ASSIGNMENT_NAME_DESKTOP_RIGHT: Desktop right
+ASSIGNMENT_NAME_ROTATE: Rotate
+ASSIGNMENT_NAME_ZOOM_RESET: Zoom reset
+ASSIGNMENT_NAME_ROTATE_RIGHT: Rotate right
+ASSIGNMENT_NAME_ROTATE_LEFT: Rotate left
+ASSIGNMENT_NAME_SNAP_LEFT: Snap left
+ASSIGNMENT_NAME_SNAP_RIGHT: Snap right
+ASSIGNMENT_NAME_HIDE_SHOW_DESKTOP: Show/hide desktop
+ASSIGNMENT_NAME_START_MENU: Start menu
+ASSIGNMENT_NAME_MISSION_CONTROL: Mission control
+ASSIGNMENT_NAME_SWITCH_BETWEEN_DESKTOPS: Switch between desktops
+ASSIGNMENT_NAME_SWIPE_PAGES: Switch between pages
+ASSIGNMENT_NAME_SWIPE_TABS: Switch between tabs
+ASSIGNMENT_NAME_SWIPE_WINDOWS: Switch between windows
+ASSIGNMENT_NAME_SWIPE_APPS: Switch between apps
+ASSIGNMENT_NAME_NEW_TAB: New tab
+ASSIGNMENT_NAME_APP_EXPOSE: App expose
+ASSIGNMENT_NAME_MEDIA_CONTROL: Media controls
+ASSIGNMENT_NAME_PREVIOUS_TRACK: Previous
+ASSIGNMENT_NAME_NEXT_TRACK: Next
+ASSIGNMENT_NAME_VOLUME_UP: Volume up
+ASSIGNMENT_NAME_VOLUME_DOWN: Volume down
+ASSIGNMENT_NAME_PLAY_PAUSE: Play/Pause
+ASSIGNMENT_NAME_KEYBOARD_SHORTCUT: Keyboard shortcut
+ASSIGNMENT_NAME_SCREEN_CAPTURE: Screen capture
+ASSIGNMENT_NAME_SCREEN_SNIP: Screen snip
+ASSIGNMENT_NAME_WINDOW_NAVIGATION: Window navigation
+ASSIGNMENT_NAME_GESTURE: Gestures
+ASSIGNMENT_NAME_CUSTOM_GESTURE: Custom
+ASSIGNMENT_NAME_EMOJI: Emoji
+ASSIGNMENT_NAME_OPEN_WEB_PAGE: Open Web Page
+ASSIGNMENT_NAME_PRECISION_MODE: Precision Mode
+ASSIGNMENT_NAME_WEB_BROWSING: Web browsing
+ASSIGNMENT_NAME_ILLUMINATION_LIGHT: Lighting
+ASSIGNMENT_NAME_CLOSE_APPLICATION: Close application
+ASSIGNMENT_NAME_BRING_TO_FOREGROUND: Bring to foreground
+ASSIGNMENT_NAME_MAXIMIZE_APPLICATION: Maximize application
+ASSIGNMENT_NAME_MINIMIZE_APPLICATION: Minimize application
+ASSIGNMENT_NAME_HIDE_APPLICATION: Hide application
+ASSIGNMENT_NAME_SHOW_APPLICATION: Show application
+ASSIGNMENT_NAME_EMAIL: Email
+ASSIGNMENT_NAME_MEDIA: Media player
+
+SCREEN_CAPTURE_CUSTOMIZATION_CAPTURE_MODE: CAPTURE
+SCREEN_CAPTURE_CUSTOMIZATION_LOCATION: SAVE TO
+SCREEN_CAPTURE_CUSTOMIZATION_TEXT: "Capture %0 to %1"
+
+HORIZONTAL_SCROLLING_SPEED: SCROLLING SPEED
+
+ADVANCED_CLICK_CUSTOMIZATION_CLICK_MODE: CLICK
+ADVANCED_CLICK_CUSTOMIZATION_MODIFIERS_MODE: MODIFIERS
+
+GESTURE_CARD_DESCRIPTION: Choose a preset or select custom to create your own.
+GESTURE_ACTION_HOLD_MOVE_LEFT: "HOLD + MOVE LEFT"
+GESTURE_ACTION_HOLD_MOVE_RIGHT: "HOLD + MOVE RIGHT"
+GESTURE_ACTION_HOLD_MOVE_UP: "HOLD + MOVE UP"
+GESTURE_ACTION_HOLD_MOVE_DOWN: "HOLD + MOVE DOWN"
+GESTURE_ACTION_CLICK: "CLICK"
+OPEN_FILE_SELECTION: "BROWSE FILE"
+OPEN_FOLDER_SELECTION: "BROWSE FOLDER"
+OPEN_APPLICATION_SELECTION: "BROWSE APPLICATION"
+OPEN_FILE_INPUT_PLACEHOLDER: "Enter file path"
+OPEN_FOLDER_INPUT_PLACEHOLDER: "Enter folder path"
+OPEN_APPLICATION_INPUT_PLACEHOLDER: "Enter application path"
+OPEN_BROWSER_INPUT_PLACEHOLDER: "Enter url path"
+ASSIGNMENT_NAME_OPEN_FILE: "Open file"
+ASSIGNMENT_NAME_OPEN_FOLDER: "Open folder"
+ASSIGNMENT_NAME_OPEN_APPLICATION: "Open application"
+NO_FOLDER_SELECTED: "No folder selected"
+NO_FILE_SELECTED: "No file selected"
+NO_URL_SELECTED: "No url selected"
+NO_APPLICATION_SELECTED: "No application selected"
+
+# Keyboard Combination Card
+PRESS_KEY_COMBINATION: Press key combination
+KEYBOARD_SHORTCUT_HINT: Press key combination to assign shortcut (Eg. 'Cmd + C' for Copy)
+KEYBOARD_SHORTCUT_HINT_WIN: Press key combination to assign shortcut (Eg. 'Ctrl + C' for Copy)
+KEYBOARD_SHORTCUT_SCROLL_UP: SCROLL UP
+KEYBOARD_SHORTCUT_SCROLL_DOWN: SCROLL DOWN
+KEYBOARD_SHORTCUT_ASSIGNMENT_UP: Up
+KEYBOARD_SHORTCUT_ASSIGNMENT_DOWN: Down
+
+# Keyboard Craft
+KEYBOARD_CROWN_PRESET: CROWN PRESET
+KEYBOARD_CRAFT_CONTROL_MEDIA: Use Craft to control your media
+KEYBOARD_CRAFT_WEB_BROWSING: Use Craft to help you browse the web effortlessly
+KEYBOARD_CRAFT_WINDOW_NAVIGATION: Use Craft to quickly browse navigate your computer
+KEYBOARD_CRAFT_CUSTOM: Assign custom behaviour to the Crown to use Craft the way that suits you
+KEYBOARD_CRAFT_ROTATE: ROTATE
+KEYBOARD_CRAFT_PRESS: PRESS
+KEYBOARD_CRAFT_PRESS_ROTATE: PRESS + ROTATE
+KEYBOARD_CRAFT_SINGLE_TAP: SINGLE TAP
+KEYBOARD_CRAFT_DOUBLE_TAP: DOUBLE TAP
+
+# Demo block
+COMING_SOON: COMING SOON
+DEMO_CROWN_TEXT: We’re working hard on a new way of working with Craft – get involved to learn more!
+GET_UPDATES: GET UPDATES
+
+# App specific cards start
+# Used in /depot/kiros/data/applications/*.json files
+# Note: Alphabetical order to automatically separate apps and actions by sorting (Excel)
+# naming rule (prefix:ASSIGNMENT_NAME_)_(app name)_(action name)_(os: OSX or WIN)
+# OS is optional and only for different case for OSX and WIN
+ASSIGNMENT_NAME_APP_COMMON_KEYSTROKE: Keyboard shortcut
+ASSIGNMENT_NAME_BROWSER_CLOSE_TAB: Close tab
+ASSIGNMENT_NAME_BROWSER_MIDDLE_BUTTON: Middle button
+ASSIGNMENT_NAME_BROWSER_NEW_TAB_LINK: Open link in new tab
+ASSIGNMENT_NAME_BROWSER_NEW_WINDOW: New browser window
+ASSIGNMENT_NAME_BROWSER_REFRESH: Refresh page
+ASSIGNMENT_NAME_BROWSER_REOPEN_TAB: Re-open closed tab
+ASSIGNMENT_NAME_BROWSER_TAB_NAVIGATION: Navigate between tabs
+ASSIGNMENT_NAME_BROWSER_TAB_NEXT: Next tab (right)
+ASSIGNMENT_NAME_BROWSER_TAB_PREV: Previous tab (left)
+ASSIGNMENT_NAME_BROWSER_ZOOM: Zoom
+ASSIGNMENT_NAME_EXCEL_CREATE_CHART: Create chart
+ASSIGNMENT_NAME_EXCEL_INSERT: Insert
+ASSIGNMENT_NAME_EXCEL_INSERT_COLUMN: Insert column left
+ASSIGNMENT_NAME_EXCEL_INSERT_ROW: Insert row above
+ASSIGNMENT_NAME_EXCEL_MIDDLE_BUTTON: Pan (hold and move mouse)
+ASSIGNMENT_NAME_EXCEL_PASTE_FORMAT_ONLY: Paste format only
+ASSIGNMENT_NAME_EXCEL_PASTE_VALUES_ONLY: Paste values only
+ASSIGNMENT_NAME_EXCEL_SAVE: Save
+ASSIGNMENT_NAME_EXCEL_SHEET_NEXT: Next sheet
+ASSIGNMENT_NAME_EXCEL_SHEET_PREV: Previous sheet
+ASSIGNMENT_NAME_EXCEL_GO_TOP: Go to top of data region
+ASSIGNMENT_NAME_EXCEL_GO_BOTTOM: Go to bottom of data region
+ASSIGNMENT_NAME_EXCEL_PASTE_SPECIAL: Paste special
+ASSIGNMENT_NAME_EXCEL_TEXT_SIZE: Text size +/-
+ASSIGNMENT_NAME_EXCEL_TEXT_SIZE_DOWN: Text size -
+ASSIGNMENT_NAME_EXCEL_TEXT_SIZE_UP: Text size +
+ASSIGNMENT_NAME_EXCEL_ZOOM: Excel zoom in/out
+ASSIGNMENT_NAME_EXCEL_ZOOM_IN: Excel zoom in
+ASSIGNMENT_NAME_EXCEL_ZOOM_OUT: Excel zoom out
+ASSIGNMENT_NAME_EXCEL_SHEET_NAVIGATION: Sheet navigation
+ASSIGNMENT_NAME_EXCEL_REDO_UNDO: Excel redo/undo
+ASSIGNMENT_NAME_EXCEL_UNDO: Excel undo
+ASSIGNMENT_NAME_EXCEL_REDO: Excel redo
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_BLACKS: Blacks
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_CLARITY: Clarity
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_CONTRAST: Contrast
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_EXPOSURE: Exposure
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_HIGHLIGHTS: Highlights
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_SATURATION: Saturation
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_SHADOWS: Shadows
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_TEMPERATURE: Temperature
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_TEMPERATURE_DOWN: Temperature -
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_TEMPERATURE_UP: Temperature +
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_TINT: Tint
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_VIBRANCE: Vibrance
+ASSIGNMENT_NAME_LIGHTROOM_CLASSIC_WHITES: Whites
+ASSIGNMENT_NAME_PHOTOSHOP_BRUSH_HARDNESS: Brush hardness
+ASSIGNMENT_NAME_PHOTOSHOP_BRUSH_HARDNESS_DOWN: Brush hardness -
+ASSIGNMENT_NAME_PHOTOSHOP_BRUSH_HARDNESS_UP: Brush hardness +
+ASSIGNMENT_NAME_PHOTOSHOP_BRUSH_OPACITY: Brush opacity
+ASSIGNMENT_NAME_PHOTOSHOP_BRUSH_OPACITY_DOWN: Brush opacity -
+ASSIGNMENT_NAME_PHOTOSHOP_BRUSH_OPACITY_UP: Brush opacity +
+ASSIGNMENT_NAME_PHOTOSHOP_BRUSH_SIZE: Brush size
+ASSIGNMENT_NAME_PHOTOSHOP_BRUSH_SIZE_DOWN: Brush size -
+ASSIGNMENT_NAME_PHOTOSHOP_BRUSH_SIZE_UP: Brush size +
+ASSIGNMENT_NAME_PHOTOSHOP_COPY: Copy
+ASSIGNMENT_NAME_PHOTOSHOP_PASTE: Paste
+ASSIGNMENT_NAME_PHOTOSHOP_REDO: Redo
+ASSIGNMENT_NAME_PHOTOSHOP_UNDO_REDO: Photoshop redo/undo
+ASSIGNMENT_NAME_PHOTOSHOP_SAVE: Save
+ASSIGNMENT_NAME_PHOTOSHOP_SET_TOOL_DODGE_TOOL: Dodge tool
+ASSIGNMENT_NAME_PHOTOSHOP_TAB_NAVIGATION: Photoshop tab navigation
+ASSIGNMENT_NAME_PHOTOSHOP_TAB_NAVIGATION_NEXT: Next tab / document
+ASSIGNMENT_NAME_PHOTOSHOP_TAB_NAVIGATION_PREV: Previous tab / document
+ASSIGNMENT_NAME_PHOTOSHOP_UNDO: Undo
+ASSIGNMENT_NAME_PHOTOSHOP_ZOOM: Photoshop zoom
+ASSIGNMENT_NAME_PHOTOSHOP_ZOOM_IN: Photoshop zoom in
+ASSIGNMENT_NAME_PHOTOSHOP_ZOOM_OUT: Photoshop zoom out
+ASSIGNMENT_NAME_PHOTOSHOP_ZOOM_TO_FIT_SCREEN: Fit to screen
+ASSIGNMENT_NAME_PAN_HOLD_MOVE: Pan (hold and move mouse)
+ASSIGNMENT_NAME_POWERPOINT_BRING_TO_FRONT: Bring to front
+ASSIGNMENT_NAME_POWERPOINT_MIDDLE_BUTTON: Pan (hold and move mouse)
+ASSIGNMENT_NAME_POWERPOINT_PLAY_CURRENT: Play from current slide
+ASSIGNMENT_NAME_POWERPOINT_REDO_UNDO: PowerPoint redo/undo
+ASSIGNMENT_NAME_POWERPOINT_UNDO: PowerPoint undo
+ASSIGNMENT_NAME_POWERPOINT_REDO: PowerPoint redo
+ASSIGNMENT_NAME_POWERPOINT_SAVE: Save
+ASSIGNMENT_NAME_POWERPOINT_SEND_TO_BACK: Send to back
+ASSIGNMENT_NAME_POWERPOINT_SLIDE_DUPLICATE: Duplicate slide
+ASSIGNMENT_NAME_POWERPOINT_SLIDE_NAVIGATION: Slide previous/next
+ASSIGNMENT_NAME_POWERPOINT_SLIDE_NAVIGATION_NEXT: Next slide
+ASSIGNMENT_NAME_POWERPOINT_SLIDE_NAVIGATION_PREV: Previous slide
+ASSIGNMENT_NAME_POWERPOINT_SLIDE_NEW: New slide
+ASSIGNMENT_NAME_POWERPOINT_TEXT_SIZE: Text size +/-
+ASSIGNMENT_NAME_POWERPOINT_TEXT_SIZE_DOWN: Text size -
+ASSIGNMENT_NAME_POWERPOINT_TEXT_SIZE_UP: Text size +
+ASSIGNMENT_NAME_POWERPOINT_ZOOM: PowerPoint zoom in/out
+ASSIGNMENT_NAME_POWERPOINT_ZOOM_IN: PowerPoint zoom in
+ASSIGNMENT_NAME_POWERPOINT_ZOOM_OUT: PowerPoint zoom out
+ASSIGNMENT_NAME_POWERPOINT_ZORDER: Bring object forward/backward
+ASSIGNMENT_NAME_POWERPOINT_BRING_OBJECT_FORWARD: Bring object forward
+ASSIGNMENT_NAME_POWERPOINT_BRING_OBJECT_BACKWARD: Bring object backward
+ASSIGNMENT_NAME_WORD_WIN_MIDDLE_BUTTON: Autoscroll
+ASSIGNMENT_NAME_WORD_MAC_MIDDLE_BUTTON: Pan (hold and move mouse)
+ASSIGNMENT_NAME_WORD_PAGE_DOWN: Page down
+ASSIGNMENT_NAME_WORD_PAGE_NAVIGATION: Page up/down
+ASSIGNMENT_NAME_WORD_PAGE_UP: Page up
+ASSIGNMENT_NAME_WORD_PASTE_VALUES_ONLY: Paste and match formatting
+ASSIGNMENT_NAME_WORD_REDO_UNDO: Word redo/undo
+ASSIGNMENT_NAME_WORD_UNDO: Word undo
+ASSIGNMENT_NAME_WORD_REDO: Word redo
+ASSIGNMENT_NAME_WORD_SAVE: Save
+ASSIGNMENT_NAME_WORD_TEXT_SIZE: Text size +/-
+ASSIGNMENT_NAME_WORD_TEXT_SIZE_DOWN: Text size -
+ASSIGNMENT_NAME_WORD_TEXT_SIZE_UP: Text size +
+ASSIGNMENT_NAME_WORD_ZOOM: Word zoom in/out
+ASSIGNMENT_NAME_WORD_ZOOM_IN: Word zoom in
+ASSIGNMENT_NAME_WORD_ZOOM_OUT: Word zoom out
+ASSIGNMENT_NAME_WORD_PRINT: Print
+ASSIGNMENT_NAME_WORD_FIND: Find
+ASSIGNMENT_NAME_ZOOM_TOGGLE_CAMERA: Start/Stop video
+ASSIGNMENT_NAME_ZOOM_TOGGLE_MIC: Mute/Unmute mic
+ASSIGNMENT_NAME_TEAMS_TOGGLE_CAMERA: Start/Stop video
+ASSIGNMENT_NAME_TEAMS_TOGGLE_MIC: Mute/Unmute mic
+ASSIGNMENT_NAME_PREMIERE_PRO_ADD_MARKER: Add marker
+ASSIGNMENT_NAME_PREMIERE_PRO_DELETE_MARKER: Delete current marker
+ASSIGNMENT_NAME_PREMIERE_PRO_DELETE_SELECTION: Delete selection
+ASSIGNMENT_NAME_PREMIERE_PRO_MIDDLE_BUTTON: Pan (hold and move mouse)
+ASSIGNMENT_NAME_PREMIERE_PRO_MOVE_EDIT_POINT_NEXT: Go to next edit point
+ASSIGNMENT_NAME_PREMIERE_PRO_MOVE_EDIT_POINT_PREV: Go to previous edit point
+ASSIGNMENT_NAME_PREMIERE_PRO_MOVE_FRAME_NEXT: Go to next frame
+ASSIGNMENT_NAME_PREMIERE_PRO_MOVE_FRAME_PREV: Go to previous frame
+ASSIGNMENT_NAME_PREMIERE_PRO_NEXT_MARKER: Go to next marker
+ASSIGNMENT_NAME_PREMIERE_PRO_PREV_MARKER: Go to previous marker
+ASSIGNMENT_NAME_PREMIERE_PRO_RAZOR_TOOL: Razor tool
+ASSIGNMENT_NAME_PREMIERE_PRO_RENDER_EFFECTS: Render effects in work area
+ASSIGNMENT_NAME_PREMIERE_PRO_SAVE: Save
+ASSIGNMENT_NAME_PREMIERE_PRO_SELECTION_TOOL: Selection tool
+ASSIGNMENT_NAME_PREMIERE_PRO_START_PAUSE_PLAYBACK: Start/pause playback
+ASSIGNMENT_NAME_PREMIERE_PRO_TIMELINE_HORIZONTAL_SCROLL: Timeline horizontal scroll
+ASSIGNMENT_NAME_PREMIERE_PRO_TIMELINE_PLAYHEAD_NAVIGATION: Timeline playhead navigation
+ASSIGNMENT_NAME_PREMIERE_PRO_TIMELINE_PLAYHEAD_NAVIGATION_LEFT: Timeline playhead navigation left
+ASSIGNMENT_NAME_PREMIERE_PRO_TIMELINE_PLAYHEAD_NAVIGATION_RIGHT: Timeline playhead navigation right
+ASSIGNMENT_NAME_PREMIERE_PRO_UNDO: Premiere Pro undo
+ASSIGNMENT_NAME_PREMIERE_PRO_REDO: Premiere Pro redo
+ASSIGNMENT_NAME_TIMELINE_SCROLL_LEFT: Timeline scroll left
+ASSIGNMENT_NAME_TIMELINE_SCROLL_RIGHT: Timeline scroll right
+ASSIGNMENT_NAME_ENABLE_DICTATION: Dictation
+ASSIGNMENT_NAME_EMOJIS_MENU: Emojis menu
+ASSIGNMENT_NAME_DO_NOT_DISTURB: Do not disturb
+ASSIGNMENT_NAME_PREMIERE_PRO_MOVE_EDIT_POINT: Navigate edit points
+ASSIGNMENT_NAME_PREMIERE_PRO_NAVIGATE_MARKER: Navigate marker points
+ASSIGNMENT_NAME_PREMIERE_PRO_ZOOM: Premiere Pro zoom
+ASSIGNMENT_NAME_PREMIERE_PRO_ZOOM_IN: Premiere Pro zoom in
+ASSIGNMENT_NAME_PREMIERE_PRO_ZOOM_OUT: Premiere Pro zoom out
+ASSIGNMENT_NAME_FINAL_CUT_PRO_START_PAUSE_PLAYBACK: Start/pause playback
+ASSIGNMENT_NAME_FINAL_CUT_PRO_TIMELINE_HORIZONTAL_SCROLL: Timeline horizontal scroll
+ASSIGNMENT_NAME_FINAL_CUT_PRO_TIMELINE_PLAYHEAD_NAVIGATION: Timeline playhead navigation
+ASSIGNMENT_NAME_FINAL_CUT_PRO_ZOOM: Timeline zoom in/out
+ASSIGNMENT_NAME_FINAL_CUT_PRO_ZOOM_IN: Zoom in
+ASSIGNMENT_NAME_FINAL_CUT_PRO_ZOOM_OUT: Zoom out
+ASSIGNMENT_NAME_FINAL_CUT_PRO_ZOOM_TOOL: Zoom tool
+ASSIGNMENT_NAME_FINAL_CUT_PRO_ZOOM_TO_FIT: Zoom to fit
+ASSIGNMENT_NAME_FINAL_CUT_PRO_MOVE_EDIT_POINT_NEXT: Go to next edit point
+ASSIGNMENT_NAME_FINAL_CUT_PRO_MOVE_EDIT_POINT_PREV: Go to previous edit point
+ASSIGNMENT_NAME_FINAL_CUT_PRO_MIDDLE_BUTTON: Pan (hold and move mouse)
+ASSIGNMENT_NAME_FINAL_CUT_PRO_ADD_MARKER: Add marker
+ASSIGNMENT_NAME_FINAL_CUT_PRO_DELETE_MARKER: Delete marker
+ASSIGNMENT_NAME_FINAL_CUT_PRO_DELETE_SELECTION: Delete selection
+ASSIGNMENT_NAME_FINAL_CUT_PRO_CUT_CLIP: Cut the clip
+ASSIGNMENT_NAME_FINAL_CUT_PRO_BLADE_TOOL: Blade tool
+ASSIGNMENT_NAME_FINAL_CUT_PRO_SELECT_TOOL: Select tool
+ASSIGNMENT_NAME_FINAL_CUT_PRO_UNDO: Final Cut Pro undo
+ASSIGNMENT_NAME_FINAL_CUT_PRO_REDO: Final Cut Pro redo
+ASSIGNMENT_NAME_FINAL_CUT_PRO_TIMELINE_PLAY_HEAD_NAVIGATION_LEFT: Timeline playhead navigation left
+ASSIGNMENT_NAME_FINAL_CUT_PRO_TIMELINE_PLAY_HEAD_NAVIGATION_RIGHT: Timeline playhead navigation right
+ASSIGNMENT_NAME_FINAL_CUT_PRO_GOTO_PREVIOUS_MARKER: Go to previous marker
+ASSIGNMENT_NAME_FINAL_CUT_PRO_GOTO_NEXT_MARKER: Go to next marker
+ASSIGNMENT_NAME_CLOSE_TAB: Close browser tab
+ASSIGNMENT_NAME_REFRESH: Refresh
+ASSIGNMENT_NAME_PRINT: Print
+ASSIGNMENT_NAME_SETTINGS: Settings
+ASSIGNMENT_NAME_F1: F1
+ASSIGNMENT_NAME_F2: F2
+ASSIGNMENT_NAME_F3: F3
+ASSIGNMENT_NAME_F4: F4
+ASSIGNMENT_NAME_F5: F5
+ASSIGNMENT_NAME_F6: F6
+ASSIGNMENT_NAME_F7: F7
+ASSIGNMENT_NAME_F8: F8
+ASSIGNMENT_NAME_F9: F9
+ASSIGNMENT_NAME_F10: F10
+ASSIGNMENT_NAME_F11: F11
+ASSIGNMENT_NAME_F12: F12
+# App specific cards end
+
+SLOT_NAME_POINTER_SETTINGS: Pointer speed
+SLOT_NAME_SCROLL_WHEEL_SETTINGS: Scroll wheel
+SLOT_NAME_THUMBWHEEL_SETTINGS: Thumb wheel
+SLOT_NAME_MIDDLE_BUTTON: Middle button
+SLOT_NAME_MODESHIFT_BUTTON: Mode shift button
+SLOT_NAME_THUMBWHEEL: Thumb wheel
+SLOT_NAME_FORWARD_BUTTON: Forward button
+SLOT_NAME_BACK_BUTTON: Back button
+SLOT_NAME_GESTURE_BUTTON: Gesture button
+SLOT_NAME_LEFT_SCROLL_BUTTON: Scroll left Button
+SLOT_NAME_RIGHT_SCROLL_BUTTON: Scroll right Button
+SLOT_NAME_SCROLL_LEFT: Scroll Left
+SLOT_NAME_SCROLL_RIGHT: Scroll Right
+SLOT_NAME_DPI_BUTTON: Pointer speed button
+SLOT_NAME_HORIZONTAL_SCROLL: Horizontal scrolling
+SLOT_NAME_ILLUMINATION_SETTINGS: Modify settings
+
+SLOT_NAME_GESTURE_LEFT_BUTTON: left
+SLOT_NAME_GESTURE_RIGHT_BUTTON: right
+SLOT_NAME_GESTURE_UP_BUTTON: up
+SLOT_NAME_GESTURE_DOWN_BUTTON: down
+SLOT_NAME_GESTURE_CLICK_BUTTON: click
+
+SLOT_NAME_BRIGHTNESS_DOWN: Brightness down
+SLOT_NAME_BRIGHTNESS_UP: Brightness up
+SLOT_NAME_MISSION_CONTROL: Mission control
+SLOT_NAME_LAUNCHPAD: Launchpad
+SLOT_NAME_SHOW_DESKTOP: Show desktop
+SLOT_NAME_BACKLIGHT_DOWN: Backlight down
+SLOT_NAME_BACKLIGHT_UP: Backlight up
+SLOT_NAME_PREVIOUS: Previous
+SLOT_NAME_PLAY_PAUSE: Play/Pause
+SLOT_NAME_NEXT: Next
+SLOT_NAME_MUTE: Mute
+SLOT_NAME_VOLUME_DOWN: Volume down
+SLOT_NAME_VOLUME_UP: Volume up
+SLOT_NAME_CALCULATOR: Calculator
+SLOT_NAME_SCREEN_CAPTURE: Screen capture
+SLOT_NAME_LOOK_UP: Look Up
+SLOT_NAME_LOCK: Lock
+SLOT_NAME_MUTE_MIC: Mute/Unmute mic
+SLOT_NAME_DICTATION: Dictation
+SLOT_NAME_EMOJI: Emojis menu
+SLOT_NAME_MUTE_UNMUTE_AUDIO: Mute/Unmute mic
+
+SLOT_NAME_INSERT: Insert
+SLOT_NAME_END: End
+SLOT_NAME_PAGE_UP: Page Up
+SLOT_NAME_PAGE_DOWN: Page Down
+SLOT_NAME_HOME: Home
+SLOT_NAME_APP_SWITCH: App Switch
+SLOT_NAME_MENU: Menu
+SLOT_NAME_BACK: Back
+SLOT_NAME_SEARCH: Search
+SLOT_NAME_INPUT_LANGUAGE: Input Language
+SLOT_NAME_PRECISION_MODE_BUTTON: Precision Mode
+
+CONFIGURATION_SPEED_PERCENTAGE: "Speed: {SPEED_PERCENTAGE}%"
+CONFIGURATION_SPEED_DPI: "Speed: {SPEED_DPI} DPI"
+CONFIGURATION_SCROLL_DIRECTION_COLON: "Scroll direction: {SCROLL_DIRECTION}"
+CONFIGURATION_SMOOTH_SCROLLING_COLON: "Smooth scrolling: {SMOOTH_SCROLLING}"
+CONFIGURATION_SMARTSHIFT_COLON: "SmartShift: {SMARTSHIFT}"
+CONFIGURATION_SCROLLFORCE_COLON: "Force: {FORCE_PERCENTAGE}%"
+CONFIGURATION_TITLE_POINTER_SPEED: Pointer speed
+CONFIGURATION_TITLE_SCROLLING_SPEED: Scrolling speed
+CONFIGURATION_TITLE_SCROLL_DIRECTION: Scroll direction
+CONFIGURATION_TITLE_THUMBWHEEL_SPEED: Thumb wheel speed
+CONFIGURATION_TITLE_THUMBWHEEL_DIRECTION: Thumb wheel direction
+CONFIGURATION_TITLE_SMOOTH_SCROLLING: Smooth scrolling
+CONFIGURATION_TITLE_SMARTSHIFT: SmartShift
+CONFIGURATION_TITLE_SCROLL_MODE: SCROLL MODE
+CONFIGURATION_TITLE_SENSITIVITY_VALUE: SENSITIVITY VALUE
+CONFIGURATION_SETTINGS_ON: "On"
+CONFIGURATION_SETTINGS_OFF: "Off"
+CONFIGURATION_EMOJI_WE_CHAT: "Emoji WeChat: %0"
+CONFIGURATION_EMOJI: "Emoji: %0"
+CONFIGURATION_TITLE_BRIGHTNESS: BRIGHTNESS
+CONFIGURATION_TITLE_TEMPERATURE: TEMPERATURE
+CONFIGURATION_LIGHT_POWER_STATUS: "Power: {POWER_VALUE}"
+CONFIGURATION_LIGHT_PRESET: "Preset: {LIGHT_PRESET}"
+CONFIGURATION_PRESET_TITLE: Lighting presets
+CONFIGURATION_CAMERA_PREVIEW_STATUS: "Camera: {PREVIEW_STATUS}"
+CONFIGURATION_PREVIEW_CAMERA_NAME: "Camera: {CAMERA_NAME}"
+CONFIGURATION_PREVIEW_OFF: Preview off
+CONFIGURATION_PREVIEW_ON: Preview on
+
+CONFIGURATION_LIST_TITLE_ACTIONS: Actions
+CONFIGURATION_LIST_TITLE_RECOMMENDED: RECOMMENDED
+CONFIGURATION_LIST_TITLE_APP_SPECIFIC: APP SPECIFIC
+CONFIGURATION_LIST_TITLE_OTHER_ACTIONS: OTHER ACTIONS
+CONFIGURATION_LIST_TITLE_PRESETS: PRESETS
+CONFIGURATION_LIST_RECOMMENDED_FN_KEYS: The Fn Keys cannot be used once configured. You may need to reconfigure to use as normal Function Keys.
+
+CHANGE_POINTER_SPEED: Change pointer speed
+CHANGE_POINTER_SPEED_INFORMATION: Click the button to toggle between the two pointer speeds.
+POINTER_SPEED_1: Pointer speed 1
+POINTER_SPEED_2: Pointer speed 2
+ENABLE_HIGH_RESOLUTON_SENSOR: Extend sensor range to 8K DPI
+POINTER_SPEED_DPI: DPI
+
+CONFIGURATION_COPY_SMOOTH_SCROLLING: With smooth scrolling, web pages glide across your screen smoothly making it easy to read and navigate them.
+CONFIGURATION_COPY_SMARTSHIFT: Automatically switches the scroll wheel from line-by-line scrolling to hyper-fast scrolling when you scroll faster.
+CONFIGURATION_COPY_SCROLL_FORCE: Scrolling force
+SCROLL_FORCE_DISABLED_TOOLTIP: This feature is not available in free spin scroll mode.
+ONBOARD_SCROLL_FORCE_DISABLED_TOOLTIP: This feature is not available in free spin scroll mode. Press the mode shift button to set up the Scrolling force
+
+SCROLL_DIRECTION_NATURAL_LABEL: Natural
+SCROLL_DIRECTION_STANDARD_LABEL: Standard
+SCROLL_DIRECTION_INVERTED_LABEL: Inverted
+SCROLL_DIRECTION_DEFAULT_LABEL: Default
+SCROLL_DIRECTION_NATURAL_TOOLTIP_MAC: Scroll down, content goes down
+SCROLL_DIRECTION_STANDARD_TOOLTIP_MAC: Scroll down, content goes up
+SCROLL_DIRECTION_INVERTED_TOOLTIP_WIN: Scroll down, page goes up
+SCROLL_DIRECTION_TRADITIONAL_TOOLTIP_WIN: Scroll down, page goes down
+SCROLL_DIRECTION_THUMBWHEEL_NATURAL_TOOLTIP_MAC: Scroll up, content goes left
+SCROLL_DIRECTION_THUMBWHEEL_STANDARD_TOOLTIP_MAC: Scroll up, content goes right
+SCROLL_DIRECTION_THUMBWHEEL_INVERTED_TOOLTIP_WIN: Scroll up, page goes right
+SCROLL_DIRECTION_THUMBWHEEL_TRADITIONAL_TOOLTIP_WIN: Scroll up, page goes left
+SCROLL_MODE_FREE_SPIN_LABEL: Free spin
+SCROLL_MODE_RATCHET_LABEL: Ratchet
+SCROLL_MODE_FREE_SPIN_TOOLTIP: Hyper-fast scroll
+SCROLL_MODE_RATCHET_TOOLTIP: Line-by-line scroll
+
+CONFIGURATION_SCREEN_CAPTURE_SCREEN: Screen
+CONFIGURATION_SCREEN_CAPTURE_WINDOW: Window
+CONFIGURATION_SCREEN_CAPTURE_REGION: Region
+CONFIGURATION_SCREEN_CAPTURE_CLIPBOARD: Clipboard
+CONFIGURATION_SCREEN_CAPTURE_FILE: File
+
+CONFIGURATION_ADVANCED_CLICK_SINGLE: Click
+CONFIGURATION_ADVANCED_CLICK_DOUBLE: Double click
+CONFIGURATION_ADVANCED_CLICK_TRIPLE: Triple click
+CONFIGURATION_ADVANCED_CLICK_RIGHT: Right click
+CONFIGURATION_ADVANCED_CLICK_MIDDLE: Middle click
+
+CONFIGURATION_ADVANCED_CLICK_MODIFIERS_SHIFT: Shift
+CONFIGURATION_ADVANCED_CLICK_MODIFIERS_CTRL: Ctrl
+CONFIGURATION_ADVANCED_CLICK_MODIFIERS_CMD: Cmd
+CONFIGURATION_ADVANCED_CLICK_MODIFIERS_OPT: Opt
+
+CONFIGURATION_ADVANCED_CLICK_MODIFIERS_ALT: Alt
+CONFIGURATION_ADVANCED_CLICK_MODIFIERS_WINDOWS: Win
+
+SEARCH_BOX_WATERMARK: Search
+SEARCH_LIST_TITLE: RESULTS
+
+# Gesture button info
+GESTURE_INFO_HOLD_MOVE_DESCRIPTION: Hold the button and move the mouse
+GESTURE_INFO_CLICK_DESCRIPTION: Click the button
+GESTURE_TITLE_DESCRIPTION_FOR_PROFILE: Custom gestures for %0
+GESTURE_TITLE_DESCRIPTION: Custom gestures
+
+CONFIGURATION_HORIZONTAL_SCROLL: Horizontal scrolling
+CONFIGURATION_TITLE_FORWARD_BUTTON: Forward button
+CONFIGURATION_TITLE_BACK_BUTTON: Back button
+CONFIGURATION_HORIZONTAL_SCROLL_ENABLED: On
+CONFIGURATION_HORIZONTAL_SCROLL_DISABLED: Off
+CONFIGURATION_COPY_HORIZONTAL_SCROLLING: Hold the button and use the scroll wheel to scroll horizontally.
+HORIZONTAL_SCROLL_DISABLING_TOOLTIP: This will disable horizontal scrolling
+HORIZONTAL_SCROLL_OTHER_ACTION_ASSIGNMENT_CONFLICT_TITLE: Horizontal scrolling has been disabled on this button.
+HORIZONTAL_SCROLL_DEFAULT_APP_ASSIGNMENT_CONFLICT_DESCRIPTION: You cannot scroll horizontally with this button with {CONFLICT_ACTION} assigned to it.
+HORIZONTAL_SCROLL_OTHER_APP_ASSIGNMENT_CONFLICT_DESCRIPTION: You cannot scroll horizontally with this button in {APP_NAME} with {CONFLICT_ACTION} assigned to it.
+HORIZONTAL_SCROLL_OTHER_ACTION_ASSIGNMENT_CONFLICT_AGREE_BUTTON: OK GOT IT
+HORIZONTAL_SCROLL_ASSIGNMENT_CONFLICT_TITLE: This will reset the button to it's default action
+HORIZONTAL_SCROLL_ASSIGNMENT_CONFLICT_DESCRIPTION: You cannot perform {CONFLICT_ACTION} with this button if you enable horizontal scrolling. The button will be reset to it's default action.
+HORIZONTAL_SCROLL_ASSIGNMENT_CONTINUE: CONTINUE
+HORIZONTAL_SCROLL_ASSIGNMENT_CANCEL: CANCEL
+HORIZONTAL_SCROLL_DISABLED: Horizontal scrolling is disabled while {CONFLICT_ACTION} is assigned to the button.
+
+#Light settings
+LIGHT_POWER: Power
+CAMERA_PREVIEW_TITLE: Camera preview
+LIGHT_MANUAL_SETTINGS_TITLE: Manual settings
+CAMERA_NOT_AVAILABLE_TITLE: Camera not available
+CAMERA_NOT_AVAILABLE_DESCRIPTION_WIN: Your camera is either disconnected or in use by another application.
+CAMERA_NOT_AVAILABLE_DESCRIPTION_MAC: Your camera is either disconnected or open {SYSTEM_PREFERENCE}
+NO_CAMERA_CONNECTED_DESCRIPTION: Add a camera to get the camera preview
+OPEN_CAMERA_PERMISSION: SYSTEM PREFERENCES
+CAMERA_NOT_CONNECTED: No camera connected in your system
+ILLUMINATION_LIGHT_MANUAL_ADJUSTMENT: Manual Lighting
+ILLUMINATION_LIGHT_PRESET_COOLBLUE: Bright Cool Blue
+ILLUMINATION_LIGHT_PRESET_COZYDAYLIGHT: Cozy Daylight
+ILLUMINATION_LIGHT_PRESET_MILDAFTERNOON: Mild Afternoon
+ILLUMINATION_LIGHT_PRESET_SOFTSUNSET: Soft Sunset
+ILLUMINATION_LIGHT_PRESET_COZECANDLELIGHT: Cozy Candlelight
+ILLUMINATION_LIGHT_PRESET_WARMCANDLELIGHT: Bright Warm Candlelight
+
+#########################  App specific
+APP_SPECIFIC_ADD_APPLICATION: ADD APPLICATION
+APP_SPECIFIC_ADD_APPLICATION_TOOLTIP: Add application
+APP_SPECIFIC_SCANNING_FOR_APPLICATIONS: Scanning for applications
+
+APP_SPECIFIC_GLOBAL_SETTINGS: Global settings
+APP_SPECIFIC_PANEL_TITLE: Select Applications
+APP_SPECIFIC_PANEL_DESCRIPTION_BUTTONS: Customize the buttons for your favorite applications to be even more efficient.
+APP_SPECIFIC_PANEL_DESCRIPTION_KEYS: Customize the keys for your favorite applications to be even more efficient.
+APP_SPECIFIC_PANEL_DESCRIPTION_POINT_AND_SCROLL: Customize the point and scroll settings for your favorite applications to be even more efficient.
+APP_SPECIFIC_PANEL_DESCRIPTION_LIGHTING: Customize the lighting preset for your favorite applications to be even more efficient.
+APP_SPECIFIC_PRE_DEFINED_TITLE: PREDEFINED CUSTOMIZATIONS
+APP_SPECIFIC_OTHER_TITLE: OTHER APPLICATIONS
+APP_SPECIFIC_ALL_TITLE: ALL APPLICATIONS
+APP_SPECIFIC_ADD_OTHER_APPLICATION_BUTTON: ADD OTHER APPLICATION
+APP_SPECIFIC_BUTTON_CONFIRM: CONFIRM
+APP_SPECIFIC_MODAL_TITLE_SAVE_CHANGES: Would you like to save your changes?
+APP_SPECIFIC_MODAL_TITLE_REMOVE_SETTINGS: Remove custom settings?
+APP_SPECIFIC_MODAL_TITLE_INSTALLING_SETTINGS: Creating custom settings
+APP_SPECIFIC_MODAL_TITLE_DEVICE_CONFIGURED: Device configured
+APP_SPECIFIC_MODAL_TITLE_PROBLEM_INSTALLING: Problem creating some custom settings
+APP_SPECIFIC_MODAL_TITLE_REMOVE_PROFILE: Remove custom settings?
+APP_SPECIFIC_MODAL_TITLE_REMOVE_LIGHTING_PROFILE: Remove app preset?
+APP_SPECIFIC_MODAL_TITLE_FUNCTION_KEY: Changing to other actions will disable the default action of the Fn Keys.
+APP_SPECIFIC_MODAL_DESCRIPTION_INSTALLING_SETTINGS: Installing plugins for some of the selected apps.
+APP_SPECIFIC_MODAL_DESCRIPTION_PROBLEM_INSTALLING: Oops, something went wrong. Plugins could not be installed for the above applications.
+APP_SPECIFIC_MODAL_DESCRIPTION_REMOVE_PROFILE_BUTTONS: This will permanently remove custom settings for the buttons for the app {APP_NAME}.
+APP_SPECIFIC_MODAL_DESCRIPTION_REMOVE_PROFILE_KEYS: This will permanently remove custom settings for the keys for the app {APP_NAME}.
+APP_SPECIFIC_MODAL_DESCRIPTION_REMOVE_PROFILE_POINT_AND_SCROLL: This will permanently remove the custom point and scroll settings for the app {APP_NAME}.
+APP_SPECIFIC_MODAL_DESCRIPTION_REMOVE_PROFILE_LIGHTING: This will permanently remove lighting preset for the app {APP_NAME}.
+APP_SPECIFIC_MODAL_DESCRIPTION_DEVICE_CONFIGURED_BUTTONS: Success! You can now customize the buttons for the added applications.
+APP_SPECIFIC_MODAL_DESCRIPTION_DEVICE_CONFIGURED_KEYS: Success! You can now customize the keys for the added applications.
+APP_SPECIFIC_MODAL_DESCRIPTION_DEVICE_CONFIGURED_POINT_AND_SCROLL: Success! You can now customize the point and scroll settings for the added applications.
+APP_SPECIFIC_MODAL_DESCRIPTION_DEVICE_CONFIGURED_LIGHTING: Success! You can now customize the lighting preset for the added applications.
+APP_SPECIFIC_MODAL_DESCRIPTION_DEVICE_CONFIGURED_ONBOARTDING: Success! You can further customize the buttons for the added apps after you finish the onboarding.
+APP_SPECIFIC_MODAL_DESCRIPTION_FUNCTION_KEY: Triggering the mapped action using Fn key combo is not available. Remap to work as the default Fn keys by assigning the default function (i.e F1, F2 etc).
+APP_SPECIFIC_MODAL_BUTTON_SAVE_CHANGES: SAVE CHANGES
+APP_SPECIFIC_MODAL_BUTTON_CONTINUE: CONTINUE
+APP_SPECIFIC_MODAL_BUTTON_OK: OK
+APP_SPECIFIC_MODAL_BUTTON_DISCARD: DISCARD
+APP_SPECIFIC_MODAL_BUTTON_REMOVE: REMOVE
+APP_SPECIFIC_MODAL_BUTTON_CANCEL: CANCEL
+APP_SPECIFIC_MODAL_BUTTON_OK_GOT_IT: OK, GOT IT
+APP_SPECIFIC_MODAL_PROFILE_ALREADY_ENABLED: Selected profile is already enabled
+APP_SPECIFIC_MODAL_BUTTON_TRY_AGAIN: TRY AGAIN
+APP_SPECIFIC_MODAL_BUTTON_SKIP_APP: SKIP THE APP(S)
+APP_SPECIFIC_MODAL_BUTTON_ERROR_MODAL_CLOSE: CLOSE
+APP_SPECIFIC_MODAL_TITLE_PLUGIN_INSTALLING: Installing plugin
+APP_SPECIFIC_CREATE_PRESET: Create New Preset
+ILLUMINATION_LIGHT_CUSTOM_PRESET: Custom Preset
+APP_SPECIFIC_MODAL_EDIT_PRESET_TITLE: Edit preset
+APP_SPECIFIC_MODAL_DELETE_PRESET_TITLE: Delete preset
+GLOBAL_MODAL_DELETE_PRESET_DESCRIPTION: "Are you sure, you want to delete %0?"
+APP_SPECIFIC_MODAL_DELETE_PRESET_DESCRIPTION: "Are you sure, you want to delete %0 for the %1 app?"
+APP_SPECIFIC_MODAL_CREATE_PRESET: SAVE PRESET
+APP_SPECIFIC_MODAL_CREATE_PRESET_CANCEL: CANCEL
+APP_SPECIFIC_MODAL_DELETE_PRESET: DELETE PRESET
+APP_SPECIFIC_MODAL_CREATE_PRESET_TITLE: Create new preset
+APP_SPECIFIC_MODAL_CREATE_PRESET_INPUT: Custom Preset Name
+
+
+DEVICE_DETAILS_PLUGIN_NOT_INSTALLED_BANNER_MESSAGE: Plugin needed for Photoshop-specific customization.
+
+APP_SPECIFIC_MODAL_BUTTON_INSTALL_PLUGIN: INSTALL PLUGIN
+APP_SPECIFIC_MODAL_PLUGIN_INSTALL_SUCCESS: Plugin installed
+APP_SPECIFIC_MODAL_PLUGIN_INSTALL_SUCCESS_DESCRIPTION: Success! Your custom settings from Logi Options have been added for the above application(s).
+APP_SPECIFIC_MODAL_PLUGIN_INSTALL_SUCCESS_DONE: DONE
+APP_SPECIFIC_MODAL_PLUGIN_INSTALL_PROBLEM_INSTALLING: Problem installing plugin
+APP_SPECIFIC_MODAL_PLUGIN_INSTALL_PROBLEM_INSTALLING_DESCRIPTION: Oops, something went wrong. Plugin could not be installed for the above application(s).
+
+
+######################### Flow
+FLOW_SETTING_TITLE: Flow Settings
+FLOW_SETTING_MORE_SETTINGS: More Settings
+FLOW_SETTING_SUB_TITLE: You can customize your Flow settings. If you want to learn more click on the link below
+FLOW_SETTING_TUTORIAL: How it works
+FLOW_SETTING_LINK_KEYBOARD_TITLE: Link keyboard
+FLOW_SETTING_LINK_KEYBOARD_SUB_TITLE: Your {SUPPORT_LINK} can follow your cursor from one computer to the other
+FLOW_SETTING_LINK_KEYBOARD_SUPPORT_LINK: Flow-compatible keyboard
+FLOW_SETTING_LINK_KEYBOARD_DESCRIPTION_1: Your
+FLOW_SETTING_LINK_KEYBOARD_ENABLE: Flow-enabled keyboard
+FLOW_SETTING_LINK_KEYBOARD_DESCRIPTION_2: can follow your cursor from one computer to another
+FLOW_SETTING_LINK_KEYBOARD_NO_COMPATIABLE: No Flow-compatible keyboard
+FLOW_SETTING_SHARE_CLIPBOARD_TITLE: Share clipboard
+FLOW_SETTING_SHARE_CLIPBOARD_DESCRIPTION: Enable to copy text, images, and files from one computer and paste it on another.
+FLOW_SETTING_HOT_CORNERS_TITLE: Move cursor to edge
+FLOW_SETTING_HOT_CORNERS_DESCRIPTION: Disable to use four corners to switch between computers.
+FLOW_SETTING_DRAG_DROP: Drag & Drop
+FLOW_SETTING_COPY_PASTE: Copy & Paste
+FLOW_COMPUTER_NOT_FOUND: Not found
+FLOW_OTHER_COMPUTER: Other computer(s)
+FLOW_READY_TO_CONNECT: Ready
+FLOW_CONNECTED: Connected
+FLOW_DISCONNECTED: Disconnected
+FLOW_DISABLED: Disabled
+FLOW_IS_COMPUTER: This computer
+FLOW_NOT_CONNECTED: NOT CONNECTED
+
+RESET_FLOW_TITLE: Reset Flow
+RESET_FLOW_SUB_TITLE: Resetting Flow removes this computer from the Flow network.
+RESET_FLOW_BUTTON: RESET
+
+RESET_FLOW_MODAL_TITLE: Reset Flow?
+RESET_FLOW_MODAL_SUB_TITLE: You will not be able to use Flow on this computer unless you set it up again or add it from another Flow enabled computer.
+FLOW_RESTART_MODAL_RESET: YES, RESET
+FLOW_RESTART_MODAL_CANCEL: CANCEL
+
+FLOW: Flow
+FLOW_SWITCH_COMPUTERS: Switch computers
+FLOW_HOLD_CTRL: Hold CTRL and move cursor to edge
+
+REMOVE_HOST_TITLE: Remove computer?
+REMOVE_HOST_SUB_TITLE_3_COMPUTER: Flow will be removed on this computer.
+REMOVE_HOST_SUB_TITLE_2_COMPUTER: Flow works when you have at least two computers. Removing one computer will reset Flow on both machines. To get Flow back, set it up again on this computer or add it from another Flow-enabled computer.
+REMOVE_HOSTS: REMOVE
+DISCARD_HOSTS: CANCEL
+
+ENABLE_FLOW: Enable Flow
+
+FLOW_ENABLE: ENABLE
+FLOW_DISABLE: DISABLE
+FLOW_REMOVE: REMOVE
+
+FLOW_WELCOME_TITLE: Welcome to Logi Flow
+FLOW_WELCOME_DESCRIPTION: Use and control multiple computers seamlessly with Flow. Switch to another computer by simply moving your cursor to the edge of the screen. Need to transfer text, images, or files between computers? Just copy them on one machine and paste on the other.
+FLOW_WELCOME_SETUP_FLOW: SETUP FLOW
+FLOW_WELCOME_DISABLED_DESCRIPTION: Flow cannot be used when the device is connected via USB cable. Please connect via USB receiver or Bluetooth to set it up.
+
+FLOW_SETUP_TITLE: Connect other computer(s)
+FLOW_SETUP_DESCRIPTION: Follow the above 3 steps on other computers to connect to them via Flow. {SUPPORT_LINK}
+FLOW_SETUP_HELP_LINK: How to pair
+FLOW_SETUP_SEARCH_COMPUTER: CONTINUE
+FLOW_SETUP_CANCEL: CANCEL
+
+FLOW_SEARCH_TITLE: Searching for computers
+FLOW_SEARCH_DESCRIPTION: This process may take up to a minute
+FLOW_SEARCH_CANCEL: CANCEL
+
+FLOW_CONNECT_SUCCESS_TITLE: Successfully connected
+FLOW_CONNECT_SUCCESS_DESCRIPTION: Flow is now enabled and ready to use on your computers.
+FLOW_CONNECT_SUCCESS_CANCEL: CONTINUE
+
+FLOW_SETUP_TOOLTIP_1: 1. Install Options+
+FLOW_SETUP_TOOLTIP_2: 2. Pair mouse on different channel
+FLOW_SETUP_TOOLTIP_3: 3. Connect to same network
+
+FLOW_CONNECT_FAILED_TITLE: No computers found. Bummer!
+FLOW_CONNECT_FAILED_DESCRIPTION: We searched everywhere… No computers found on your network. Let’s try again—follow the above steps on other computers. {SUPPORT_LINK}
+FLOW_CONNECT_FAILED_HELP_LINK: Need help?
+FLOW_CONNECT_FAILED_TRY_AGAIN: TRY AGAIN
+FLOW_CONNECT_FAILED_CANCEL: CANCEL
+
+WHAT_IS_FLOW: HOW IT WORKS
+FLOW_ADD_COMPUTER: ADD COMPUTER
+FLOW_MY_SYSTEM: This Computer
+FLOW_DRAG_TO_REARRANGE: Drag to rearrange
+
+LOGITECH_DEVICE: Logitech Device
+FLOW_DISABLED_CONNECTED_VIA_USB_TITLE: Flow disabled for {DEVICE_NAME}
+FLOW_DISABLED_CONNECTED_VIA_USB_DESCRIPTION: Connect via USB receiver or Bluetooth to use Flow.
+FLOW_ENABLED_DISCONNECTED_VIA_USB_TITLE: Flow re-enabled for {DEVICE_NAME}
+FLOW_ENABLED_DISCONNECTED_VIA_USB_DESCRIPTION: You can now use Flow with your mouse.
+
+SYSTEM: Use system language
+
+FLOW_DISABLE_TITLE: Flow is disabled
+FLOW_DISABLE_DESCRIPTION: Flow cannot be used when the device is connected via USB cable. Please connect via USB receiver or Bluetooth to enable Flow.
+
+SYSTEM_DEFAULT_THEME: Follow OS Theme
+LIGHT_MODE: Light Theme
+DARK_MODE: Dark Theme
+
+######################### Backlight effect start
+BACKLIGHT_EFFECT_SELECT: Select Effect
+BACKLIGHT_EFFECT_SETTING_TITLE: Select Backlight Effect
+BACKLIGHT_EFFECT_SETTINGS_SUBTITLE: Backlighting Effects
+BACKLIGHT_EFFECT_SETTINGS_DESCRIPTION: Choose between different backlighting effects for your keyboard by pressing "Fn + Lightbulb" keys.
+BACKLIGHT_EFFECT_BREATHING: Breathing
+BACKLIGHT_EFFECT_CONTRAST: Contrast
+BACKLIGHT_EFFECT_WAVE: Waves
+BACKLIGHT_EFFECT_RANDOM: Random
+BACKLIGHT_EFFECT_REACTION: Reaction
+BACKLIGHT_EFFECT_STATIC: Static
+BACKLIGHT_EFFECT_NONE: None
+######################### Backlight effect end
+
+#########################  Device Onboard strings start
+ONBOARD_WELCOME_PAGE_DEVICE_NAME_TITLE_V2: SETUP YOUR %0
+ONBOARD_WELCOME_PAGE_DESCRIPTION_V2: Press the next button below to start setting up your new mouse
+ONBOARD_WELCOME_PAGE_DEVICE_NAME_TITLE: MEET %0
+ONBOARD_PRESS_THE_NEXT_BUTTON_BELOW_TO_START_SETTING_UP_YOUR_DEVICE_NAME: Press the next button below to learn about your %0 and set it up quickly.
+ONBOARD_WELCOME_PAGE_DEFAULT_TITLE: MEET YOUR DEVICE
+ONBOARD_WELCOME_PAGE_DEFAULT_DESCRIPTION: Press the next button below to learn about your device and set it up quickly.
+ONBOARD_SKIP: SKIP
+ONBOARD_SET_UP_POINTER_SPEED: Set up pointer speed
+ONBOARD_SET_UP_HIGH_RES_POINTER_SPEED: Work faster and more precisely with an 8K DPI sensor, allowing to adjust pointer speed and precision to match high resolution monitors.
+ONBOARD_MAGNETIC_SCROLLWHEEL: MagSpeed Magnetic Scroll Wheel
+ONBOARD_MAGNETIC_SCROLLWHEEL_DESCRIPTION: With the {SLOTS_NAME} silently shift from line-by-line to hyper-fast scroll
+ONBOARD_MAGNETIC_MODE_SHIFT_DESCRIPTION: Click the {SLOTS_NAME} button to manually toggle between Ratchet and Free- Spin modes
+
+ONBOARD_CUSTOMIZE_THUMB_WHEEL: Customize thumb wheel
+ONBOARD_SCROLLWHEEL_AND_SMARTSHIFT : Scroll wheel and SmartShift
+ONBOARD_THUMBWHEEL_DESCRIPTION: Here’s a recommended list of actions to customize your thumb wheel. More options are available after the onboarding.
+ONBOARD_SCROLL_WHEEL_MODES_DESCRIPTION: The scroll wheel automatically shifts from line-by-line scrolling to free-spinning when you scroll faster. Click the SmartShift button to toggle modes manually.
+ONBOARD_DESKTOP_LEFT: Desktop left
+ONBOARD_DESKTOP_RIGHT: Desktop right
+ONBOARD_MISSION_CONTROL: Mission control
+ONBOARD_APP_EXPOSE: App expose
+ONBOARD_SEE_HOW_IT_WORKS: SEE HOW IT WORKS
+ONBOARD_RESTART_ONBOARDING: RESTART ONBOARDING
+ONBOARD_SCROLLWHEEL: Scroll wheel
+ONBOARD_SMARTSHIFT: SmartShift
+ONBOARD_CUSTOMIZE_BACK_BUTTON: Customize back button
+ONBOARD_BACK_BUTTON_DESCRIPTION: Here’s a recommended list of actions to customize your back button. More options are available after the onboarding.
+ONBOARD_CUSTOMIZE_FORWARD_BUTTON: Customize forward button
+ONBOARD_FORWARD_BUTTON_DESCRIPTION: Here’s a recommended list of actions to customize your forward button. More options are available after the onboarding.
+ONBOARD_YOU_ARE_ALL_SET: YOU ARE ALL SET
+ONBOARD_PRESS_THE_NEXT_BUTTON_BELOW_TO_CONTINUE_CUSTOMIZING_THIS_DEVICE: Press the next button below to continue customizing this device.
+ONBOARD_SMART_WHEEL: SmartWheel
+ONBOARD_SMART_WHEEL_DESCRIPTION: Get line-by-line precision for documents – and super-fast scrolling for long web pages. Automatically switch speeds with the flick of your finger.
+ONBOARD_GESTURES_TITLE: Gestures
+ONBOARD_GESTURES_DESCRIPTION: Click and hold the button as you move the mouse to use the gesture actions below. You can configure the gestures to perform different actions later.
+ONBOARD_SCROLL_WHEEL_MODES: Scroll wheel modes
+ONBOARD_MAGNETIC_SMARTSHIFT_WHEEL_MODES_DESCRIPTION: The {SLOTS_NAME} automatically shifts from line-by-line scrolling to free-spinning when you scroll faster.
+ONBOARD_MAGNETIC_SMARTSHIFT_MODE_SHIFT_DESCRIPTION: Click the {SLOTS_NAME} button to toggle modes manually.
+# {PARAGRAPH_BREAK} To insert a carriage return in the Configuration Description
+ONBOARD_MODESHIFT: Mode shift
+ONBOARD_K860_ERGONIC_DESIGN: A feel-better typing experience
+ONBOARD_K860_ERGONIC_DESIGN_DESCRIPTION: You’ll type more naturally with a curved, split keyframe that improves typing posture. The sloping form reduces muscle strain on your wrists and forearms – keeping your hands and shoulders relaxed.
+
+ONBOARD_ERGO_M575_BENEFITS_TITLE: Shaped for hands like yours
+ONBOARD_ERGO_M575_BENEFITS_DESCRIPTION: ERGO M575 has been designed and developed to ergonomically fit the shape of your hand. And with no need to move your arm around to move the cursor you'll reduce fatigue in your hand and arm.
+
+ONBOARD_K470_TYPING_TITLE: "Whisper Quiet Work"
+
+# Horizontal scroll start for MX Anywhere 3
+ONBOARD_HORIZONTAL_SCROLL_TITLE: Horizontal scroll
+ONBOARD_HORIZONTAL_SCROLL_DESCRIPTION: Hold one of the side buttons while scrolling to scroll horizontally.
+# Horizontal scroll end
+
+
+# MX-Vertical
+ONBOARD_MX_VERTICAL_ERGO_BENEFITS_TITLE: Natural handshake position
+ONBOARD_MX_VERTICAL_ERGO_BENEFITS_DESCRIPTION: MX Vertical’s natural handshake position reduces muscular strain and promotes a more ergonomic posture.
+ONBOARD_MX_VERTICAL_SETUP_DPI_SWITCH_TITLE: Switch pointer speed
+ONBOARD_MX_VERTICAL_SETUP_DPI_SWITCH_DESCRIPTION: Change the speed and accuracy of your cursor for optimal control with a press of a button.
+# MX-Vertical end
+
+ONBOARD_CUSTOMIZE_APP_SPECIFIC_SETTINGS: Setup app-specific customizations
+ONBOARD_APP_SPECIFIC_SETTINGS_DESCRIPTION: Customize the mouse for any app you use. Work faster with some of our predefined customizations.
+ONBOARD_APP_SPECIFIC_SETTINGS_NO_INSTALLED_APP_DESCRIPTION: Work faster with the pre-defined customizations that have been created for the below apps.
+ONBOARD_APP_SPECIFIC_SETTINGS_ALREADY_SETUP: Already setup
+# Device Onboard strings end
+
+# MX-Keys Onboard strings start
+ONBOARD_SET_UP_SMART_BACKLIGHTING: Backlighting
+ONBOARD_SMART_BACKLIGHTING_DESCRIPTION: The ambient light sensor adapts the brightness of your backlighting to save power when there is enough natural light. You can also manually adjust the backlighting by using the two highlighted keys.
+ONBOARD_SET_UP_SMART_BACKLIGHTING_TITLE: Smart Backlighting
+ONBOARD_SET_UP_SMART_BACKLIGHTING_DESCRIPTION: Choose between different backlighting effects for your keyboard by pressing "Fn + Lightbulb" keys or choose from the list below
+ONBOARD_SET_UP_BATTERY_NOTIFICATION: Low battery notifications
+ONBOARD_BATTERY_NOTIFICATION_DESCRIPTION: Backlighting turns off when battery level goes below 10%. The LED will blink red and you'll get an on-screen notification. Use the USB-C charging cable to recharge the device.
+ONBOARD_EASY_SWITCH: Easy-Switch
+ONBOARD_SET_UP_CUSTOMIZE_KEYS: Customize keys
+ONBOARD_CUSTOMIZE_KEYS_DESCRIPTION: We've set some default shortcuts, but you can also create your own.
+ONBOARD_SET_YOUR_F_KEYS: Set your F-keys
+ONBOARD_SET_YOUR_F_KEYS_DESCRIPTION: Switch between media and Fn keys any time by pressing Fn+Esc. Use the F-keys freely without needing to hold Fn.
+ONBOARD_SET_UP_MUTE_UNMUTE: Mute/Unmute
+ONBOARD_MUTE_UNMUTE_DESCRIPTION: Press the mic button to mute/unmute yourself during your meeting calls.
+ONBOARD_MUTE_UNMUTE_DESCRIPTION_1: Tap the key to mute and unmute your mic for flawless calls.
+ONBOARD_SET_UP_DICTATION_AND_EMOJI: Dictation & Emoji
+ONBOARD_DICTATION_AND_EMOJI_DESCRIPTION: Tap the dictation key to talk-to-text in any selected text field. Quickly access emoji with the emoji key.
+ONBOARD_SET_UP_DO_NOT_DISTURB: Do not disturb
+ONBOARD_DO_NOT_DISTURB_DESCRIPTION: Activate the Do Not Disturb mode of your mac to keep you in flow and focus when you need it.
+ONBOARD_NEXT_TRACK: Next Track
+ONBOARD_NEXT_TRACK_DESCRIPTION: Double tap the Play/Pause button to skip track.
+ONBOARD_SET_UP_EMOJI_MENU: Emoji Menu
+ONBOARD_EMOJI_MENU_DESCRIPTION: You can also open the full emoji menu and choose from a wide range of emotions.
+ONBOARD_SET_UP_CUSTOMIZE_KEYS_CAPS: Customize Key Caps
+ONBOARD_CUSTOMIZE_KEYS_CAPS_DESCRIPTION: Unleash your online personality with the 8 swappable emoji keys. Change and customize to your liking.
+ONBOARD_OPEN_CLOSE_TAB: New & Close browser tab
+ONBOARD_OPEN_CLOSE_TAB_DESCRIPTION: Press the key to open new and close tab on your browser.
+ONBOARD_LANGUAGE_SWITCH: Language switch
+ONBOARD_LANGUAGE_SWITCH_DESCRIPTION: Press the language switch button to swap to your keyboard typing preferences.
+ONBOARD_KEYS_TWO_CHANNELS_EASY_SWITCH_DESCRIPTION: "Pair your keyboard with up to 2 devices and switch between them with the press of an Easy-Switch™ button. Use one {DEVICE_NAME} for your laptop, desktop or tablet."
+ONBOARD_MICE_TWO_CHANNELS_EASY_SWITCH_DESCRIPTION: "Pair your mouse with up to 2 devices and switch between them with the press of an Easy-Switch™ button. Use one {DEVICE_NAME} for your laptop, desktop or tablet."
+ONBOARD_KEYS_EASY_SWITCH_DESCRIPTION: "Pair your keyboard with up to 3 devices and switch between them with the press of an Easy-Switch™ button. Use one {DEVICE_NAME} for your laptop, desktop or tablet."
+ONBOARD_MICE_EASY_SWITCH_DESCRIPTION: "Pair your mouse with up to 3 devices and switch between them with the press of an Easy-Switch™ button. Use one {DEVICE_NAME} for your laptop, desktop or tablet."
+ONBOARD_KEYS_K480_EASY_SWITCH_DESCRIPTION: "Pair your keyboard with up to 3 devices and switch between them using the selector dial. Use one {DEVICE_NAME} for your laptop, desktop or tablet."
+# MX-Keys Onboard strings end
+
+#M275/M280/M320/B330/M330/M331 Onboard strings start
+ONBOARD_CUSTOMIZE_MIDDLE_BUTTON: Customize middle button
+ONBOARD_MIDDLE_BUTTON_DESCRIPTION: Here’s a recommended list of actions to customize your middle button. More options are available after the onboarding.
+# M275/M280/M320/B330/M330/M331 Onboard strings end
+
+# MX-Vertical-mini
+ONBOARD_ERGO_BENEFITS_TITLE: Ergonomic Design
+ONBOARD_ERGO_BENEFITS_DESCRIPTION: LIFT is a vertical ergonomic mouse designed to help people work in comfort for hours and feel better at the end of a long day at the desk.
+ONBOARD_ERGO_BENEFITS_DESCRIPTION_1: The delightful, vertical design contoured to fit your hands, lifts your wrist up into a more natural posture and keeps you relaxed throughout your day, so you can focus on what really matters!
+ONBOARD_SETUP_DPI_SWITCH_TITLE: SmartWheel and DPI Switch
+ONBOARD_SETUP_SMART_WHEEL_DESCRIPTION: Scroll line by line or fly through pages at a time.
+ONBOARD_SETUP_DPI_SWITCH_DESCRIPTION: Click the DPI switch button to toggle between two sensitivity levels. Move faster or be more accurate at the click of a button.
+ONBOARD_SETUP_DPI_SWITCH_HOTSPOT: DPI switch
+
+#MX Ergo
+# MX Ergo Onboarding strings start
+ONBOARD_MX_ERGO_BENEFITS_TITLE: Less movement, better posture
+ONBOARD_MX_ERGO_BENEFITS_DESCRIPTION: With no need to move the hand around to move the cursor, you can minimize movement and maximize performance. The trackball creates 20% less muscle fatigue in your hand, wrist, and forearm than a regular mouse.
+ONBOARD_PRECISION_MODE_TITLE: Precision Mode
+ONBOARD_PRECISION_MODE_DESCRIPTION: The precision mode button lets you seamlessly switch between precision and fast-tracking modes.
+# MX Ergo Onboarding strings end
+
+## POP MOUSE
+ONBOARD_SMART_WHEEL_DESCRIPTION_1: On-demand precision or speed scrolling, happily whizz through long documents.
+ONBOARD_ONE_TOUCH_EMOJI: One-touch Emoji
+ONBOARD_ONE_TOUCH_EMOJI_DESCRIPTION: Customize the Emoji Button to your favorite shortcut.
+ONBOARD_EMOJI_HELLO: Hello!
+ONBOARD_EMOJI_Hi: Hi!
+ONBOARD_APP_SPECIFIC_SETTINGS_DESCRIPTION_FOR_POP_MOUSE: You can assign different emoji for different apps that you use. Optimized for WeChat, Zoom, & Teams
+ONBOARD_APP_SPECIFIC_SETTINGS_DESCRIPTION_1: You can assign different emoji for different apps that you use. Optimized for WeChat.
+ONBOARD_APP_SPECIFIC_SETTINGS_KEYBOARD_DESCRIPTION: Customize the keyboard for any app you use. Work faster with some of our predefined customizations.
+## POP MOUSE END
+
+##M545 START
+ONBOARD_TYPING_EXPERIENCE_TITLE: Familiar typing experience
+ONBOARD_TYPING_EXPERIENCE_DESCRIPTION: The keys have been optimized for improved accuracy and reduced noise – and your fingers will immediately feel at home on the familiar key surface and layout.
+ONBOARD_BATTERY_LIFE_TITLE: Long battery life
+ONBOARD_BATTERY_LIFE_DESCRIPTION: Your keyboard won’t require new batteries for 36 months.
+##M545 END
+
+##GENERIC_KEYBOARD START
+GENERIC_KB_ONBOARD_BATTERY_LIFE_DESCRIPTION: Your keyboard won’t require new batteries for 24 months.
+## GENERIC_KEYBOARD END
+
+##M720 START
+ONBOARD_HYPER_FAST_SCROLL_TITLE: Hyper-fast scroll
+ONBOARD_HYPER_FAST_SCROLL_DESCRIPTION: Whiz through long documents or web pages with a single spin of the wheel. When you need more precision, press the mode shift button.
+##M720 END
+
+##MX ANYWHERE 2S START
+ONBOARD_HYPER_FAST_SCROLL_WHEEL_MODES_DESCRIPTION: Click the scroll wheel to toggle between line-by-line scrolling and hyper-fast scrolling.
+##MX ANYWHERE 2S END
+
+## LITRA GLOW START
+ONBOARD_INTRO_TITLE_LITRA_TRUESOFT: Litra glow with TrueSoft
+ONBOARD_LITRA_TRUESOFT_DESCRIPTION: "Litra glow is the fastest way to bring a premium lighting experience to any desktop or laptop. \n\n Featuring Logitech’s TrueSoft technology and innovative edgeless diffuser, {DEVICE_NAME} wraps your subject in soft, flattering light for a professional look in any setting."
+ONBOARD_SET_UP_MANUAL_LIGHT_SETTINGS: Manual light settings
+ONBOARD_SET_UP_LIGHT_MANUAL_SETTINGS_DESCRIPTION: Adjust your color temperature and brightness settings to achieve the perfect look.
+ONBOARD_SET_UP_VIDEO_APP_SPECIFIC_SETTINGS: App specific settings - Video calls
+ONBOARD_SET_UP_BROWSER_APP_SPECIFIC_SETTINGS: App specific settings - Browser
+ONBOARD_SET_UP_EDITING_APP_SPECIFIC_SETTINGS: App specific settings - Productivity
+ONBOARD_SET_UP_VIDEO_APP_SPECIFIC_DESCRIPTION: "Your {DEVICE_NAME} can have different settings for your favorite apps like Zoom® or Microsoft Teams®. \n\n You can customize your {DEVICE_NAME} for each of the apps you start or stop your Zoom video."
+ONBOARD_SET_UP_BROWSER_APP_SPECIFIC_DESCRIPTION: "Your {DEVICE_NAME} can have different settings for your favorite apps. \n\n You can customize your {DEVICE_NAME} when you browse."
+ONBOARD_SET_UP_EDITING_APP_SPECIFIC_DESCRIPTION: "Your {DEVICE_NAME} can have different settings for your favorite apps like Photoshop or Final Cut Pro. \n\n You can customize your {DEVICE_NAME} to Bright Cool Blue or Cozy Candlelight when you are creating or editing videos."
+ONBOARD_SET_UP_APP_SPECIFIC_SETTINGS_VIDEO_CALLS: Video Calls
+ONBOARD_SET_UP_APP_SPECIFIC_SETTINGS_BROWSER: Browser
+ONBOARD_SET_UP_APP_SPECIFIC_SETTINGS_EDITING: Editing
+ONBOARD_SET_UP_LIGHT_PRESET: Light Presets
+ONBOARD_SET_UP_LIGHT_PRESET_SETTINGS_DESCRIPTION: Explore our one-click preset, or use them as a starting point to create your own.
+ONBOARD_SET_UP_LIGHT_ACTION_TITLE: Select your device for Lights tasks
+ONBOARD_SET_UP_LIGHT_ACTION_DESCRIPTION: Choose one of your device key or button as Light tasks. Learn how at {SUPPORT_LINK}
+LIGHT_ACTION_SUPPORT_LINK: logi.com/support
+## LITRA GLOW END
+
+##LITRA BEAM START
+ONBOARD_INTRO_TITLE_LITRA_BEAM_TRUESOFT: Litra beam with TrueSoft
+ONBOARD_LITRA_BEAM_TRUESOFT_DESCRIPTION: "{DEVICE_NAME} is the fastest way to bring a premium lighting experience to any desktop or laptop. \n\n Featuring Logitech’s TrueSoft technology and innovative edgeless diffuser, {DEVICE_NAME} wraps your subject in soft, flattering light for a professional look in any setting."
+ONBOARD_SET_UP_LITRA_BEAM_FEATURING: Making you look your best
+ONBOARD_LITRA_BEAM_FEATURING_DESCRIPTION: "A key element in making you look your best on screen is the position of your Litra Beam light. \n\n Litra Beam’s unique shape and mount allows you to position your light to achieve the perfect lighting for your desired mood of experience. \n\nLearn more at {SUPPORT_LINK}"
+SUPPORT_LINK_DESCRIPTION: logi.com/support
+##LITRA BEAM END
+
+##K840 START
+ONBOARD_MECHANICAL_SWITCH_TITLE: Aluminium body and soft keypad
+ONBOARD_MECHANICAL_SWITCH_DESCRIPTION: The K840 works with Windows operating systems, It’s  mechanical keyboard features a solid aluminum build with expertly engineered Romer-G™ mechanical switches.
+##K840 END
+
+##k370 for Business START
+ONBOARD_DUAL_LAYOUT_TITLE: Dual Layout
+ONBOARD_DUAL_LAYOUT_DESCRIPTION: "The {DEVICE_NAME} works with Windows and Mac operating systems, allowing you to switch between all connected devices and operating systems."
+ONBOARD_CUSTOMIZE_KEYS_FOR_K370: "Take control of your workflow with Logi Options+. We’ve created ready-to-use shortcuts, but you can also create your own."
+ONBOARD_SET_YOUR_HOT_KEYS: Set your Hotkeys
+ONBOARD_SET_YOUR_HOT_KEYS_DESCRIPTION: Use the ready-to-use time saving shortcuts or create your own to work more efficiently.
+ONBOARD_SET_YOUR_FN_KEYS: Set Your F-Keys
+ONBOARD_SET_YOUR_FN_KEYS_DESCRIPTION: Customize the default actions of your Fn keys from the recommended actions or explore more actions.
+ONBOARD_SET_YOUR_FN_KEY_NOTE: "{SLOTS_NAME}: The configured Fn Keys can be remapped to work as the default Fn keys by assigning the default function (i.e F1, F2 etc)"
+ONBOARD_SET_YOUR_CONNECTIVITY_KEYS: Connectivity Key
+ONBOARD_SET_YOUR_CONNECTIVITY_DESCRIPTION: "You can easily connect your {DEVICE_NAME} using the Logi Bolt receiver or via Bluetooth."
+ONBOARD_NOTE: Note
+##k370 for Business END
+
+#########################  App Onboard strings start
+# STILL NOT USED AND THEREFORE NOT APPROVED
+APP_ONBOARD_A_NEW_DESIGN_A_BETTER_EXPERIENCE: A NEW DESIGN A BETTER EXPERIENCE
+APP_ONBOARD_WITH_A_REFRESH_ON_THE_LOOK_OF_OPTIONS_ITS_EASIER_TO_CUSTOMIZE_YOUR_DEVICE_SETTINGS: With a refresh on the look of Logi Options, it's easier to customize your device settings.
+APP_ONBOARD_A_BRAND_NEW_QUICK_ACCESS_MENU: A BRAND NEW QUICK ACCESS MENU
+APP_ONBOARD_STAY_UP_TO_DATE_ON_YOUR_DEVICE_STATUS_WITH_THE_NEW_QUICK_ACCESS_MENU: Stay up to date on your device status with the new quick access menu.
+APP_ONBOARD_MORE_DEVICES_MORE_CONTROLS: MORE DEVICES, MORE CONTROLS
+APP_ONBOARD_UNLOCK_MORE_POTENTIALS_OF_YOUR_LOGITECH_DEVICES_WITH_NEW_OPTIONS_SOFTWARE_AND_MORE_DEVICES_TO_BE_INTEGRATED: Unlock more potentials of your Logi devices with new Logi Options software, and more devices to be integrated!
+APP_ONBOARD_CREATE_ACCOUNT_TO_SAVE_DEVICE_SETTINGS: CREATE ACCOUNT TO SAVE DEVICE SETTINGS
+APP_ONBOARD_YOU_CAN_SAVE_YOUR_DEVICE_SETTINGS_TO_THE_CLOUD_AND_SHARE_THEM_ACROSS_YOUR_COMPUTERS: You can save your device settings to the cloud and share them across your computers
+# App Onboard strings end
+
+
+#########################  Migration strings start
+APP_ONBOARD_SETTINGS_MIGRATION_TITLE: "{NUMBER_OF_DEVICES} device(s) added from Options"
+APP_ONBOARD_SETTINGS_MIGRATION_DESCRIPTION_ALL_GOOD_SINGLE_DEVICE: The added device has been setup successfully with your settings from Logi Options.
+APP_ONBOARD_SETTINGS_MIGRATION_DESCRIPTION_ALL_GOOD_MULTIPLE_DEVICE: The added devices have been setup successfully with your settings from Logi Options.
+APP_ONBOARD_SETTINGS_MIGRATION_DESCRIPTION_MISSING_FEATURES_SINGLE_DEVICE: The added device has been setup with your settings from Logi Options.
+APP_ONBOARD_SETTINGS_MIGRATION_DESCRIPTION_MISSING_FEATURES_SINGLE_DEVICE_NOTE: Please note that some of your settings could not be ported from Options. Click on the device name below to learn more.
+APP_ONBOARD_SETTINGS_MIGRATION_DESCRIPTION_MISSING_FEATURES_MULTIPLE_DEVICE: The added devices have been setup with your settings from Logi Options.
+APP_ONBOARD_SETTINGS_MIGRATION_DESCRIPTION_MISSING_FEATURES_MULTIPLE_DEVICE_NOTE: Please note that some of your settings could not be ported from Options. Click on the device names below to learn more.
+APP_ONBOARD_SETTINGS_MIGRATION_ADDED_TO_KIROS: Added to Options+
+APP_ONBOARD_SETTINGS_MIGRATION_NOT_SUPPORTED_YET: Not supported yet
+APP_ONBOARD_SETTINGS_MIGRATION_CONTINUE: CONTINUE
+
+SETTINGS_MIGRATION_MISSING_FEATURES_TITLE: Some settings from Logi Options could not be ported.
+SETTINGS_MIGRATION_MISSING_FEATURES_DESCRIPTION: The device has been setup with your settings from Options except for the below features.
+SETTINGS_MIGRATION_MISSING_FEATURES_ERROR_STATE: Not available yet
+SETTINGS_MIGRATION_MISSING_FEATURES_ACTION: GOT IT
+SETTINGS_MIGRATION_MISSING_FEATURES_TOOLTIP: "{NUMBER_OF_FEATURES} missing features"
+SETTINGS_MIGRATION_PROFILE_ACTIONS: "{MISSING_ACTION} settings"
+SETTINGS_MIGRATION_SOME_BUTTON_ACTIONS: "Some button actions"
+SETTINGS_MIGRATION_SOME_KEY_ACTIONS: "Some key actions"
+SETTINGS_MIGRATION_HORIZONTAL_SCROLL: "Horizontal scroll"
+SETTINGS_MIGRATION_BACKLIGHTING_CONTORL: "Backlighting controls"
+SETTINGS_MIGRATION_INSTALL_PLUGIN: INSTALL PLUGIN
+SETTINGS_MIGRATION_MISSING_PROFILE_PLUGIN_FAILED_DESCRIPTION: Failed to install plugin needed to create custom settings.
+SETTINGS_MIGRATION_APP_SPECIFIC_MODAL_DEVICE_CONFIGURED_TITLE: Plugin installed
+SETTINGS_MIGRATION_APP_SPECIFIC_MODAL_DEVICE_CONFIGURED_DESCRIPTION: Success! Your custom settings from Logi Options have been added for the above application(s).
+SETTINGS_MIGRATION_APP_SPECIFIC_MODAL_DEVICE_CONFIGURED_BUTTON_DONE: DONE
+SETTINGS_MIGRATION_MISSING_PROFILE_REASON_UXP_PLUGIN_NOT_INSTALLED_DESCRIPTION: Requires a plugin to be installed
+# Migration strings end
+
+#########################  Analytics opt in page start
+SHARE_ANALYTICS_DATA: Share diagnostics and usage data
+ANALYTICS_TITLE_APP_ONBOARDING: Help us improve our products
+# {LOGITECHS_PRIVACY_POLICY} is applied with Button tag dynamically
+ANALYTICS_DESCRIPTION: Help us improve our products and services by automatically sending diagnostics and usage data.
+LEARN_MORE_ABOUT: You can change your preference at any time from the app settings. Learn more about our {PRIVACY_POLICY}.
+PRIVACY_POLICY: privacy policy
+APP_SETTINGS_PRIVACY_POLICY: Privacy policy
+AGREE_CONTINUE: YES, SHARE DATA
+ANALYTICS_NO_THANKS: NO THANKS
+# Analytics opt in page end
+
+
+
+
+
+#########################  Whats New start
+
+# Common strings
+SEE_PREVIOUS_VERSIONS: See previous versions
+WHATSNEW_HEADLINE_TITLE: What's New
+WHATSNEW_NEW_FEATURES: New features
+WHATSNEW_WHATS_FIXED: What's fixed
+WHATSNEW_WHATS_IMPROVED: What's improved
+WHATSNEW_WHATS_CHANGED: What's changed
+WHATSNEW_NEW_DEVICES: New devices
+
+# Release oriented strings
+WHATSNEW_HEADLINE: "This release includes support for the following:"
+
+# Tabs Content
+
+# What's fixed
+WHATSNEW_TAB1_CONTENT1: Backend Connection message shown after installation due to some regional settings issue
+WHATSNEW_TAB1_CONTENT2: Fixes for some random crashes and hangs
+
+# Whats New strings end
+
+
+
+
+#########################  Easy-Switch string starts
+EASYSWITCH_TITLE: Easy-Switch
+EASYSWITCH_DESCRIPTION_KEYBOARD: Press the Easy-Switch keys to switch between the paired computers.
+EASYSWITCH_DESCRIPTION_MOUSE: Press the Easy-Switch button to switch between the paired computers.
+EASYSWITCH_DESCRIPTION_K480: Rotate the dial to switch between the paired computers.
+EASYSWITCH_UNKNOWN_HOSTNAME: Unknown
+EASYSWITCH_TOOLTIP_RENAME: Click to rename
+EASYSWITCH_TOOLTIP_CONNECT_DEVICE: Connect device to rename
+EASYSWITCH_CONNECTION_BT: Bluetooth
+EASYSWITCH_CONNECTION_BOLT: Bolt Receiver
+EASYSWITCH_CONNECTION_UNIFYING: Unifying Receiver
+EASYSWITCH_CONNECTION_USB: USB Receiver
+EASYSWITCH_NO_PAIRED_COMPUTER: No paired computer
+OS_WINDOWS: Windows
+OS_MACOS: macOS
+OS_WINDOWS_EMBEDDED: Windows Embedded
+OS_ANDROID: Android
+OS_LINUX: Linux
+OS_CHROME: Chrome
+OS_IOS: iOS
+OS_WEBOS: WebOS
+OS_TIZEN: Tizen
+  # Easy-Switch string ends
+
+
+
+
+  #########################  Device Settings start
+# ABOUT section
+DEVICE_SETTINGS_HEADING_ABOUT: ABOUT
+DEVICE_SETTINGS_SERIAL_NUMBER: "Serial number: {SERIAL_TEXT}"
+DEVICE_SETTINGS_FIRMWARE_VERSION: Firmware version {VERSION_TEXT}
+DEVICE_SETTINGS_SUPPORT: Support
+DEVICE_SETTINGS_SUPPORT_DESCRIPTION: Visit {SUPPORT_LINK} for more information.
+# {SUPPORT_LINK} is applied with hyperlink anchor tag dynamically
+DEVICE_SETTINGS_SUPPORT_PAGE_LINK_TEXT: "%0 support page"
+# %0 is replaced with dynamic string (Device Name - eg. %0 support page -> MX Keys support page)
+DEVICE_SETTINGS_UNKNOWN: unknown
+DEVICE_SETTINGS_FEATURE_TOUR_TITLE: Feature tour
+DEVICE_SETTINGS_FEATURE_TOUR_LAUNCH: LAUNCH FEATURE TOUR
+
+# GENERAL section
+DEVICE_SETTINGS_HEADING_GENERAL: GENERAL
+# For Keyboard
+DEVICE_SETTINGS_FUNCTION_KEYS_TITLE: Use F1, F2, etc. keys as standard function keys
+DEVICE_SETTINGS_FUNCTION_KEYS_DESCRIPTION: Press Fn + Esc to toggle this setting anytime.
+DEVICE_SETTINGS_KEYBOARD_MAC_LAYOUT: Always keep the keyboard in Mac layout
+DEVICE_SETTINGS_KEYBOARD_WIN_LAYOUT: Always keep the keyboard in Windows layout
+DEVICE_SETTINGS_BACKLIGHTING: Backlighting
+DEVICE_SETTINGS_BACKLIGHTING_DESCRIPTION: Backlighting is disabled temporarily because of low battery. Charge your device or turn off battery saving mode below to enable it.
+DEVICE_SETTINGS_POWER_SAVE: Battery saving mode
+DEVICE_SETTINGS_POWER_SAVE_DESCRIPTION: Automatically turns off backlighting when battery level drops below 10%.
+DEVICE_SETTINGS_BATTERY_SAVE_MODE: Automatically enable Battery saving mode
+DEVICE_SETTINGS_BATTERY_SAVE_MODE_DESCRIPTION: Backlighting getting turned off when battery goes below 10%
+# For Mice
+DEVICE_SETTINGS_SWAP_LEFT_RIGHT_BUTTONS: Swap left/right buttons
+DEVICE_SETTINGS_BACK_LIGHTING: Backlighting
+DEVICE_SETTINGS_KEYBOARD_DISABLE_KEYS: Disabled keys
+DEVICE_SETTINGS_KEYBOARD_DISABLE_KEYS_DESCRIPTION: Check the keys you want to disable.
+#Device Settings Tooltip
+DEVICE_SETTINGS_CONNECT_DEVICE_TOOLTIP: Connect device to change
+
+
+
+
+#########################  New Update Available
+NEW_UPDATE_AVAILABLE_TITLE: Update available
+# {VERSION_TEXT} is replaced by a string like 0.30.10234
+NEW_UPDATE_AVAILABLE_DESCRIPTION: "A new version of Options+ is available \n (version {VERSION_TEXT})"
+NEW_UPDATE_AVAILABLE_INSTALL: INSTALL AND RELAUNCH
+NEW_UPDATE_AVAILABLE_DISMISS: DISMISS
+
+
+########################## DFU Running Warning Modal start
+DFU_WARNING_MODAL_TITLE: Unable to install the update
+DFU_WARNING_MODAL_DESCRIPTION: "The update cannot be installed while the firmware update tool is open. Please complete the firmware update and close the tool to install the app update."
+DFU_WARNING_MODAL_BUTTON_TEXT: TRY AGAIN
+DFU_WARNING_MODAL_CLOSE_BUTTON_TEXT: CLOSE
+########################## DFU Running Warning Modal end
+
+
+
+#########################  Account SSO
+ACCOUNT_TITLE: Account
+ACCOUNT_LOGOUT: LOGOUT
+ACCOUNT_EDIT_PROFILE: EDIT PROFILE
+ACCOUNT_PROMOTION_EMAILS: Email notifications
+ACCOUNT_RECEIVE_INFO: Receive personalized product information, offers and tips via email.
+ACCOUNT_LOADER_TEXT: Loading account information
+ACCOUNT_NO_NETWORK_ERROR_TEXT: Could not load account information. Please check your network.
+ACCOUNT_UNABLE_TO_FETCH_ERROR_TEXT: Could not load account information. Please try again later.
+ACCOUNT_LOGOUT_ERROR_TEXT: Could not log out. Please check your network and try again.
+ACCOUNT_NO_HANDLER_ERROR_TEXT: Could not find proper handler method.
+
+# Relogin
+RELOGIN_TITLE: Please re-login
+RELOGIN_DESCRIPTION: You have been logged out because your account credentials were changed. Please login again.
+RELOGIN_LOGIN: LOG IN
+RELOGIN_CANCEL: CANCEL
+
+# Email Subscription
+EMAIL_SUBSCRIPTION_DESCRIPTION: Welcome {username}! Would you like to receive personalized product information, offers and tips via email?
+EMAIL_SUBSCRIPTION_YES: YES PLEASE!
+EMAIL_SUBSCRIPTION_NO: NO THANKS
+EMAIL_SUBSCRIPTION_FETCH_ERROR: Could not fetch email preference. Please try again later.
+EMAIL_SUBSCRIPTION_UPDATE_ERROR: Could not update email preference. Please check your network and try again.
+
+# Import Settings
+IMPORT_SETTINGS_DESCRIPTION: Welcome {username}, we found device settings
+IMPORT_SETTINGS_YES: YES IMPORT SETTINGS
+IMPORT_SETTINGS_NO: NO, KEEP CURRENT SETTINGS
+
+# Account Signin/Signup
+ACCOUNT_LOGIN_TITLE: Login to backup your settings to the cloud
+ACCOUNT_LOGIN_DESCRIPTION: By logging in, you can save your device settings to the cloud and use them on your other computers
+ACCOUNT_LOGIN_SIGNIN_SIGNUP: LOGIN/CREATE ACCOUNT
+ACCOUNT_LOGIN_SUCCESSFUL_TITLE: Welcome {username}!
+ACCOUNT_LOGIN_SUCCESSFUL_DESCRIPTION: You are now successfully logged into Options+
+ACCOUNT_LOGIN_SUCCESSFUL_BUTTON_TEXT: CONTINUE
+ACCOUNT_LOGIN_SKIP: SKIP
+
+
+
+
+#########################  Uservoice String Started
+USERVOICE_FEED_BACK_BUTTON: FEEDBACK
+USERVOICE_POST_SUGGESTION_TITLE: We want your feedback!
+USERVOICE_POST_SUGGESTION_DESCRIPTION: When you post feedback to our forum, others can subscribe to it and make comments.
+USERVOICE_POST_SUGGESTION_PLACEHOLDER: Describe your idea
+USERVOICE_SUGGESTION_CATEGORY_LABEL: Feedback type
+USERVOICE_SUGGESTION_TITLE_LABEL: Feedback title
+USERVOICE_SUGGESTION_TITLE_PLACEHOLDER: Summarize your suggestion Feedback
+USERVOICE_POST_SUGGESTION_SUBMIT_BUTTON: Submit
+USERVOICEE_POST_SUGGESTION_SKIP_BUTTON: SKIP AND SUBMIT
+USERVOICE_POST_SUGGESTION_SUCCESS_BODY: Your feedback has been posted to our
+USERVOICE_POST_SUGGESTION_SUCCESS_LINK: feedback forum
+USERVOICE_INSTANT_ANSWER_RELATED_SUGGESTION_LABEL: Related feedbacks
+USERVOICE_SMARTVOTE_MENU_LABEL: Help us decide what to add next
+USERVOICE_POST_SUGGESTION_CONFIRM_TITLE: Awesome!!!
+USERVOICE_POST_SUGGESTION_CONFIRM_BODY: Do you still want to submit new feedback?
+USERVOICE_POST_FEEDBACK_TITLE: We want your feedback!
+USERVOICE_POST_FEEDBACK_DESCRIPTION: Enter your email so we can update you about your feedback.
+USERVOICE_POST_FEEDBACK_CONTINUE_ACTION: CONTINUE
+USERVOICE_POST_EMAIL_ADDRESS: Email Address
+USERVOICE_POST_EMAIL_ADDRESS_VALIDATION: Please enter a valid email address.
+
+# Uservoice String End
+
+
+
+
+
+#########################  macOS Permissions
+ACCESSIBILITY_PERMISSION_TITLE: Grant Accessibility permissions
+ACCESSIBILITY_PERMISSION_DESCRIPTION: "To enable your device features, please select Logi Options+ in the Accessibility menu. If some scroll wheel features still don’t work, try turning your device off and back on."
+ACCESSIBILITY_PERMISSION_DESCRIPTION_LINK: "https://docs.google.com/document/d/1JVuppvO5WW0i7AtV6pS03rrANlDNnoo20x5JlsdmCkQ/edit"
+ACCESSIBILITY_PERMISSION_BUTTON: OPEN ACCESSIBILITY
+ACCESSIBILITY_SUCCESS_TITLE: Accessibility permissions successfully granted!
+ACCESSIBILITY_PERMISSION_DESCRIPTION_VENTURA: "To enable your device features, please select Logi Options+ in Accessibility menu under Privacy & Security section. If some scroll wheel features still do not work, try turning your device Off and back On."
+
+INPUT_MONITORING_PERMISSION_TITLE: Grant Input Monitoring permissions
+INPUT_MONITORING_PERMISSION_DESCRIPTION: "To enable your device features, please select Logi Options+ in the Input Monitoring menu. {QUIT_NOW_BOLD_TEXT}. If you selected ‘later’, please uncheck Logi Options+, check it again and press ‘Quit & Reopen’."
+QUIT_NOW_BOLD_TEXT: Select ‘Quit & Reopen’ when prompted for the change to take effect
+INPUT_MONITORING_PERMISSION_BUTTON: OPEN INPUT MONITORING
+INPUT_MONITORING_SUCCESS_TITLE: Input Monitoring permissions successfully granted!
+NEED_HELP: Need help?
+INPUT_MONITORING_PERMISSION_DESCRIPTION_VENTURA: "To enable your device features, please select Logi Options+ in the Input Monitoring menu under Privacy & Security section.  {QUIT_NOW_BOLD_TEXT}. If you selected ‘later’, please uncheck Logi Options+, check it again and press ‘Quit & Reopen’."
+QUIT_NOW_BOLD_TEXT_VENTURA: Select ‘Quit & Reopen’ when prompted for the change to take effect
+
+BLUETOOTH_PERMISSION_TITLE: Grant Bluetooth permission
+BLUETOOTH_PERMISSION_DESCRIPTION_CUSTOM: "To check and install firmware updates, please select Logi Options+ in the Bluetooth menu. {QUIT_NOW_BOLD_TEXT}. If you selected ‘later’, please uncheck Logi Options+, check it again and press ‘Quit Now’."
+BLUETOOTH_PERMISSION_DESCRIPTION_DISABLED: "To enable your device features, please select Logi Options+ in the Bluetooth menu. {QUIT_REOPEN_BOLD_TEXT}. If you selected ‘later’, please uncheck Logi Options+, check it again and press ‘Quit & Reopen’."
+BLUETOOTH_PERMISSION_DESCRIPTION_UNKNOWN: "To enable your device features, please select 'OK' on the Bluetooth permissions popup. If you selected ‘Don't Allow’, you will not be able to use Logi Options+."
+BLUETOOTH_PERMISSION_BUTTON: OPEN BLUETOOTH
+BLUETOOTH_PERMISSION_SUCCESS_TITLE: Bluetooth permission successfully granted!
+QUIT_REOPEN_BOLD_TEXT: Select ‘Quit & Reopen’ when prompted for the change to take effect
+BLUETOOTH_PERMISSION_DESCRIPTION_VENTURA: "To enable your device features, please select Logi Options+ in the Bluetooth menu under Privacy & Security section. {QUIT_NOW_BOLD_TEXT}. If you selected ‘later’, please uncheck Logi Options+, check it again and press ‘Quit & Reopen’."
+
+# Should be Logicool instead of Logitech in Japanese translation
+BLUETOOTH_PERMISSION_DESCRIPTION: "Bluetooth is used to communicate with Logi devices."
+
+LOGIN_PERMISSION_TITLE: Grant Login permission
+LOGIN_PERMISSION_DESCRIPTION: "For Options+ to be functional, please select Logi Options+ in Login items under General section."
+LOGIN_PERMISSION_NEED_HELP: Need help?
+LOGIN_PERMISSION_BUTTON: OPEN LOGIN ITEMS
+
+#########################  Keyboard keys and modifiers
+# Mac specific keys.
+KEYBOARD_SHORTCUT_KEY_OSX_COMMAND: "⌘Cmd"
+KEYBOARD_SHORTCUT_KEY_OSX_ALT: "⌥Opt"
+KEYBOARD_SHORTCUT_KEY_OSX_SHIFT: "⇧Shift"
+KEYBOARD_SHORTCUT_KEY_OSX_BACKSPACE: "Delete"
+KEYBOARD_SHORTCUT_KEY_OSX_DELETE: "Delete forward"
+KEYBOARD_SHORTCUT_KEY_OSX_ENTER: "⏎Return"
+KEYBOARD_SHORTCUT_KEY_OSX_CTRL: "^Ctrl"
+# Mac specific Keyboard keys end.
+
+# Windows specific Keyboard keys.
+KEYBOARD_SHORTCUT_KEY_WIN_COMMAND: "Windows"
+KEYBOARD_SHORTCUT_KEY_WIN_ALT: "Alt"
+KEYBOARD_SHORTCUT_KEY_WIN_SHIFT: "Shift"
+KEYBOARD_SHORTCUT_KEY_WIN_BACKSPACE: "Backspace"
+KEYBOARD_SHORTCUT_KEY_WIN_DELETE: "Delete"
+KEYBOARD_SHORTCUT_KEY_WIN_ENTER: "Enter"
+KEYBOARD_SHORTCUT_KEY_WIN_CTRL: "Ctrl"
+# Windows specific Keyboard keys end.
+
+# Common Keyboard keys.
+KEYBOARD_SHORTCUT_KEY_ESCAPE: "Escape"
+KEYBOARD_SHORTCUT_KEY_TAB: "Tab"
+KEYBOARD_SHORTCUT_KEY_CAPS: "Caps lock"
+KEYBOARD_SHORTCUT_KEY_SCROLL_LOCK: "Scroll lock"
+KEYBOARD_SHORTCUT_KEY_WIN: "Windows/Start key"
+KEYBOARD_SHORTCUT_KEY_SPACEBAR: "Space"
+KEYBOARD_SHORTCUT_KEY_UP: "Up"
+KEYBOARD_SHORTCUT_KEY_DOWN: "Down"
+KEYBOARD_SHORTCUT_KEY_LEFT: "Left"
+KEYBOARD_SHORTCUT_KEY_RIGHT: "Right"
+KEYBOARD_SHORTCUT_KEY_NUMLOCK: "Num lock"
+KEYBOARD_SHORTCUT_KEY_PAGEUP: "Page up"
+KEYBOARD_SHORTCUT_KEY_PAGEDOWN: "Page down"
+KEYBOARD_SHORTCUT_KEY_HOME: "Home"
+KEYBOARD_SHORTCUT_KEY_END: "End"
+KEYBOARD_SHORTCUT_KEY_INSERT: "Insert"
+KEYBOARD_SHORTCUT_KEY_DELETE: "Delete"
+KEYBOARD_SHORTCUT_KEY_DELETE_FORWARD: "Delete Forward"
+# Common Keyboard keys end.
+
+
+
+
+#########################  Logi Voice String start
+VOICE_BETA: BETA
+VOICE_LEARN_MORE: LEARN MORE
+VOICE_AVAILABLE_FOR_ALL_DEVICE: Logi Voice is now available for all your devices
+VOICE_DICTATION_ENABLED_TO_YOUR_DEVICE: Enable voice dictation to your device. Just say it and it’s typed!
+VOICE_TYPE_FASTER: Type faster than ever with the dictation feature and translate in multiple languages
+VOICE_SETUP: SETUP LOGI VOICE
+VOICE_SAVE_TYPING_TIME: Save typing time
+VOICE_TRANSLATE_YOUR_VOICE: Translate your voice
+VOICE_GET_FEEDBACK: Get feedback
+VOICE_TEST_MICROPHONE: TEST MICROPHONE
+VOICE_START_FROM_MOUSE: Start Logi Voice from your mouse middle button
+VOICE_START_FROM_KEYBOARD: Start Logi Voice from your keyboard Voice key
+VOICE_RECOMMEND_BUTTON: We recommend you to replace the {feature} button of your {device} by the {logiVoice} action
+VOICE_RECOMMEND_KEY: We recommend you to replace the {feature} key of your {device} by the {logiVoice} action
+VOICE_ASSIGN_MOUSE: ASSIGN TO MIDDLE BUTTON
+VOICE_ASSIGN_KEYBOARD: ASSIGN TO VOICE KEY
+VOICE_CHOOSE_ANOTHER_BUTTON: CHOOSE ANOTHER BUTTON
+VOICE_CHOOSE_ANOTHER_KEY: CHOOSE ANOTHER KEY
+VOICE_ALL_SET: LOGI VOICE IS ALL SET
+VOICE_EXPLORE_MORE: You can explore more by clicking into the device or on the Logi Voice menu on home page
+VOICE_DO_IT_AGAIN: DO IT AGAIN
+VOICE_TRY_DICTATION: Try dictation
+VOICE_TRY_TRANSLATION: Try translation
+VOICE_CHANGE_TRIGGER: Change trigger
+VOICE_CLICK_HERE_AND_PRESS_THE: Click here and press the
+VOICE_LOGI_VOICE_BUTTON: Logi Voice button
+VOICE_TO_START_DICTATION: to start dictating
+VOICE_TO_START_TRANSLATION: to start translating
+VOICE_DICTATION: Dictation
+VOICE_TRANSLATION: Translation
+VOICE_DICTATE_IN: Dictate in
+VOICE_TRANSLATE_IN: Translate
+VOICE_TO: To
+VOICE_SELECT_YOUR_MICROPHONE: Select your microphone
+VOICE_CONFIRM: CONFIRM
+VOICE_SETTINGS: Settings
+VOICE_START: Start Logi Voice
+VOICE_SINGLE_CLICK: Single click
+VOICE_DOUBLE_CLICK: double click
+VOICE_SWITCH_DICTATION_MODE: Switch dictation mode
+VOICE_LONG_PRESS: long press
+VOICE_SEARCH_ON_THE_WEB: Search on the web
+VOICE_INPUT_PARAMETERS: Input parameters
+VOICE_TRIGGER: Trigger
+VOICE_MICROPHONE: Microphone
+VOICE_SYSTEM_DEFAULT: System default
+VOICE_SELECT_YOUR_DEVICE_AND_TRIGGER: Select your Logi Voice button
+VOICE_CHOOSE_ONE_OF_YOUR_DEVICE_KEY: Choose one of your device key as a Logi Voice trigger
+VOICE_CONFIRM_TRIGGER: CONFIRM TRIGGER
+VOICE_NO_DEVICE: No device connected
+VOICE_CONNECT_DEVICE: Connect any device to use Logi Voice
+VOICE_NEED_HELP: Need Help?
+VOICE_GOT_IT: GOT IT
+VOICE_TRANSLATE_FROM: TRANSLATE FROM
+VOICE_OPEN_VOICE_SETTING: OPEN LOGI VOICE SETTINGS
+VOICE_SWITCH_TITLE: Double click to switch mode
+VOICE_SWITCH_CONTENT: You can double click your Logi Voice trigger to seamlessly switch dictation to translation mode.
+VOICE_GRANT_MICROPHONE: Grant Microphone permission
+VOICE_MICROPHONE_CONTENT: To access microphone, please select Logi Voice in the Microphone menu.
+VOICE_OPEN_MICROPHONE: OPEN MICROPHONE
+VOICE_OUTPUT_PARAMETERS: Output parameters
+VOICE_PUNCTUATION: Punctuation
+VOICE_PUNCTUATION_DESCRIPTION: Translation and offline dictation only support auto-punctuation.
+VOICE_VOCABULARY: Vocabulary
+VOICE_VOCABULARY_DESCRIPTION: Increase accuracy for specific professional lexicon. Only for Chinese.
+VOICE_LONG_DICTATION: Long dictation
+VOICE_SMOOTH_MODE: Smooth mode
+VOICE_COMING_SOON: COMING SOON
+VOICE_FEATURES_ON_THE_WAY: New Logi Voice features are on the way!
+VOICE_NEW_WAYS: We’re working hard on new ways to use Voice dictation
+VOICE_NO_MICROPHONE: No microphone detected
+VOICE_SETTING_GRANT_MICROPHONE: Grant microphone permission to access your microphone.
+VOICE_SETTING_OPEN_MICROPHONE: Open microphone preferences
+VOICE_GRANT_ACCESSIBILITY: Enable accessibility settings
+VOICE_GRANT_ACCESSIBILITY_SUBTITLE: Open your system preferences and enable Logi Voice under accessibility settings
+VOICE_CANCEL: CANCEL
+VOICE_OPEN_SYSTEM_PREFERENCES: OPEN SYSTEM PREFERENCES
+VOICE_OPEN_ACCESSIBILITY_SETTING: OPEN ACCESSIBILITY SETTINGS
+VOICE_OPEN_ACCESSIBILITY_REMINDER: Enable Accessibility settings. Open your system preferences and enable Logi Voice under accessibility settings
+VOICE_SMOOTH_MODE_DESCRIPTION: Remove hesitations like “eh” and “ah” as well as duplicate content. Only for Chinese.
+
+# Logi Voice languages
+VOICE_ENGLISH: English
+VOICE_CHINESE: Chinese
+VOICE_JAPANESE: Japanese
+VOICE_CANTONESE: Cantonese
+VOICE_TRADITIONAL: Traditional
+VOICE_CLASSICALSTYLE: Classical style
+VOICE_ARABIC: Arabic
+VOICE_CZECH: Czech
+VOICE_DANISH: Danish
+VOICE_DUTCH: Dutch
+VOICE_ESTONIAN: Estonian
+VOICE_FRENCH: French
+VOICE_GERMAN: German
+VOICE_INDONESIAN: Indonesian
+VOICE_ITALIAN: Italian
+VOICE_KOREAN: Korean
+VOICE_MALAY: Malay
+VOICE_POLISH: Polish
+VOICE_PORTUGUESE: Portuguese
+VOICE_RUSSIAN: Russian
+VOICE_SPANISH: Spanish
+VOICE_THAI: Thai
+VOICE_VIETNAMESE: Vietnamese
+VOICE_SICHUANDIALECT: Sichuan dialect
+VOICE_NORTHEASTDIALECT: Northeast dialect
+VOICE_HENANDIALECT: Henan dialect
+VOICE_SHANDONGDIALECT: Shandong dialect
+VOICE_XIANDIALECT: Xian dialect
+VOICE_HEFEIDIALECT: Hefei dialect
+VOICE_CHINESEENGLISHMIXED: Chinese and English (mixed)
+
+# Logi Voice punctuation modes
+VOICE_PUNCTUATION_MODE_AUTO: Auto
+VOICE_PUNCTUATION_MODE_WITHOUT_ENDING: Without ending
+VOICE_PUNCTUATION_MODE_REPLACE_SPACES: Replace spaces
+VOICE_PUNCTUATION_MODE_NO_PUNCTUATION: No punctuation
+
+# Logi Voice vocabulary types
+VOICE_VOCABULARY_TYPE_GENERAL: General
+VOICE_VOCABULARY_TYPE_TECHNOLOGY: Technology
+VOICE_VOCABULARY_TYPE_EDUCATION: Education
+VOICE_VOCABULARY_TYPE_FINANCE: Finance
+VOICE_VOCABULARY_TYPE_MEDICAL: Medical
+
+# Logi Voice default microphone
+VOICE_SYSTEM_DEFAULT_MICROPHONE: Default
+
+# Voice recognition errors
+VOICE_RECOGNITION_ERROR_UNKNOWN_ERROR: Sorry, Logi Voice has encountered an unknown error. You could try to check your internet connection and then try again.
+VOICE_RECOGNITION_ERROR_NETWORK_ERROR: There's been a network error. Check your internet connection and try again.
+VOICE_RECOGNITION_ERROR_NO_SPEECH: Oops! We couldn't hear you. Please try to get closer to your microphone.
+VOICE_RECOGNITION_ERROR_POOR_QUALITY_SPEECH: Sorry, we couldn't hear what you said clearly. You can try to get closer to the microphone, or get to a place with fewer background noise.
+VOICE_RECOGNITION_ERROR_SPEECH_TOO_LONG: Speech sessions are limited to 60 seconds, please activate Logi Voice again to continue.
+VOICE_RECOGNITION_ERROR_MICROPHONE_ERROR: You're microphone was disconnected. Please ensure a microphone is connected then try again.
+VOICE_RECOGNITION_ERROR_OFFLINE_RECOGNITION_ERROR: Offline recognition error
+VOICE_RECOGNITION_ERROR_NO_LICENSE_ERROR: Oops! There was an issue when trying to activate Logi Voice. Please make sure you're connected to the internet, then try again.
+
+# Logi Voice backend
+LOGIVOICE_BACKEND_NOTIFICATIONS_TITLE: Logi Voice
+LOGIVOICE_BACKEND_NOTIFICATIONS_LOGI_VOICE_PITCH_TITLE: Logi Voice is now available
+LOGIVOICE_BACKEND_NOTIFICATIONS_LOGI_VOICE_PITCH_BODY: Enable voice dictation and translation to your devices. Just say it and it’s typed!
+
+# Logi Voice String end
+
+
+
+
+#########################  Settings Backup string started.
+
+SETTINGS_BACKUP_HEADING_OTHER: OTHER
+# Settings Backup Not Login
+SETTINGS_BACKUP_TITLE_NOT_LOGIN: Device backup
+SETTINGS_BACKUP_DESCRIPTION_NOT_LOGIN: Login to backup your device settings to the cloud so you can use the settings on another computer
+SETTINGS_BACKUP_ACTION_NOT_LOGIN: LOGIN
+# Automatic Backup
+SETTINGS_BACKUP_AUTOMATIC_BACKUP_TITLE: Automatically backup all devices
+SETTINGS_BACKUP_AUTOMATIC_BACKUP_DESCRIPTION: Automatically backup all your device settings to the cloud
+SETTINGS_BACKUP_LAST_AUTOMATIC_BACKUP_DESCRIPTION: "Last backup on %0 at %1 (%2 ago)"
+SETTINGS_BACKUP_AUTOMATIC_BACKUP_ACTION: BACKUP ALL DEVICES NOW
+# Manual Settings Backup Progress
+SETTINGS_BACKUP_MANUAL_STATE_WAITING_TITLE: Backing up now
+SETTINGS_BACKUP_MANUAL_STATE_WAITING_DESCRIPTION: We are backing up settings for all your devices on this computer to the cloud.
+# Manual Settings Backup Failed
+SETTINGS_BACKUP_MANUAL_STATE_FAILED_TITLE: Could not create backup
+# Manual Settings Backup Success
+SETTINGS_BACKUP_MANUAL_STATE_SUCCESS_TITLE: Backup created!
+SETTINGS_BACKUP_MANUAL_STATE_SUCCESS_DESCRIPTION: Success! Settings for all your devices have been backed up.
+SETTINGS_BACKUP_STATE_SUCCESS_CONTINUE_BUTTON: DONE
+# Restore Backup
+SETTINGS_BACKUP_RESTORE_BACKUP_TITLE: Restore backup
+SETTINGS_BACKUP_RESTORE_BACKUP_DESCRIPTION: Restore settings from a backup for your device
+SETTINGS_BACKUP_RESTORE_BACKUP_BUTTON: RESTORE SETTINGS FROM BACKUP
+SETTINGS_BACKUP_TITLE: Choose the backup to restore
+SETTINGS_BACKUP_BUTTON: RESTORE BACKUP
+# Restore Settings Backup Fetching
+SETTINGS_BACKUP_RESTORE_STATE_FETCHING_TITLE: Fetching backups
+SETTINGS_BACKUP_RESTORE_STATE_FETCHING_DESCRIPTION: Fetching backups from the cloud
+# Restore Settings Backup Fetching Failed
+SETTINGS_BACKUP_RESTORE_STATE_FETCHING_FAILED_TITLE: Could not fetch backups
+SETTINGS_BACKUP_RESTORE_STATE_FETCHING_FAILED_DESCRIPTION: Could not fetch your backups from the cloud. Please check your network connection and try again.
+SETTINGS_BACKUP_RESTORE_FETCHING_TRY_AGAIN_BUTTON: TRY AGAIN
+SETTINGS_BACKUP_RESTORE_FETCHING_CANCEL_BUTTON: CANCEL
+# Restore Settings Backup Process
+SETTINGS_BACKUP_RESTORE_STATE_WAITING_TITLE: Restoring settings
+SETTINGS_BACKUP_RESTORE_STATE_WAITING_DESCRIPTION: "Restoring settings from %0's backup"
+SETTINGS_BACKUP_RESTORE_STATE_BACKUP_AT: "%0 at %1 (%2 ago)"
+# Restore Settings Backup Success
+SETTINGS_BACKUP_RESTORE_STATE_SUCCESS_TITLE: Settings restored
+SETTINGS_BACKUP_RESTORE_STATE_SUCCESS_DESCRIPTION: "Settings from %0's backup have been restored successfully"
+# Restore Settings Backup Failed
+SETTINGS_BACKUP_RESTORE_STATE_FAILED_TITLE: Could not restore settings
+SETTINGS_BACKUP_RESTORE_STATE_FAILED_DESCRIPTION: An error occurred. Please check your network connection and try again.
+SETTINGS_BACKUP_RESTORE_TRY_AGAIN_BUTTON: TRY AGAIN
+SETTINGS_BACKUP_RESTORE_CANCEL_BUTTON: CANCEL
+
+SETTINGS_BACKUP_THIS_COMPUTER: "%0 (This computer)"
+
+# Factory Reset
+FACTORY_RESET_TITLE: Restore to Default
+FACTORY_RESET_DESCRIPTION: Restore user device settings to their Default.
+FACTORY_RESET_BUTTON: RESET TO DEFAULT SETTINGS
+# Factory Reset Confirmation title
+FACTORY_RESET_CONFIRMATION_TITLE: Reset to default settings?
+FACTORY_RESET_CONFIRMATION_DESCRIPTION: All your device settings will be reset to their defaults.
+FACTORY_RESET_CONFIRMATION_CONFORM_BUTTON: Yes, Reset
+FACTORY_RESET_CONFIRMATION_CANCEL_BUTTON: CANCEL
+# Factory Reset Confirmation Process
+SETTINGS_BACKUP_FACTORY_RESET_WAITING_TITLE: Resetting to factory settings
+# Manual Settings Backup Failed
+FACTORY_RESET_FAILED_TITLE: Problem resetting to factory settings
+FACTORY_RESET_FAILED_DESCRIPTION: Oops, something went wrong. Settings could not be reset.
+FACTORY_RESET_TRY_AGAIN_BUTTON: TRY AGAIN
+FACTORY_RESET_CANCEL_BUTTON: CANCEL
+# Manual Settings Backup Success
+FACTORY_RESET_SUCCESS_TITLE: Success! Devices reset to default settings
+FACTORY_RESET_CONTINUE_BUTTON: DONE
+
+# Remove Device
+SETTINGS_BACKUP_REMOVE_DEVICE_TITLE: Remove Device
+SETTINGS_BACKUP_REMOVE_DEVICE_DESCRIPTION: Device will be unpaired from its connections and all settings for this device will be removed permanently.
+SETTINGS_BACKUP_REMOVE_DEVICE_BUTTON: REMOVE DEVICE
+
+
+# Timestamp
+TIMESTAMP_SECONDS: seconds
+TIMESTAMP_MINUTES: minutes
+TIMESTAMP_HOURS: hours
+TIMESTAMP_DAYS: days
+TIMESTAMP_WEEKS: weeks
+TIMESTAMP_MONTHS: months
+TIMESTAMP_YEARS: years
+
+TIMESTAMP_SECOND: second
+TIMESTAMP_MINUTE: minute
+TIMESTAMP_HOUR: hour
+TIMESTAMP_TODAY: today
+TIMESTAMP_DAY: day
+TIMESTAMP_WEEK: week
+TIMESTAMP_MONTH: month
+TIMESTAMP_YEAR: year
+
+TIMESTAMP_SEC: sec
+TIMESTAMP_MINS: mins
+TIMESTAMP_MIN: min
+# Settings Backup string End.
+
+
+
+
+# Options Cross link Strings Start
+DEVICE_LIST_NOT_SUPPORTED: NOT SUPPORTED YET
+DEVICE_NOT_SUPPORTED_MODAL_TITLE: "%0 is not supported yet"
+DEVICE_NOT_SUPPORTED_MODAL_DESCRIPTION: Please use the Logi Options software to configure it.
+DEVICE_NOT_SUPPORTED_MODAL_BUTTON_GENERAL: DOWNLOAD OPTIONS
+DEVICE_NOT_SUPPORTED_MODAL_BUTTON_OPTIONS_INSTALLED_ALREADY: USE IN OPTIONS
+# Options Cross link Strings End
+
+
+
+
+######################### Installer
+INSTALLER_APPLICATION_NAME: "Logi Options+"
+INSTALLER_APPLICATION_TITLE: "Logi Options+ Installer"
+INSTALLER_APPLICATION_DESCRIPTION: "Logi Options+ Installer Application"
+INSTALLER_INSTALL_BUTTON: "INSTALL OPTIONS+"
+INSTALLER_EXIT_BUTTON: EXIT
+INSTALLER_CLOSE_BUTTON: CLOSE
+INSTALLER_RETRY_BUTTON: TRY AGAIN
+INSTALLER_CANCEL_BUTTON: CANCEL
+INSTALLER_HEADER_TERMS_OF_SERVICE_AGREEMENT: "Welcome to Logi Options+"
+
+INSTALLER_DFU_WARNING_TITLE_REINSTALL: Unable to reinstall the app
+INSTALLER_DFU_WARNING_DESCRIPTION_REINSTALL: "The app cannot be reinstalled while the firmware update tool is open. Please complete the firmware update and close the tool to reinstall the app."
+INSTALLER_DFU_WARNING_TITLE_UNINSTALL: Unable to uninstall the app
+INSTALLER_DFU_WARNING_DESCRIPTION_UNINSTALL: "The app cannot be uninstalled while the firmware update tool is open. Please complete the firmware update and close the tool to uninstall the app."
+INSTALLER_WARNING_TITLE_UNINSTALL_CANCELLED: Uninstallation has been cancelled
+
+# TODO: remove from mac installer
+INSTALLER_HEADER_ALREADY_INSTALLED: Logi Options+ is already installed
+INSTALLER_ACTION_ALREADY_INSTALLED: LAUNCH OPTIONS+
+INSTALLER_ACTION_REINSTALL_ALREADY_INSTALLED: REINSTALL OPTIONS+
+INSTALLER_HEADER_UNINSTALLING: CLEANING UP THE CURRENT OPTIONS+ FILES
+INSTALLER_DESCRIPTION_ALREADY_INSTALLED: Opening Options+...
+
+INSTALLER_TERMS_OF_SERVICE: "By clicking install, you agree to the terms of the {END_USER_LICENSE_AGREEMENT}."
+INSTALLER_REINSTALL_TERMS_OF_SERVICE: "Click the launch button to open Options+. Please note that reinstalling Options+ will reset all your current settings. By clicking reinstall, you agree to the terms of the {END_USER_LICENSE_AGREEMENT}."
+INSTALLER_END_USER_AGREEMENT_TEXT: "End User License Agreement"
+INSTALLER_END_USER_AGREEMENT_LINK: "https://www.logitech.com/legal/eula.html"
+
+INSTALLER_HEADER_DOWNLOADING: DOWNLOADING
+INSTALLER_DESCRIPTION_DOWNLOADING: This may take a few minutes
+INSTALLER_HEADER_DOWNLOADED: INSTALLING OPTIONS+
+INSTALLER_HEADER_UNSUPPORTED_OS: UNSUPPORTED OS VERSION
+INSTALLER_DESCRIPTION_UNSUPPORTED_OS_WIN: Logi Options+ is not supported on this OS version. Please update to Windows 10 to use Options+.
+INSTALLER_DESCRIPTION_UNSUPPORTED_OS: "Logi Options+ is not supported on this OS version. Please update to macOS 10.15 or newer to use Options+."
+# TODO: remove from mac installer
+INSTALLER_DESCRIPTION_UNSUPPORTED_OS_LINK_TEXT: supported OS versions
+# TODO: remove from mac installer
+INSTALLER_DESCRIPTION_UNSUPPORTED_OS_LINK: "https://www.logitech.com/"
+INSTALLER_MENU_ABOUT: About
+INSTALLER_MENU_QUIT: Quit
+INSTALLER_MENU_CLOSE: Close Window
+# Used to display the data left to download (xx MB remaining)
+INSTALLER_TRANSFER_REMAINING: remaining
+# Installer dll loading failure
+INSTALLER_ERROR_DLL: "Essential components of the installer could not be loaded. Please redownload it from the official website."
+# Uncaught type of error (something bad happened)
+INSTALLER_ERROR_HEADER_GENERIC: "UNABLE TO DOWNLOAD OPTIONS+"
+INSTALLER_ERROR_GENERIC: "Something went wrong."
+# Failed to initialize the download (most likely a problem with the internet connection of the user)
+INSTALLER_ERROR_INITIALIZE: "Oops, something went wrong. Please check your network connection and try again later."
+INSTALLER_ERROR_NETWORK: "Oops, something went wrong. Please check your network connection and try again later."
+# The user's disk is either full or became inaccessible
+INSTALLER_ERROR_WRITE: "Make sure you have enough disk space to download Options+."
+# Retry countdown timer for installer
+INSTALLER_RETRY_COUNTDOWN: "Retrying in %d seconds."
+INSTALLER_HEADER_UNCOMPRESSING: UNPACKING FILES
+INSTALLER_RESTART_REQUIRED_TITLE: "Restart computer to continue"
+INSTALLER_RESTART_REQUIRED_DESCRIPTION: "Please restart your computer to finish installing Microsoft VC++ redistributable and relaunch the installer to continue with Options+ installation."
+INSTALLER_RESTART_REQUIRED_RESTART: "RESTART COMPUTER"
+
+INSTALLER_HEADER_INCOMPATIBLE_OPTIONS_VERSION: "Update Options software to install Options+"
+INSTALLER_DESCRIPTION_INCOMPATIBLE_OPTIONS_VERSION: "The Options software version you have is incompatible with Options+. Please update Options to the latest version and click retry to install Options+."
+INSTALLER_OPTIONS_LINK_TEXT: "latest version"
+INSTALLER_OPTIONS_LINK_URL: "https://support.logi.com/hc/articles/360025297893"
+INSTALLER_UPDATED_RETRY_BUTTON: "UPDATED, RETRY"
+# Error message when a user clicks Cancel on the authentication window for granting root access to the app.
+INSTALLER_HEADER_USER_AUTHENTICATION_DECLINED: "Unable to install Options+"
+INSTALLER_DESCRIPTION_USER_AUTHENTICATION_DECLINED: "Please click try again and enter your password to install the app."
+
+# Installer command line argument support.
+CMDLINE_INSTALLER_ARG_BOOL_POSSIBLE_VALUES: "Yes (or) No"
+CMDLINE_INSTALLER_ARG_FILE_PATH_VALUE: "<directory path>"
+CMDLINE_INSTALLER_HELP_MESSAGE_QUIET_DESCRITION: "Installs the app silently without the UI."
+CMDLINE_INSTALLER_HELP_MESSAGE_UNINSTALL_DESCRITION: "Uninstalls the app silently."
+CMDLINE_INSTALLER_HELP_MESSAGE_ANALYTICS_DESCRITION: "Shows or hides choice for users to opt in to share app usage and diagnostics data. Default value is Yes."
+CMDLINE_INSTALLER_HELP_MESSAGE_NO_SYNC_KEYS_DESCRITION: "Disables NPI keys synchronization from Logi servers during installation. Some public NPIs might be not available right after installation with this option."
+CMDLINE_INSTALLER_HELP_MESSAGE_FLOW_DESCRITION: "Shows or hides the Flow feature. Default value is Yes."
+CMDLINE_INSTALLER_HELP_MESSAGE_SSO_DESCRITION: "Shows or hides ability for users to sign into the app. Default value is Yes."
+CMDLINE_INSTALLER_HELP_MESSAGE_UPDATE_DESCRITION: "Enables or disables app updates. Default value is Yes."
+CMDLINE_INSTALLER_HELP_MESSAGE_LOG_DESCRITION: "Captures log files in the specified path in the event of installation failures."
+CMDLINE_INSTALLER_HELP_MESSAGE_BACKLIGHT_DESCRITION: "Enables or disables keyboard backlight on the supported keyboards. Default value is Yes."
+CMDLINE_INSTALLER_HELP_MESSAGE_HELP_DESCRITION: "Shows the available parameters."
+CMDLINE_INSTALLER_INVALID_ARGUMENT_MAC: "\\\"%@\\\" is an invalid argument. Type --help to see the list of valid arguments."
+CMDLINE_INSTALLER_INVALID_ARGUMENT_VALUE_MAC: "\\\"%@\\\" is not a valid value for the \\\"%@\\\" argument. Type --help to see the possible values for the arguments."
+CMDLINE_INSTALLER_REPEATED_ARGUMENT_MAC: "Multiple conflicting values have been specified for the \\\"%@\\\" argument. Please specify only one value. Type --help to see the possible values for the argument."
+CMDLINE_INSTALLER_INVALID_ARGUMENT_WINDOWS: "\"%s\" is an invalid argument. Type /help to see the list of valid arguments."
+CMDLINE_INSTALLER_INVALID_ARGUMENT_VALUE_WINDOWS: "\"%s\" is not a valid value for the \"%s\" argument. Type /help to see the possible values for the arguments."
+CMDLINE_INSTALLER_REPEATED_ARGUMENT_WINDOWS: "Multiple conflicting values have been specified for the \"%s\" argument. Please specify only one value. Type /help to see the possible values for the argument."
+CMDLINE_INSTALLER_NO_PRIVILEGES_INSTALL: "Unable to install due to lack of privileges. Please make sure you have root access or use sudo before the command to install the app."
+CMDLINE_INSTALLER_NO_PRIVILEGES_UNINSTALL: "Unable to uninstall due to lack of privileges. Please make sure you have root access or use sudo before the command to uninstall the app."
+
+
+######################### backend strings
+# These are hardcoded in notifications_endpoint_impl.cpp
+BACKEND_NOTIFICATIONS_APPLICATION_NAME: "Logi Options+"
+BACKEND_NOTIFICATIONS_INSTALLING_UPDATE: "Logi Options+ is installing an update. The customizations will be available again once the update is completed."
+BACKEND_NOTIFICATIONS_ACTION_CLOSE: Close
+BACKEND_NOTIFICATIONS_ACTION_INSTALL: Install
+BACKEND_NOTIFICATIONS_SETTINGS_MIGRATION_TITLE: "%s device added to Logi Options+"
+BACKEND_NOTIFICATIONS_SETTINGS_MIGRATION_DESCRIPTION: "Your %s device has been setup with your settings from Options."
+BACKEND_NOTIFICATIONS_SETTINGS_MIGRATION_MISSING_FEATURES: Some features are not available yet.
+BACKEND_NOTIFICATIONS_SETTINGS_MIGRATION_OPEN: OPEN
+BACKEND_NOTIFICATIONS_SETTINGS_MIGRATION_DISMISS: DISMISS
+
+BACKEND_NOTIFICATIONS_RESTART_TITLE: "Restart %s"
+BACKEND_NOTIFICATIONS_RESTART_BODY: "%s needs to be restarted to create custom settings for your Logi device."
+BACKEND_NOTIFICATIONS_ACTION_RESTART: "Restart"
+
+BACKEND_NOTIFICATIONS_DICTATION_NOTAVAILABLE: "Dictation is not available in the current language."
+BACKEND_NOTIFICATIONS_DICTATION_NOTAVAILABLE_FAQLINK: "https://support.logi.com/hc/articles/4406924431383"
+BACKEND_NOTIFICATIONS_ACTION_LEARNMORE: "Learn more"
+BACKEND_NOTIFICATIONS_UNKNOWN_DEVICE_TITLE: "New %s device connected"
+BACKEND_NOTIFICATIONS_UNKNOWN_DEVICE_DESCRIPTION: "Open Options+ to set it up"
+BACKEND_NOTIFICATIONS_UNKNOWN_DEVICE_ACTION_OPEN_APP: "Open"
+
+# These are hard coded in startup_shutdown.cpp
+BACKEND_NOTIFICATIONS_INPUT_MONITORING_TITLE: "Grant permissions for Logi Options+"
+BACKEND_NOTIFICATIONS_INPUT_MONITORING_DESCRIPTION: "Grant permissions for Logi Options+ to enable your device features."
+BACKEND_NOTIFICATIONS_ACTION_OPEN: Open
+
+# These are hard coded in screen_capture_handler.mm
+# Note: do not localize date and time formats, only the order of values can be adjusted
+BACKEND_GESTURES_SCREEN_CAPTURE_HEADER: Screen Shot
+BACKEND_GESTURES_SCREEN_CAPTURE_DATE_FORMAT: yyyy-MM-dd
+BACKEND_GESTURES_SCREEN_CAPTURE_AT_PREPOSITION: at
+# Note: 'a' symbol forces to append AM/PM suffix
+BACKEND_GESTURES_SCREEN_CAPTURE_TIME_FORMAT: HH.mm.ss a
+
+# These are in the osd_resources.json
+BACKEND_NOTIFICATION_CAPS_LOCK_ON_TITLE: Caps Lock On
+BACKEND_NOTIFICATION_CAPS_LOCK_OFF_TITLE: Caps Lock Off
+BACKEND_NOTIFICATION_NUM_LOCK_ON_TITLE: Num Lock On
+BACKEND_NOTIFICATION_NUM_LOCK_OFF_TITLE: Num Lock Off
+BACKEND_NOTIFICATION_FN_LOCK_ON_TITLE: Fn Lock On
+BACKEND_NOTIFICATION_FN_LOCK_OFF_TITLE: Fn Lock Off
+BACKEND_NOTIFICATION_SCROLL_LOCK_ON_TITLE: Scroll Lock On
+BACKEND_NOTIFICATION_SCROLL_LOCK_OFF_TITLE: Scroll Lock Off
+BACKEND_NOTIFICATION_FN_INVERSION_ON_TITLE: Media Keys
+BACKEND_NOTIFICATION_FN_INVERSION_OFF_TITLE: F-Keys
+BACKEND_NOTIFICATION_BACKLIGHTING_TITLE: Backlighting
+BACKEND_NOTIFICATION_BACKLIGHTING_LOW_BATTERY_SUB_TITLE: Low battery
+BACKEND_NOTIFICATION_BACKLIGHTING_BRIGHT_ENVIRONMENT_SUB_TITLE: Bright environment
+BACKEND_NOTIFICATION_BACKLIGHTING_STATIC_EFFECT_TITLE: Static
+BACKEND_NOTIFICATION_BACKLIGHTING_BREATHINGLIGHT_EFFECT_TITLE: Breathing
+BACKEND_NOTIFICATION_BACKLIGHTING_CONTRAST_EFFECT_TITLE: Contrast
+BACKEND_NOTIFICATION_BACKLIGHTING_REACTION_EFFECT_TITLE: Reaction
+BACKEND_NOTIFICATION_BACKLIGHTING_RANDOM_EFFECT_TITLE: Random
+BACKEND_NOTIFICATION_BACKLIGHTING_WAVES_EFFECT_TITLE: Waves
+
+# These are in the notification_resources.json
+BACKEND_NOTIFICATION_LOW_BATTERY_SUB_TITLE: Low battery
+
+# There are notifications for Dictation feature
+BACKEND_NOTIFICATION_DICTATION_NOT_SET_TITLE: Dictation shortcut is off
+BACKEND_NOTIFICATION_DICTATION_NOT_SET_DESCRIPTION: Setup a shortcut in System Preferences->Keyboard->Dictation->Shortcut
+
+
+######################### Mandatory backend strings begin
+# We doesn't use this, but it is still building the project so the build will fail if removed
+# Mandatory backend strings end
+
+
+
+######################### Languages
+ENGLISH: English
+# Do not translate
+ENGLISH_WIDE: English (Test)
+# Do not translate
+SERBIAN: Srbski
+# Do not translate
+CZECH: Čeština
+# Do not translate
+DANISH: Dansk
+# Do not translate
+GERMAN: Deutsch
+# Do not translate
+SPANISH: Español
+# Do not translate
+FINNISH: Suomi
+# Do not translate
+FRENCH: Français
+# Do not translate
+GREEK: Ελληνικά
+# Do not translate
+HUNGARIAN: Magyar
+# Do not translate
+ITALIAN: Italiano
+# Do not translate
+JAPANESE: 日本語
+# Do not translate
+KOREAN: 한국어
+# Do not translate
+NORWEGIAN: Norsk
+# Do not translate
+DUTCH: Nederlands
+# Do not translate
+POLISH: Polski
+# Do not translate
+PORTUGUESE: Português
+# Do not translate
+BRAZILIAN_PORTUGUESE: Português - Brasil
+# Do not translate
+RUSSIAN: Русский
+# Do not translate
+SWEDISH: Svenska
+# Do not translate
+TURKISH: Türkçe
+# Do not translate
+CHINESE_SIMPLIFIED: 简体中文
+# Do not translate
+CHINESE_TRADITIONAL: 繁體中文
+# Do not translate
+UKRAINIAN: Yкраїна
+# Do not translate
+
+## Emoji
+
+# Emoji Strings Start
+EMOJI_CATEGORY_SEARCH: Search Results
+EMOJI_CATEGORY_RECENT: Frequently Used
+EMOJI_CATEGORY_SMILEYS: Smileys & Emotion
+EMOJI_CATEGORY_PEOPLE: People & Body
+EMOJI_CATEGORY_NATURE: Animals & Nature
+EMOJI_CATEGORY_FOODS: Food & Drink
+EMOJI_CATEGORY_ACTIVITY: Activity
+EMOJI_CATEGORY_PLACES: Travel & Places
+EMOJI_CATEGORY_OBJECTS: Objects
+EMOJI_CATEGORY_SYMBOLS: Symbols
+EMOJI_CATEGORY_FLAGS: Flags
+EMOJI_CATEGORY_CUSTOMS: Custom
+# Options Cross link Strings End
+
+## Emoji People
+
+GRINNING: grinning face
+SMILE: grinning face with smiling eyes
+GRIN: beaming face with smiling eyes
+LAUGHING: grinning squinting face
+SWEAT_SMILE: grinning face with sweat
+ROLLING_ON_THE_FLOOR_LAUGHING: rolling on the floor laughing
+JOY: face with tears of joy
+SLIGHTLY_SMILING_FACE: slightly smiling face
+UPSIDE_DOWN_FACE: upside-down face
+WINK: winking face
+BLUSH: smiling face with smiling eyes
+INNOCENT: smiling face with halo
+SMILING_FACE_WITH_3_HEARTS: smiling face with hearts
+HEART_EYES: smiling face with heart-eyes
+STAR_STRUCK: star-struck
+KISSING_HEART: face blowing a kiss
+KISSING: kissing face
+RELAXED: smiling face
+KISSING_CLOSED_EYES: kissing face with closed eyes
+KISSING_SMILING_EYES: kissing face with smiling eyes
+YUM: face savoring food
+STUCK_OUT_TONGUE: face with tongue
+STUCK_OUT_TONGUE_WINKING_EYE: winking face with tongue
+ZANY_FACE: zany face
+STUCK_OUT_TONGUE_CLOSED_EYES: squinting face with tongue
+MONEY_MOUTH_FACE: money-mouth face
+HUGGING_FACE: smiling face with open hands
+FACE_WITH_HAND_OVER_MOUTH: face with hand over mouth
+SHUSHING_FACE: shushing face
+THINKING_FACE: thinking face
+ZIPPER_MOUTH_FACE: zipper-mouth face
+FACE_WITH_RAISED_EYEBROW: face with raised eyebrow
+NEUTRAL_FACE: neutral face
+EXPRESSIONLESS: expressionless face
+NO_MOUTH: face without mouth
+SMIRK: smirking face
+UNAMUSED: unamused face
+FACE_WITH_ROLLING_EYES: face with rolling eyes
+GRIMACING: grimacing face
+LYING_FACE: lying face
+RELIEVED: relieved face
+PENSIVE: pensive face
+SLEEPY: sleepy face
+DROOLING_FACE: drooling face
+SLEEPING: sleeping face
+MASK: face with medical mask
+FACE_WITH_THERMOMETER: face with thermometer
+FACE_WITH_HEAD_BANDAGE: face with head-bandage
+NAUSEATED_FACE: nauseated face
+FACE_VOMITING: face vomiting
+SNEEZING_FACE: sneezing face
+HOT_FACE: hot face
+COLD_FACE: cold face
+WOOZY_FACE: woozy face
+DIZZY_FACE: face with crossed-out eyes
+EXPLODING_HEAD: exploding head
+FACE_WITH_COWBOY_HAT: cowboy hat face
+PARTYING_FACE: partying face
+SUNGLASSES: smiling face with sunglasses
+NERD_FACE: nerd face
+FACE_WITH_MONOCLE: face with monocle
+CONFUSED: confused face
+WORRIED: worried face
+SLIGHTLY_FROWNING_FACE: slightly frowning face
+WHITE_FROWNING_FACE: frowning face
+OPEN_MOUTH: face with open mouth
+HUSHED: hushed face
+ASTONISHED: astonished face
+FLUSHED: flushed face
+PLEADING_FACE: pleading face
+FROWNING_FACE_WITH_OPEN_MOUTH: frowning face with open mouth
+FROWNING: frowning
+ANGUISHED: anguished face
+FEARFUL: fearful face
+COLD_SWEAT: anxious face with sweat
+DISAPPOINTED_RELIEVED: sad but relieved face
+CRY: crying face
+SOB: loudly crying face
+SCREAM: face screaming in fear
+CONFOUNDED: confounded face
+PERSEVERE: persevering face
+DISAPPOINTED: disappointed face
+SWEAT: downcast face with sweat
+WEARY: weary face
+TIRED_FACE: tired face
+YAWNING_FACE: yawning face
+TRIUMPH: face with steam from nose
+RAGE: pouting face
+ANGRY: angry face
+FACE_WITH_SYMBOLS_ON_MOUTH: face with symbols on mouth
+SMILING_IMP: smiling face with horns
+IMP: angry face with horns
+SKULL: skull
+SKULL_AND_CROSSBONES: skull and crossbones
+HANKEY: pile of poo
+CLOWN_FACE: clown face
+JAPANESE_OGRE: ogre
+JAPANESE_GOBLIN: goblin
+GHOST: ghost
+ALIEN: alien
+SPACE_INVADER: alien monster
+ROBOT_FACE: robot
+SMILEY_CAT: grinning cat
+SMILE_CAT: grinning cat with smiling eyes
+JOY_CAT: cat with tears of joy
+HEART_EYES_CAT: smiling cat with heart-eyes
+SMIRK_CAT: cat with wry smile
+KISSING_CAT: kissing cat
+SCREAM_CAT: weary cat
+CRYING_CAT_FACE: crying cat
+POUTING_CAT: pouting cat
+SEE_NO_EVIL: see-no-evil monkey
+HEAR_NO_EVIL: hear-no-evil monkey
+SPEAK_NO_EVIL: speak-no-evil monkey
+WAVE: waving hand
+RAISED_BACK_OF_HAND: raised back of hand
+RAISED_HAND_WITH_FINGERS_SPLAYED: hand with fingers splayed
+HAND: raised hand
+SPOCK_HAND: vulcan salute
+OK_HAND: OK hand
+PINCHING_HAND: pinching hand
+V: victory hand
+CROSSED_FINGERS: crossed fingers
+I_LOVE_YOU_HAND_SIGN: love-you gesture
+THE_HORNS: sign of the horns
+CALL_ME_HAND: call me hand
+POINT_LEFT: backhand index pointing left
+POINT_RIGHT: backhand index pointing right
+POINT_UP_2: backhand index pointing up
+MIDDLE_FINGER: middle finger
+POINT_DOWN: backhand index pointing down
+POINT_UP: index pointing up
+FIST: raised fist
+FACEPUNCH: oncoming fist
+LEFT_FACING_FIST: left-facing fist
+RIGHT_FACING_FIST: right-facing fist
+CLAP: clapping hands
+RAISED_HANDS: raising hands
+OPEN_HANDS: open hands
+PALMS_UP_TOGETHER: palms up together
+HANDSHAKE: handshake
+PRAY: folded hands
+WRITING_HAND: writing hand
+NAIL_CARE: nail polish
+SELFIE: selfie
+MUSCLE: flexed biceps
+MECHANICAL_ARM: mechanical arm
+MECHANICAL_LEG: mechanical leg
+LEG: leg
+FOOT: foot
+EAR: ear
+EAR_WITH_HEARING_AID: ear with hearing aid
+NOSE: nose
+BRAIN: brain
+TOOTH: tooth
+BONE: bone
+EYES: eyes
+EYE: eye
+TONGUE: tongue
+LIPS: mouth
+BABY: baby
+CHILD: child
+BOY: boy
+GIRL: girl
+ADULT: person
+PERSON_WITH_BLOND_HAIR: "person: blond hair"
+MAN: man
+BEARDED_PERSON: "person: beard"
+RED_HAIRED_MAN: "man: red hair"
+CURLY_HAIRED_MAN: "man: curly hair"
+WHITE_HAIRED_MAN: "man: white hair"
+BALD_MAN: "man: bald"
+WOMAN: woman
+RED_HAIRED_WOMAN: "woman: red hair"
+RED_HAIRED_PERSON: "person: red hair"
+CURLY_HAIRED_WOMAN: "woman: curly hair"
+CURLY_HAIRED_PERSON: "person: curly hair"
+WHITE_HAIRED_WOMAN: "woman: white hair"
+WHITE_HAIRED_PERSON: "person: white hair"
+BALD_WOMAN: "woman: bald"
+BALD_PERSON: "person: bald"
+BLOND_HAIRED_WOMAN: "woman: blond hair"
+BLOND_HAIRED_MAN: "man: blond hair"
+OLDER_ADULT: older person
+OLDER_MAN: old man
+OLDER_WOMAN: old woman
+PERSON_FROWNING: person frowning
+MAN_FROWNING: man frowning
+WOMAN_FROWNING: woman frowning
+PERSON_WITH_POUTING_FACE: person pouting
+MAN_POUTING: man pouting
+WOMAN_POUTING: woman pouting
+NO_GOOD: person gesturing NO
+MAN_GESTURING_NO: man gesturing NO
+WOMAN_GESTURING_NO: woman gesturing NO
+OK_WOMAN: person gesturing OK
+MAN_GESTURING_OK: man gesturing OK
+WOMAN_GESTURING_OK: woman gesturing OK
+INFORMATION_DESK_PERSON: person tipping hand
+MAN_TIPPING_HAND: man tipping hand
+WOMAN_TIPPING_HAND: woman tipping hand
+RAISING_HAND: person raising hand
+MAN_RAISING_HAND: man raising hand
+WOMAN_RAISING_HAND: woman raising hand
+DEAF_PERSON: deaf person
+DEAF_MAN: deaf man
+DEAF_WOMAN: deaf woman
+BOW: person bowing
+MAN_BOWING: man bowing
+WOMAN_BOWING: woman bowing
+FACE_PALM: person facepalming
+MAN_FACEPALMING: man facepalming
+WOMAN_FACEPALMING: woman facepalming
+SHRUG: person shrugging
+MAN_SHRUGGING: man shrugging
+WOMAN_SHRUGGING: woman shrugging
+HEALTH_WORKER: health worker
+MALE_DOCTOR: man health worker
+FEMALE_DOCTOR: woman health worker
+STUDENT: student
+MALE_STUDENT: man student
+FEMALE_STUDENT: woman student
+TEACHER: teacher
+MALE_TEACHER: man teacher
+FEMALE_TEACHER: woman teacher
+JUDGE: judge
+MALE_JUDGE: man judge
+FEMALE_JUDGE: woman judge
+FARMER: farmer
+MALE_FARMER: man farmer
+FEMALE_FARMER: woman farmer
+COOK: cook
+MALE_COOK: man cook
+FEMALE_COOK: woman cook
+MECHANIC: mechanic
+MALE_MECHANIC: man mechanic
+FEMALE_MECHANIC: woman mechanic
+FACTORY_WORKER: factory worker
+MALE_FACTORY_WORKER: man factory worker
+FEMALE_FACTORY_WORKER: woman factory worker
+OFFICE_WORKER: office worker
+MALE_OFFICE_WORKER: man office worker
+FEMALE_OFFICE_WORKER: woman office worker
+SCIENTIST: scientist
+MALE_SCIENTIST: man scientist
+FEMALE_SCIENTIST: woman scientist
+TECHNOLOGIST: technologist
+MALE_TECHNOLOGIST: man technologist
+FEMALE_TECHNOLOGIST: woman technologist
+SINGER: singer
+MALE_SINGER: man singer
+FEMALE_SINGER: woman singer
+ARTIST: artist
+MALE_ARTIST: man artist
+FEMALE_ARTIST : woman artist
+PILOT : pilot
+MALE_PILOT : man pilot
+FEMALE_PILOT : woman pilot
+ASTRONAUT : astronaut
+MALE_ASTRONAUT : man astronaut
+FEMALE_ASTRONAUT : woman astronaut
+FIREFIGHTER : firefighter
+MALE_FIREFIGHTER : man firefighter
+FEMALE_FIREFIGHTER : woman firefighter
+COP : police officer
+MALE_POLICE_OFFICER : man police officer
+FEMALE_POLICE_OFFICER : woman police officer
+SLEUTH_OR_SPY: detective
+MALE_DETECTIVE: man detective
+FEMALE_DETECTIVE: woman detective
+GUARDSMAN: guard
+MALE_GUARD: man guard
+FEMALE_GUARD: woman guard
+CONSTRUCTION_WORKER: construction worker
+MALE_CONSTRUCTION_WORKER: man construction worker
+FEMALE_CONSTRUCTION_WORKER: woman construction worker
+PRINCE: prince
+PRINCESS: princess
+MAN_WITH_TURBAN: person wearing turban
+MAN_WEARING_TURBAN: man wearing turban
+WOMAN_WEARING_TURBAN: woman wearing turban
+MAN_WITH_GUA_PI_MAO: person with skullcap
+PERSON_WITH_HEADSCARF: woman with headscarf
+MAN_IN_TUXEDO: person in tuxedo
+BRIDE_WITH_VEIL: person with veil
+PREGNANT_WOMAN: pregnant woman
+BREAST_FEEDING: breast-feeding
+ANGEL: baby angel
+SANTA: Santa Claus
+MRS_CLAUS: Mrs. Claus
+SUPERHERO: superhero
+MALE_SUPERHERO: man superhero
+FEMALE_SUPERHERO: woman superhero
+SUPERVILLAIN: supervillain
+MALE_SUPERVILLAIN: man supervillain
+FEMALE_SUPERVILLAIN: woman supervillain
+MAGE: mage
+MALE_MAGE : man mage
+FEMALE_MAGE : woman mage
+FAIRY : fairy
+MALE_FAIRY : man fairy
+FEMALE_FAIRY : woman fairy
+VAMPIRE : vampire
+MALE_VAMPIRE : man vampire
+FEMALE_VAMPIRE : woman vampire
+MERPERSON : merperson
+MERMAN : merman
+MERMAID : mermaid
+ELF : elf
+MALE_ELF : man elf
+FEMALE_ELF: woman elf
+GENIE: genie
+MALE_GENIE: man genie
+FEMALE_GENIE: woman genie
+ZOMBIE: zombie
+MALE_ZOMBIE: man zombie
+FEMALE_ZOMBIE: woman zombie
+MASSAGE: person getting massage
+MAN_GETTING_MASSAGE: man getting massage
+WOMAN_GETTING_MASSAGE: woman getting massage
+HAIRCUT: person getting haircut
+MAN_GETTING_HAIRCUT: man getting haircut
+WOMAN_GETTING_HAIRCUT: woman getting haircut
+WALKING: person walking
+MAN_WALKING: man walking
+WOMAN_WALKING: woman walking
+STANDING_PERSON: person standing
+MAN_STANDING: man standing
+WOMAN_STANDING: woman standing
+KNEELING_PERSON: person kneeling
+MAN_KNEELING: man kneeling
+WOMAN_KNEELING: woman kneeling
+PERSON_WITH_PROBING_CANE: person with white cane
+MAN_WITH_PROBING_CANE: man with white cane
+WOMAN_WITH_PROBING_CANE: woman with white cane
+PERSON_IN_MOTORIZED_WHEELCHAIR: person in motorized wheelchair
+MAN_IN_MOTORIZED_WHEELCHAIR: man in motorized wheelchair
+WOMAN_IN_MOTORIZED_WHEELCHAIR: woman in motorized wheelchair
+PERSON_IN_MANUAL_WHEELCHAIR: person in manual wheelchair
+MAN_IN_MANUAL_WHEELCHAIR: man in manual wheelchair
+WOMAN_IN_MANUAL_WHEELCHAIR: woman in manual wheelchair
+RUNNER : person running
+MAN_RUNNING : man running
+WOMAN_RUNNING : woman running
+DANCER : woman dancing
+MAN_DANCING : man dancing
+MAN_IN_BUSINESS_SUIT_LEVITATING : person in suit levitating
+DANCERS : people with bunny ears
+MAN_WITH_BUNNY_EARS_PARTYING : men with bunny ears
+WOMAN_WITH_BUNNY_EARS_PARTYING : women with bunny ears
+PERSON_IN_STEAMY_ROOM : person in steamy room
+MAN_IN_STEAMY_ROOM : man in steamy room
+WOMAN_IN_STEAMY_ROOM : woman in steamy room
+PERSON_CLIMBING : person climbing
+MAN_CLIMBING: man climbing
+WOMAN_CLIMBING: woman climbing
+FENCER: person fencing
+HORSE_RACING: horse racing
+SKIER: skier
+SNOWBOARDER: snowboarder
+GOLFER: person golfing
+MAN_GOLFING: man golfing
+WOMAN_GOLFING: woman golfing
+SURFER: person surfing
+MAN_SURFING: man surfing
+WOMAN_SURFING: woman surfing
+ROWBOAT: person rowing boat
+MAN_ROWING_BOAT: man rowing boat
+WOMAN_ROWING_BOAT: woman rowing boat
+SWIMMER: person swimming
+MAN_SWIMMING: man swimming
+WOMAN_SWIMMING: woman swimming
+PERSON_WITH_BALL: person bouncing ball
+MAN_BOUNCING_BALL: man bouncing ball
+WOMAN_BOUNCING_BALL: woman bouncing ball
+WEIGHT_LIFTER: person lifting weights
+MAN_LIFTING_WEIGHTS: man lifting weights
+WOMAN_LIFTING_WEIGHTS: woman lifting weights
+BICYCLIST: person biking
+MAN_BIKING: man biking
+WOMAN_BIKING: woman biking
+MOUNTAIN_BICYCLIST: person mountain biking
+MAN_MOUNTAIN_BIKING: man mountain biking
+WOMAN_MOUNTAIN_BIKING: woman mountain biking
+PERSON_DOING_CARTWHEEL : person cartwheeling
+MAN_CARTWHEELING : man cartwheeling
+WOMAN_CARTWHEELING : woman cartwheeling
+WRESTLERS : people wrestling
+MAN_WRESTLING : man wrestling
+WOMAN_WRESTLING : woman wrestling
+WATER_POLO : person playing water polo
+MAN_PLAYING_WATER_POLO : man playing water polo
+WOMAN_PLAYING_WATER_POLO : woman playing water polo
+HANDBALL : person playing handball
+MAN_PLAYING_HANDBALL : man playing handball
+WOMAN_PLAYING_HANDBALL : woman playing handball
+JUGGLING : person juggling
+MAN_JUGGLING: man juggling
+WOMAN_JUGGLING: woman juggling
+PERSON_IN_LOTUS_POSITION: person in lotus position
+MAN_IN_LOTUS_POSITION: man in lotus position
+WOMAN_IN_LOTUS_POSITION: woman in lotus position
+BATH: person taking bath
+SLEEPING_ACCOMMODATION: person in bed
+PEOPLE_HOLDING_HANDS: people holding hands
+TWO_WOMEN_HOLDING_HANDS: women holding hands
+COUPLE: woman and man holding hands
+TWO_MEN_HOLDING_HANDS: men holding hands
+COUPLEKISS: kiss
+WOMAN_KISS_MAN: "kiss: woman, man"
+MAN_KISS_MAN: "kiss: man, man"
+WOMAN_KISS_WOMAN: "kiss: woman, woman"
+COUPLE_WITH_HEART: "couple with heart"
+WOMAN_HEART_MAN: "couple with heart: woman, man"
+MAN_HEART_MAN: "couple with heart: man, man"
+WOMAN_HEART_WOMAN: "couple with heart: woman, woman"
+FAMILY: family
+MAN_WOMAN_BOY: "family: man, woman, boy"
+MAN_WOMAN_GIRL: "family: man, woman, girl"
+MAN_WOMAN_GIRL_BOY: "family: man, woman, girl, boy"
+MAN_WOMAN_BOY_BOY: "family: man, woman, boy, boy"
+MAN_WOMAN_GIRL_GIRL: "family: man, woman, girl, girl"
+MAN_MAN_BOY: "family: man, man, boy"
+MAN_MAN_GIRL: "family: man, man, girl"
+MAN_MAN_GIRL_BOY: "family: man, man, girl, boy"
+MAN_MAN_BOY_BOY: "family: man, man, boy, boy"
+MAN_MAN_GIRL_GIRL: "family: man, man, girl, girl"
+WOMAN_WOMAN_BOY: "family: woman, woman, boy"
+WOMAN_WOMAN_GIRL: "family: woman, woman, girl"
+WOMAN_WOMAN_GIRL_BOY: "family: woman, woman, girl, boy"
+WOMAN_WOMAN_BOY_BOY: "family: woman, woman, boy, boy"
+WOMAN_WOMAN_GIRL_GIRL: "family: woman, woman, girl, girl"
+MAN_BOY: "family: man, boy"
+MAN_BOY_BOY: "family: man, boy, boy"
+MAN_GIRL: "family: man, girl"
+MAN_GIRL_BOY: "family: man, girl, boy"
+MAN_GIRL_GIRL: "family: man, girl, girl"
+WOMAN_BOY: "family: woman, boy"
+WOMAN_BOY_BOY: "family: woman, boy, boy"
+WOMAN_GIRL: "family: woman, girl"
+WOMAN_GIRL_BOY: "family: woman, girl, boy"
+WOMAN_GIRL_GIRL: "family: woman, girl, girl"
+SPEAKING_HEAD_IN_SILHOUETTE: speaking head
+BUST_IN_SILHOUETTE: bust in silhouette
+BUSTS_IN_SILHOUETTE: busts in silhouette
+FOOTPRINTS: footprints
+KISS: kiss mark
+LOVE_LETTER: love letter
+CUPID: heart with arrow
+GIFT_HEART: heart with ribbon
+SPARKLING_HEART: sparkling heart
+HEARTPULSE: growing heart
+HEARTBEAT: beating heart
+REVOLVING_HEARTS: revolving hearts
+TWO_HEARTS: two hearts
+HEART_DECORATION: heart decoration
+HEAVY_HEART_EXCLAMATION_MARK_ORNAMENT: heart exclamation
+BROKEN_HEART: broken heart
+HEART: red heart
+ORANGE_HEART: orange heart
+YELLOW_HEART: yellow heart
+GREEN_HEART: green heart
+BLUE_HEART: blue heart
+PURPLE_HEART: purple heart
+BROWN_HEART: brown heart
+BLACK_HEART: black heart
+WHITE_HEART: white heart
+ANGER: anger symbol
+BOOM: collision
+DIZZY: dizzy
+SWEAT_DROPS: sweat droplets
+DASH: dashing away
+HOLE: hole
+BOMB: bomb
+SPEECH_BALLOON: speech balloon
+EYE_IN_SPEECH_BUBBLE: eye in speech bubble
+LEFT_SPEECH_BUBBLE: left speech bubble
+RIGHT_ANGER_BUBBLE: right anger bubble
+THOUGHT_BALLOON: thought balloon
+THUMBS_UP: thumbs up
+THUMBS_DOWN: thumbs down
+
+## Emoji Nature
+MONKEYFACE: monkey face
+MONKEY: monkey
+GORILLA: gorilla
+ORANGUTAN: orangutan
+DOG: dog face
+DOG2: dog
+GUIDE_DOG: guide dog
+SERVICE_DOG: service dog
+POODLE: poodle
+WOLF: wolf
+FOX_FACE: fox face
+RACCOON: raccoon
+CAT: cat face
+CAT2: cat
+LION_FACE: lion
+TIGER: tiger face
+TIGER2: tiger
+LEOPARD: leopard
+HORSE: horse face
+RACEHORSE: horse
+UNICORN_FACE: unicorn
+ZEBRA_FACE: zebra
+DEER: deer
+COW: cow face
+OX: ox
+WATER_BUFFALO: water buffalo
+COW2: cow
+PIG: pig face
+PIG2: pig
+BOAR: boar
+PIG_NOSE: pig nose
+RAM: ram
+SHEEP: ewe
+GOAT: goat
+DROMEDARY_CAMEL: camel
+CAMEL: two-hump camel
+LLAMA: llama
+GIRAFFE_FACE: giraffe
+ELEPHANT: elephant
+RHINOCEROS: rhinoceros
+HIPPOPOTAMUS: hippopotamus
+MOUSE: mouse face
+MOUSE2: mouse
+RAT: rat
+HAMSTER: hamster
+RABBIT: rabbit face
+RABBIT2: rabbit
+CHIPMUNK: chipmunk
+HEDGEHOG: hedgehog
+BAT: bat
+BEAR: bear
+KOALA: koala
+PANDA_FACE: panda
+SLOTH: sloth
+OTTER: otter
+SKUNK: skunk
+KANGAROO: kangaroo
+BADGER: badger
+FEET: paw prints
+TURKEY: turkey
+CHICKEN: chicken
+ROOSTER: rooster
+HATCHING_CHICK: hatching chick
+BABY_CHICK: baby chick
+HATCHED_CHICK: front-facing baby chick
+BIRD: bird
+PENGUIN: penguin
+DOVE_OF_PEACE: dove
+EAGLE: eagle
+DUCK: duck
+SWAN: swan
+OWL: owl
+FLAMINGO: flamingo
+PEACOCK: peacock
+PARROT: parrot
+FROG: frog
+CROCODILE: crocodile
+TURTLE: turtle
+LIZARD: lizard
+SNAKE: snake
+DRAGON_FACE: dragon face
+DRAGON: dragon
+SAUROPOD: sauropod
+T_REX: T-Rex
+WHALE: spouting whale
+WHALE2: whale
+DOLPHIN: dolphin
+FISH: fish
+TROPICAL_FISH: tropical fish
+BLOWFISH: blowfish
+SHARK: shark
+OCTOPUS: octopus
+SHELL: spiral shell
+SNAIL: snail
+BUTTERFLY: butterfly
+BUG: bug
+ANT: ant
+BEE: honeybee
+BEETLE: lady beetle
+CRICKET: cricket
+SPIDER: spider
+SPIDER_WEB: spider web
+SCORPION: scorpion
+MOSQUITO: mosquito
+MICROBE: microbe
+BOUQUET: bouquet
+CHERRY_BLOSSOM: cherry blossom
+WHITE_FLOWER: white flower
+ROSETTE: rosette
+ROSE: rose
+WILTED_FLOWER: wilted flower
+HIBISCUS: hibiscus
+SUNFLOWER: sunflower
+BLOSSOM: blossom
+TULIP: tulip
+SEEDLING: seedling
+EVERGREEN_TREE: evergreen tree
+DECIDUOUS_TREE: deciduous tree
+PALM_TREE: palm tree
+CACTUS: cactus
+EAR_OF_RICE: sheaf of rice
+HERB: herb
+SHAMROCK: shamrock
+FOUR_LEAF_CLOVER: four leaf clover
+MAPLE_LEAF: maple leaf
+FALLEN_LEAF: fallen leaf
+LEAVES: leaf fluttering in wind
+
+## Emoji Foods
+GRAPES: grapes
+MELON: melon
+WATERMELON: watermelon
+TANGERINE: tangerine
+LEMON: lemon
+BANANA: banana
+PINEAPPLE: pineapple
+MANGO: mango
+APPLE: red apple
+GREEN_APPLE: green apple
+PEAR: pear
+PEACH: peach
+CHERRIES: cherries
+STRAWBERRY: strawberry
+KIWIFRUIT: kiwi fruit
+TOMATO: tomato
+COCONUT: coconut
+AVOCADO: avocado
+EGGPLANT: eggplant
+POTATO: potato
+CARROT: carrot
+CORN: ear of corn
+HOT_PEPPER: hot pepper
+CUCUMBER: cucumber
+LEAFY_GREEN: leafy green
+BROCCOLI: broccoli
+GARLIC: garlic
+ONION: onion
+MUSHROOM: mushroom
+PEANUTS: peanuts
+CHESTNUT: chestnut
+BREAD: bread
+CROISSANT: croissant
+BAGUETTE_BREAD: baguette bread
+PRETZEL: pretzel
+BAGEL: bagel
+PANCAKES: pancakes
+WAFFLE: waffle
+CHEESE_WEDGE: cheese wedge
+MEAT_ON_BONE: meat on bone
+POULTRY_LEG: poultry leg
+CUT_OF_MEAT: cut of meat
+BACON: bacon
+HAMBURGER: hamburger
+FRIES: french fries
+PIZZA: pizza
+HOTDOG: hotdog
+SANDWICH: sandwich
+TACO: taco
+BURRITO: burrito
+STUFFED_FLATBREAD: stuffed flatbread
+FALAFEL: falafel
+EGG: egg
+FRIED_EGG: fried egg
+SHALLOW_PAN_OF_FOOD: shallow pan of food
+STEW: pot of food
+BOWL_WITH_SPOON: bowl with spoon
+GREEN_SALAD: green salad
+POPCORN: popcorn
+BUTTER: butter
+SALT: salt
+CANNED_FOOD: canned food
+BENTO: bento box
+RICE_CRACKER: rice cracker
+RICE_BALL: rice ball
+RICE: cooked rice
+CURRY: curry rice
+RAMEN: steaming bowl
+SPAGHETTI: spaghetti
+SWEET_POTATO: roasted sweet potato
+ODEN: oden
+SUSHI: sushi
+FRIED_SHRIMP: fried shrimp
+FISH_CAKE: fish cake with swirl
+MOON_CAKE: moon cake
+DANGO: dango
+DUMPLING: dumpling
+FORTUNE_COOKIE: fortune cookie
+TAKEOUT_BOX: takeout box
+CRAB: crab
+LOBSTER: lobster
+SHRIMP: shrimp
+SQUID: squid
+OYSTER: oyster
+ICECREAM: soft ice cream
+SHAVED_ICE: shaved ice
+ICE_CREAM: ice cream
+DOUGHNUT: doughnut
+COOKIE: cookie
+BIRTHDAY: birthday cake
+CAKE: shortcake
+CUPCAKE: cupcake
+PIE: pie
+CHOCOLATE_BAR: chocolate bar
+CANDY: candy
+LOLLIPOP: lollipop
+CUSTARD: custard
+HONEY_POT: honey pot
+BABY_BOTTLE: baby bottle
+GLASS_OF_MILK: glass of milk
+COFFEE: hot beverage
+TEA: teacup without handle
+SAKE: sake
+CHAMPAGNE: bottle with popping cork
+WINE_GLASS: wine glass
+COCKTAIL: cocktail glass
+TROPICAL_DRINK: tropical drink
+BEER: beer mug
+BEERS: clinking beer mugs
+CLINKING_GLASSES: clinking glasses
+TUMBLER_GLASS: tumbler glass
+CUP_WITH_STRAW: cup with straw
+BEVERAGE_BOX: beverage box
+MATE_DRINK: mate
+ICE_CUBE: ice
+CHOPSTICKS: chopsticks
+KNIFE_FORK_PLATE: fork and knife with plate
+FORK_AND_KNIFE: fork and knife
+SPOON: spoon
+HOCHO: kitchen knife
+AMPHORA: amphora
+
+## Emoji Activity
+JACKLANTERN: jack-o-lantern
+CHRISTMAS_TREE: Christmas tree
+FIREWORKS: fireworks
+SPARKLER: sparkler
+FIRECRACKER: firecracker
+SPARKLES: sparkles
+BALLOON: balloon
+TADA: party popper
+CONFETTI_BALL: confetti ball
+TANABATA_TREE: tanabata tree
+BAMBOO: pine decoration
+DOLLS: Japanese dolls
+FLAGS: carp streamer
+WIND_CHIME: wind chime
+RICE_SCENE: moon viewing ceremony
+RED_ENVELOPE: red envelope
+RIBBON: ribbon
+GIFT: wrapped gift
+REMINDER_RIBBON: reminder ribbon
+ADMISSION_TICKETS: admission tickets
+TICKET: ticket
+MEDAL: military medal
+TROPHY: trophy
+SPORTS_MEDAL: sports medal
+FIRST_PLACE_MEDAL: 1st place medal
+SECOND_PLACE_MEDAL: 2nd place medal
+THIRD_PLACE_MEDAL: 3rd place medal
+SOCCER: soccer ball
+BASEBALL: baseball
+SOFTBALL: softball
+BASKETBALL: basketball
+VOLLEYBALL: volleyball
+FOOTBALL: american football
+RUGBY_FOOTBALL: rugby football
+TENNIS: tennis
+FLYING_DISC: flying disc
+BOWLING: bowling
+CRICKET_BAT_AND_BALL: cricket game
+FIELD_HOCKEY_STICK_AND_BALL: field hockey
+ICE_HOCKEY_STICK_AND_PUCK: ice hockey
+LACROSSE: lacrosse
+TABLE_TENNIS_PADDLE_AND_BALL: ping pong
+BADMINTON_RACQUET_AND_SHUTTLECOCK: badminton
+BOXING_GLOVE: boxing glove
+MARTIAL_ARTS_UNIFORM: martial arts uniform
+GOAL_NET: goal net
+GOLF: flag in hole
+ICE_SKATE: ice skate
+FISHING_POLE_AND_FISH: fishing pole
+DIVING_MASK: diving mask
+RUNNING_SHIRT_WITH_SASH: running shirt
+SKI: skis
+SLED: sled
+CURLING_STONE: curling stone
+DART: bullseye
+YO_YO: yo-yo
+KITE: kite
+8BALL: pool 8 ball
+CRYSTAL_BALL: crystal ball
+NAZAR_AMULET: nazar amulet
+VIDEO_GAME: video game
+JOYSTICK: joystick
+SLOT_MACHINE: slot machine
+GAME_DIE: game die
+JIGSAW: puzzle piece
+TEDDY_BEAR: teddy bear
+SPADES: spade suit
+HEARTS: heart suit
+DIAMONDS: diamond suit
+CLUBS: club suit
+CHESS_PAWN: chess pawn
+BLACK_JOKER: joker
+MAHJONG: mahjong red dragon
+FLOWER_PLAYING_CARDS: flower playing cards
+PERFORMING_ARTS: performing arts
+FRAME_WITH_PICTURE: framed picture
+ART: artist palette
+THREAD: thread
+YARN: yarn
+
+## Emoji Places
+EARTHAFRICA: globe showing Europe-Africa
+EARTH_AMERICAS: globe showing Americas
+EARTH_ASIA: globe showing Asia-Australia
+GLOBE_WITH_MERIDIANS: globe with meridians
+WORLD_MAP: world map
+JAPAN: map of Japan
+COMPASS: compass
+SNOW_CAPPED_MOUNTAIN: snow-capped mountain
+MOUNTAIN: mountain
+VOLCANO: volcano
+MOUNT_FUJI: mount fuji
+CAMPING: camping
+BEACH_WITH_UMBRELLA: beach with umbrella
+DESERT: desert
+DESERT_ISLAND: desert island
+NATIONAL_PARK: national park
+STADIUM: stadium
+CLASSICAL_BUILDING: classical building
+BUILDING_CONSTRUCTION: building construction
+BRICKS: bricks
+HOUSE_BUILDINGS: houses
+DERELICT_HOUSE_BUILDING: derelict house
+HOUSE: house
+HOUSE_WITH_GARDEN: house with garden
+OFFICE: office
+POST_OFFICE: Japanese post office
+EUROPEAN_POST_OFFICE: post office
+HOSPITAL: hospital
+BANK: bank
+HOTEL: hotel
+LOVE_HOTEL: love hotel
+CONVENIENCE_STORE: convenience store
+SCHOOL: school
+DEPARTMENT_STORE: department store
+FACTORY: factory
+JAPANESE_CASTLE: japanese castle
+EUROPEAN_CASTLE: castle
+WEDDING: wedding
+TOKYO_TOWER: Tokyo tower
+STATUE_OF_LIBERTY: Statue of Liberty
+CHURCH: church
+MOSQUE: mosque
+HINDU_TEMPLE: hindu temple
+SYNAGOGUE: synagogue
+SHINTO_SHRINE: shinto shrine
+KAABA: kaaba
+FOUNTAIN: fountain
+TENT: tent
+FOGGY: foggy
+NIGHT_WITH_STARS: night with stars
+CITYSCAPE: cityscape
+SUNRISE_OVER_MOUNTAINS: sunrise over mountains
+SUNRISE: sunrise
+CITY_SUNSET: cityscape at dusk
+CITY_SUNRISE: sunset
+BRIDGE_AT_NIGHT: bridge at night
+HOTSPRINGS: hotsprings
+CAROUSEL_HORSE: carousel horse
+FERRIS_WHEEL: ferris wheel
+ROLLER_COASTER: roller coaster
+BARBER: barber pole
+CIRCUS_TENT: circus tent
+STEAM_LOCOMOTIVE: locomotive
+RAILWAY_CAR: railway car
+BULLETTRAIN_SIDE: high-speed train
+BULLETTRAIN_FRONT: bullet train
+TRAIN2: train
+METRO: metro
+LIGHT_RAIL: light rail
+STATION: station
+TRAM: tram
+MONORAIL: monorail
+MOUNTAIN_RAILWAY: mountain railway
+TRAIN: tram car
+BUS: bus
+ONCOMING_BUS: oncoming bus
+TROLLEYBUS: trolleybus
+MINIBUS: minibus
+AMBULANCE: ambulance
+FIRE_ENGINE: fire engine
+POLICE_CAR: police car
+ONCOMING_POLICE_CAR: oncoming police car
+TAXI: taxi
+ONCOMING_TAXI: oncoming taxi
+CAR: automobile
+ONCOMING_AUTOMOBILE: oncoming automobile
+BLUE_CAR: sport utility vehicle
+TRUCK: delivery truck
+ARTICULATED_LORRY: articulated lorry
+TRACTOR: tractor
+RACING_CAR: racing car
+RACING_MOTORCYCLE: motorcycle
+MOTOR_SCOOTER: motor scooter
+MANUAL_WHEELCHAIR: manual wheelchair
+MOTORIZED_WHEELCHAIR: motorized wheelchair
+AUTO_RICKSHAW: auto rickshaw
+BIKE: bicycle
+SCOOTER: kick scooter
+SKATEBOARD: skateboard
+BUSSTOP: bus stop
+MOTORWAY: motorway
+RAILWAY_TRACK: railway track
+OIL_DRUM: oil drum
+FUELPUMP: fuelpump
+ROTATING_LIGHT: police car light
+TRAFFIC_LIGHT: horizontal traffic light
+VERTICAL_TRAFFIC_LIGHT: vertical traffic light
+OCTAGONAL_SIGN: stop sign
+CONSTRUCTION: construction
+ANCHOR: anchor
+BOAT: sailboat
+CANOE: canoe
+SPEEDBOAT: speedboat
+PASSENGER_SHIP: passenger ship
+FERRY: ferry
+MOTOR_BOAT: motor boat
+SHIP: ship
+AIRPLANE: airplane
+SMALL_AIRPLANE: small airplane
+AIRPLANE_DEPARTURE: airplane departure
+AIRPLANE_ARRIVING: airplane arriving
+PARACHUTE: parachute
+SEAT: seat
+HELICOPTER: helicopter
+SUSPENSION_RAILWAY: suspension railway
+MOUNTAIN_CABLEWAY: mountain cableway
+AERIAL_TRAMWAY: aerial tramway
+SATELLITE: satellite
+ROCKET: rocket
+FLYING_SAUCER: flying saucer
+BELLHOP_BELL: bellhop bell
+LUGGAGE: luggage
+HOURGLASS: hourglass done
+HOURGLASS_FLOWING_SAND: hourglass not done
+WATCH: watch
+ALARM_CLOCK: alarm clock
+STOPWATCH: stopwatch
+TIMER_CLOCK: timer clock
+MANTELPIECE_CLOCK: mantelpiece clock
+CLOCK12: twelve o’clock
+CLOCK1230: twelve-thirty
+CLOCK1: one o’clock
+CLOCK130: one-thirty
+CLOCK2: two o’clock
+CLOCK230: two-thirty
+CLOCK3: three o’clock
+CLOCK330: three-thirty
+CLOCK4: four o’clock
+CLOCK430: four-thirty
+CLOCK5: five o’clock
+CLOCK530: five-thirty
+CLOCK6: six o’clock
+CLOCK630: six-thirty
+CLOCK7: seven o’clock
+CLOCK730: seven-thirty
+CLOCK8: eight o’clock
+CLOCK830: eight-thirty
+CLOCK9: nine o’clock
+CLOCK930: nine-thirty
+CLOCK10: ten o’clock
+CLOCK1030: ten-thirty
+CLOCK11: eleven o’clock
+CLOCK1130: eleven-thirty
+NEW_MOON: new moon
+WAXING_CRESCENT_MOON: waxing crescent moon
+FIRST_QUARTER_MOON: first quarter moon
+MOON: waxing gibbous moon
+FULL_MOON: full moon
+WANING_GIBBOUS_MOON: waning gibbous moon
+LAST_QUARTER_MOON: last quarter moon
+WANING_CRESCENT_MOON: waning crescent moon
+CRESCENT_MOON: crescent moon
+NEW_MOON_WITH_FACE: new moon face
+FIRST_QUARTER_MOON_WITH_FACE: first quarter moon face
+LAST_QUARTER_MOON_WITH_FACE: last quarter moon face
+THERMOMETER: thermometer
+SUNNY: sun
+FULL_MOON_WITH_FACE: full moon face
+SUN_WITH_FACE: sun with face
+RINGED_PLANET: ringed planet
+STAR: star
+STAR2: glowing star
+STARS: shooting star
+MILKY_WAY: milky way
+CLOUD: cloud
+PARTLY_SUNNY: partly sunny
+THUNDER_CLOUD_AND_RAIN: cloud with lightning and rain
+MOSTLY_SUNNY: sun behind small cloud
+BARELY_SUNNY: sun behind large cloud
+PARTLY_SUNNY_RAIN: sun behind rain cloud
+RAIN_CLOUD: cloud with rain
+SNOW_CLOUD: cloud with snow
+LIGHTNING: cloud with lightning
+TORNADO: tornado
+FOG: fog
+WIND_BLOWING_FACE: wind face
+CYCLONE: cyclone
+RAINBOW: rainbow
+CLOSED_UMBRELLA: closed umbrella
+UMBRELLA: umbrella
+UMBRELLA_WITH_RAIN_DROPS: umbrella with rain drops
+UMBRELLA_ON_GROUND: umbrella on ground
+ZAP: high voltage
+SNOWFLAKE: snowflake
+SNOWMAN: snowman
+SNOWMAN_WITHOUT_SNOW: snowman without snow
+COMET: comet
+FIRE: fire
+DROPLET: droplet
+OCEAN: water wave
+
+## Emoji Objects
+EYEGLASSES: glasses
+DARK_SUNGLASSES: sunglasses
+GOGGLES: goggles
+LAB_COAT: lab coat
+SAFETY_VEST: safety vest
+NECKTIE: necktie
+SHIRT: t-shirt
+JEANS: jeans
+SCARF: scarf
+GLOVES: gloves
+COAT: coat
+SOCKS: socks
+DRESS: dress
+KIMONO: kimono
+SARI: sari
+ONE_PIECE_SWIMSUIT: one-piece swimsuit
+BRIEFS: briefs
+SHORTS: shorts
+BIKINI: bikini
+WOMANS_CLOTHES: woman’s clothes
+PURSE: purse
+HANDBAG: handbag
+POUCH: clutch bag
+SHOPPING_BAGS: shopping bags
+SCHOOL_SATCHEL: backpack
+MANS_SHOE: man’s shoe
+ATHLETIC_SHOE: running shoe
+HIKING_BOOT: hiking boot
+WOMANS_FLAT_SHOE: flat shoe
+HIGH_HEEL: high-heeled shoe
+SANDAL: woman’s sandal
+BALLET_SHOES: ballet shoes
+BOOT: woman’s boot
+CROWN: crown
+WOMANS_HAT: woman’s hat
+TOPHAT: top hat
+MORTAR_BOARD: graduation cap
+BILLED_CAP: billed cap
+HELMET_WITH_WHITE_CROSS: rescue worker’s helmet
+PRAYER_BEADS: prayer beads
+LIPSTICK: lipstick
+RING: ring
+GEM: gem stone
+MUTE: muted speaker
+SPEAKER: speaker low volume
+SOUND: speaker medium volume
+LOUD_SOUND: speaker high volume
+LOUDSPEAKER: loudspeaker
+MEGA: megaphone
+POSTAL_HORN: postal horn
+BELL: bell
+NO_BELL: bell with slash
+MUSICAL_SCORE: musical score
+MUSICAL_NOTE: musical note
+NOTES: musical notes
+STUDIO_MICROPHONE: studio microphone
+LEVEL_SLIDER: level slider
+CONTROL_KNOBS: control knobs
+MICROPHONE: microphone
+HEADPHONES: headphones
+RADIO: radio
+SAXOPHONE: saxophone
+GUITAR: guitar
+MUSICAL_KEYBOARD: musical keyboard
+TRUMPET: trumpet
+VIOLIN: violin
+BANJO: banjo
+DRUM_WITH_DRUMSTICKS: drum
+IPHONE: mobile phone
+CALLING: mobile phone with arrow
+PHONE: telephone
+TELEPHONE_RECEIVER: telephone receiver
+PAGER: pager
+FAX: fax machine
+BATTERY: battery
+ELECTRIC_PLUG: electric plug
+COMPUTER: laptop
+DESKTOP_COMPUTER: desktop computer
+PRINTER: printer
+KEYBOARD: keyboard
+THREE_BUTTON_MOUSE: computer mouse
+TRACKBALL: trackball
+MINIDISC: computer disk
+FLOPPY_DISK: floppy disk
+CD: optical disk
+DVD: dvd
+ABACUS: abacus
+MOVIE_CAMERA: movie camera
+FILM_FRAMES: film frames
+FILM_PROJECTOR: film projector
+CLAPPER: clapper board
+TV: television
+CAMERA: camera
+CAMERA_WITH_FLASH: camera with flash
+VIDEO_CAMERA: video camera
+VHS: videocassette
+MAG: magnifying glass tilted left
+MAG_RIGHT: magnifying glass tilted right
+CANDLE: candle
+BULB: light bulb
+FLASHLIGHT: flashlight
+IZAKAYA_LANTERN: red paper lantern
+DIYA_LAMP: diya lamp
+NOTEBOOK_WITH_DECORATIVE_COVER: notebook with decorative cover
+CLOSED_BOOK: closed book
+BOOK: open book
+GREEN_BOOK: green book
+BLUE_BOOK: blue book
+ORANGE_BOOK: orange book
+BOOKS: books
+NOTEBOOK: notebook
+LEDGER: ledger
+PAGE_WITH_CURL: page with curl
+SCROLL: scroll
+PAGE_FACING_UP: page facing up
+NEWSPAPER: newspaper
+ROLLED_UP_NEWSPAPER: rolled-up newspaper
+BOOKMARK_TABS: bookmark tabs
+BOOKMARK: bookmark
+LABEL: label
+MONEYBAG: moneybag
+YEN: yen banknote
+DOLLAR: dollar banknote
+EURO: euro banknote
+POUND: pound banknote
+MONEY_WITH_WINGS: money with wings
+CREDIT_CARD: credit card
+RECEIPT: receipt
+CHART: chart increasing with yen
+CURRENCY_EXCHANGE: currency exchange
+HEAVY_DOLLAR_SIGN: heavy dollar sign
+EMAIL: envelope
+E_MAIL: e-mail
+INCOMING_ENVELOPE: incoming envelope
+ENVELOPE_WITH_ARROW: envelope with arrow
+OUTBOX_TRAY: outbox tray
+INBOX_TRAY: inbox tray
+PACKAGE: package
+MAILBOX: closed mailbox with raised flag
+MAILBOX_CLOSED: closed mailbox with lowered flag
+MAILBOX_WITH_MAIL: open mailbox with raised flag
+MAILBOX_WITH_NO_MAIL: open mailbox with lowered flag
+POSTBOX: postbox
+BALLOT_BOX_WITH_BALLOT: ballot box with ballot
+PENCIL2: pencil2
+BLACK_NIB: black nib
+LOWER_LEFT_FOUNTAIN_PEN: fountain pen
+LOWER_LEFT_BALLPOINT_PEN: pen
+LOWER_LEFT_PAINTBRUSH: paintbrush
+LOWER_LEFT_CRAYON: crayon
+MEMO: memo
+BRIEFCASE: briefcase
+FILE_FOLDER: file folder
+OPEN_FILE_FOLDER: open file folder
+CARD_INDEX_DIVIDERS: card index dividers
+DATE: calendar
+CALENDAR: tear-off calendar
+SPIRAL_NOTE_PAD: spiral notepad
+SPIRAL_CALENDAR_PAD: spiral calendar
+CARD_INDEX: card index
+CHART_WITH_UPWARDS_TREND: chart increasing
+CHART_WITH_DOWNWARDS_TREND: chart decreasing
+BAR_CHART: bar chart
+CLIPBOARD: clipboard
+PUSHPIN: pushpin
+ROUND_PUSHPIN: round pushpin
+PAPERCLIP: paperclip
+LINKED_PAPERCLIPS: linked paperclips
+STRAIGHT_RULER: straight ruler
+TRIANGULAR_RULER: triangular ruler
+SCISSORS: scissors
+CARD_FILE_BOX: card file box
+FILE_CABINET: file cabinet
+WASTEBASKET: wastebasket
+LOCK: locked
+UNLOCK: unlocked
+LOCK_WITH_INK_PEN: locked with ink pen
+CLOSED_LOCK_WITH_KEY: locked  with key
+KEY: key
+OLD_KEY: old key
+HAMMER: hammer
+AXE: axe
+PICK: pick
+HAMMER_AND_PICK: hammer and pick
+HAMMER_AND_WRENCH: hammer and wrench
+DAGGER_KNIFE: dagger
+CROSSED_SWORDS: crossed swords
+GUN: water pistol
+BOW_AND_ARROW: bow and arrow
+SHIELD: shield
+WRENCH: wrench
+NUT_AND_BOLT: nut and bolt
+GEAR: gear
+COMPRESSION: clamp
+SCALES: balance scale
+PROBING_CANE: white cane
+LINK: link
+CHAINS: chains
+TOOLBOX: toolbox
+MAGNET: magnet
+ALEMBIC: alembic
+TEST_TUBE: test tube
+PETRI_DISH: petri dish
+DNA: dna
+MICROSCOPE: microscope
+TELESCOPE: telescope
+SATELLITE_ANTENNA: satellite antenna
+SYRINGE: syringe
+DROP_OF_BLOOD: drop of blood
+PILL: pill
+ADHESIVE_BANDAGE: adhesive bandage
+STETHOSCOPE: stethoscope
+DOOR: door
+BED: bed
+COUCH_AND_LAMP: couch and lamp
+CHAIR: chair
+TOILET: toilet
+SHOWER: shower
+BATHTUB: bathtub
+RAZOR: razor
+LOTION_BOTTLE: lotion bottle
+SAFETY_PIN: safety pin
+BROOM: broom
+BASKET: basket
+ROLL_OF_PAPER: roll of paper
+SOAP: soap
+SPONGE: sponge
+FIRE_EXTINGUISHER: fire extinguisher
+SHOPPING_TROLLEY: shopping trolley
+SMOKING: cigarette
+COFFIN: coffin
+FUNERAL_URN: funeral urn
+MOYAI: moyai
+
+## Emoji Symbols
+ATM: ATM sign
+PUT_LITTER_IN_ITS_PLACE: litter in bin sign
+POTABLE_WATER: potable water
+WHEELCHAIR: wheelchair symbol
+MENS: men’s room
+WOMENS: women’s room
+RESTROOM: restroom
+BABY_SYMBOL: baby symbol
+WC: water closet
+PASSPORT_CONTROL: passport control
+CUSTOMS: customs
+BAGGAGE_CLAIM: baggage claim
+LEFT_LUGGAGE: left luggage
+WARNING: warning
+CHILDREN_CROSSING: children crossing
+NO_ENTRY: no entry
+NO_ENTRY_SIGN: prohibited
+NO_BICYCLES: no bicycles
+NO_SMOKING: no smoking
+DO_NOT_LITTER: no littering
+NON_POTABLE_WATER: non-potable water
+NO_PEDESTRIANS: no pedestrians
+NO_MOBILE_PHONES: no mobile phones
+UNDERAGE: no one under eighteen
+RADIOACTIVE_SIGN: radioactive
+BIOHAZARD_SIGN: biohazard
+ARROW_UP: up arrow
+ARROW_UPPER_RIGHT: up-right arrow
+ARROW_RIGHT: arrow right
+ARROW_LOWER_RIGHT: down-right arrow
+ARROW_DOWN: down arrow
+ARROW_LOWER_LEFT: down-left arrow
+ARROW_LEFT: left arrow
+ARROW_UPPER_LEFT: up-left arrow
+ARROW_UP_DOWN: up-down arrow
+LEFT_RIGHT_ARROW: left right arrow
+LEFTWARDS_ARROW_WITH_HOOK: left arrow curving right
+ARROW_RIGHT_HOOK: left arrow curving right
+ARROW_HEADING_UP: right arrow curving up
+ARROW_HEADING_DOWN: right arrow curving down
+ARROWS_CLOCKWISE: clockwise vertical arrows
+ARROWS_COUNTERCLOCKWISE: counterclockwise arrows button
+BACK: BACK arrow
+END: END arrow
+ON: ON! arrow
+SOON: SOON arrow
+TOP: TOP arrow
+PLACE_OF_WORSHIP: place of worship
+ATOM_SYMBOL: atom symbol
+OM_SYMBOL: om
+STAR_OF_DAVID: star of david
+WHEEL_OF_DHARMA: wheel of dharma
+YIN_YANG: yin yang
+LATIN_CROSS: latin cross
+ORTHODOX_CROSS: orthodox cross
+STAR_AND_CRESCENT: star and crescent
+PEACE_SYMBOL: peace symbol
+MENORAH_WITH_NINE_BRANCHES: menorah
+SIX_POINTED_STAR: dotted six-pointed star
+ARIES: Aries
+TAURUS: Taurus
+GEMINI: Gemini
+CANCER: Cancer
+LEO: Leo
+VIRGO: Virgo
+LIBRA: Libra
+SCORPIUS: Scorpius
+SAGITTARIUS: Sagittarius
+CAPRICORN: Capricorn
+AQUARIUS: Aquarius
+PISCES: Pisces
+OPHIUCHUS: Ophiuchus
+TWISTED_RIGHTWARDS_ARROWS: shuffle tracks button
+REPEAT: repeat button
+REPEAT_ONE: repeat single button
+ARROW_FORWARD: play button
+FAST_FORWARD: fast-forward button
+BLACK_RIGHT_POINTING_DOUBLE_TRIANGLE_WITH_VERTICAL_BAR: next track button
+BLACK_RIGHT_POINTING_TRIANGLE_WITH_DOUBLE_VERTICAL_BAR: play or pause button
+ARROW_BACKWARD: reverse button
+REWIND: fast reverse button
+BLACK_LEFT_POINTING_DOUBLE_TRIANGLE_WITH_VERTICAL_BAR: last track button
+ARROW_UP_SMALL: upwards button
+ARROW_DOUBLE_UP: fast up button
+ARROW_DOWN_SMALL: downwards button
+ARROW_DOUBLE_DOWN: fast down button
+DOUBLE_VERTICAL_BAR: pause button
+BLACK_SQUARE_FOR_STOP: stop button
+BLACK_CIRCLE_FOR_RECORD: record button
+EJECT: eject button
+CINEMA: cinema
+LOW_BRIGHTNESS: dim button
+HIGH_BRIGHTNESS: bright button
+SIGNAL_STRENGTH: antenna bars
+VIBRATION_MODE: vibration mode
+MOBILE_PHONE_OFF: mobile phone off
+FEMALE_SIGN: female sign
+MALE_SIGN: male sign
+MEDICAL_SYMBOL: transgender symbol
+INFINITY: infinity
+RECYCLE: recycling symbol
+FLEUR_DE_LIS: fleur de lis
+TRIDENT: trident emblem
+NAME_BADGE: name badge
+BEGINNER: Japanese symbol for beginner
+O: hollow red circle
+WHITE_CHECK_MARK: check mark button
+BALLOT_BOX_WITH_CHECK: check box with check
+HEAVY_CHECK_MARK: check mark
+HEAVY_MULTIPLICATION_X: cross mark
+X: cross mark button
+NEGATIVE_SQUARED_CROSS_MARK: negative squared cross mark
+HEAVY_PLUS_SIGN: heavy plus sign
+HEAVY_MINUS_SIGN: heavy minus sign
+HEAVY_DIVISION_SIGN: heavy division sign
+CURLY_LOOP: curly loop
+LOOP: double curly loop
+PART_ALTERNATION_MARK: part alternation mark
+EIGHT_SPOKED_ASTERISK: eight-spoked asterisk
+EIGHT_POINTED_BLACK_STAR: eight-pointed black star
+SPARKLE: sparkle
+BANGBANG: bangbang
+INTERROBANG: interrobang
+QUESTION: question
+GREY_QUESTION: grey question
+GREY_EXCLAMATION: grey exclamation
+EXCLAMATION: exclamation
+WAVY_DASH: wavy dash
+COPYRIGHT: copyright
+REGISTERED: registered
+TM: trade mark
+HASH: "keycap: #"
+KEYCAP_STAR: "keycap: *"
+ZERO: "keycap: 0"
+ONE: "keycap: 1"
+TWO: "keycap: 2"
+THREE: "keycap: 3"
+FOUR: "keycap: 4"
+FIVE: "keycap: 5"
+SIX: "keycap: 6"
+SEVEN: "keycap: 7"
+EIGHT: "keycap: 8"
+NINE: "keycap: 9"
+KEYCAP_TEN: "keycap: 10"
+CAPITAL_ABCD: input latin uppercase
+ABCD: input latin lowercase
+SYMBOLS: input symbols
+ABC: input latin letters
+A: A button (blood type)
+AB: AB button (blood type)
+B: B button (blood type)
+CL: CL button
+COOL: COOL button
+FREE: FREE button
+INFORMATION_SOURCE: information
+ID: ID button
+M: circled M
+NEW: NEW button
+NG: NG button
+O2: O button (blood type)
+OK: OK button
+PARKING: P button
+SOS: SOS button
+UP: UP! button
+VS: VS button
+KOKO: Japanese "here" button
+SA: Japanese "service charge" button
+U6708: Japanese "monthly amount" button
+U6709: Japanese "not free of charge" button
+U6307: Japanese "reserved" button
+IDEOGRAPH_ADVANTAGE: Japanese "bargain" button
+U5272: Japanese "discount" button
+U7121: Japanese "free of charge" button
+U7981: Japanese "prohibited" button
+ACCEPT: Japanese "acceptable" button
+U7533: Japanese "application" button
+U5408: Japanese "passing grade" button
+U7A7A: Japanese "vacancy" button
+CONGRATULATIONS: Japanese "congratulations" button
+SECRET: Japanese "secret" button
+U55B6: Japanese "open for business" button
+U6E80: Japanese "no vacancy" button
+RED_CIRCLE: red circle
+LARGE_ORANGE_CIRCLE: orange circle
+LARGE_YELLOW_CIRCLE: yellow circle
+LARGE_GREEN_CIRCLE: green circle
+LARGE_BLUE_CIRCLE: blue circle
+LARGE_PURPLE_CIRCLE: purple circle
+LARGE_BROWN_CIRCLE: brown circle
+BLACK_CIRCLE: black circle
+WHITE_CIRCLE: white circle
+LARGE_RED_SQUARE: red square
+LARGE_ORANGE_SQUARE: orange square
+LARGE_YELLOW_SQUARE: yellow square
+LARGE_GREEN_SQUARE: green square
+LARGE_BLUE_SQUARE: blue square
+LARGE_PURPLE_SQUARE: purple square
+LARGE_BROWN_SQUARE: brown square
+BLACK_LARGE_SQUARE: black large square
+WHITE_LARGE_SQUARE: white large square
+BLACK_MEDIUM_SQUARE: black medium square
+WHITE_MEDIUM_SQUARE: white medium square
+BLACK_MEDIUM_SMALL_SQUARE: black medium-small square
+WHITE_MEDIUM_SMALL_SQUARE: white medium-small square
+BLACK_SMALL_SQUARE: black small square
+WHITE_SMALL_SQUARE: white small square
+LARGE_ORANGE_DIAMOND: large orange diamond
+LARGE_BLUE_DIAMOND: large blue diamond
+SMALL_ORANGE_DIAMOND: small orange diamond
+SMALL_BLUE_DIAMOND: small blue diamond
+SMALL_RED_TRIANGLE: red triangle pointed up
+SMALL_RED_TRIANGLE_DOWN: red triangle pointed down
+DIAMOND_SHAPE_WITH_A_DOT_INSIDE: diamond with a dot
+RADIO_BUTTON: radio button
+WHITE_SQUARE_BUTTON: white square button
+BLACK_SQUARE_BUTTON: black square button
+
+## Emoji Mixing String
+ZZZ: zzz
+POOL_8_BALL: pool 8 ball
+BIG_EYE: grinning face with big eyes
+
+# BT report section
+BT_REPORT_BT_CONNECTIVITY_ISSUES: Bluetooth connectivity issues
+BT_REPORT_TO_LEARN_MORE: To learn more about Bluetooth connectivity issues {link}.
+BT_REPORT_BT_CONNECTIVITY_CONTENT: If you experience Bluetooth connectivity issues with your device, please select the issues that apply below and send us a feedback report. To see what a report contains, {link}.
+BT_REPORT_CLICK_HERE: click here
+BT_REPORT_SEND_FEEDBACK_REPORT: Send Feedback Report
+BT_REPORT_ARE_YOU_SURE: Are you sure to send the feedback?
+BT_REPORT_CANCEL_BUTTON: Cancel
+BT_REPORT_SEND_FEEDBACK: Send Feedback
+BT_REPORT_MODAL_CONTENT: By sending this report, you agree to Logitech’s {link}
+BT_REPORT_PRIVACY_POLICY: privacy policy
+BT_REPORT_PAIRING_ISSUES: Difficulties pairing with Bluetooth
+BT_REPORT_LOOSE_CONNECTION: My device frequently loses connection
+BT_REPORT_LAG: There is lag when using Bluetooth
+BT_REPORT_REPORT_SUCCESSFUL: Thank you! Your feedback has been submitted successfully
+BT_REPORT_OK: Ok
+BT_REPORT_VISIT_FAQ: Visit FAQ
+
+F1_KEY: F1 key
+F2_KEY: F2 key
+F3_KEY: F3 key
+F4_KEY: F4 key
+F5_KEY: F5 key
+F6_KEY: F6 key
+F7_KEY: F7 key
+F8_KEY: F8 key
+F9_KEY: F9 key
+F10_KEY: F10 key
+F11_KEY: F11 key
+F12_KEY: F12 key
+INS_KEY: Ins key
+VOLUME_UP_KEY: Volume up key
+CALCULATOR_KEY: Calculator key
+SCREEN_CAPTURE_KEY: Screen capture key
+LOOK_UP_KEY: Look up key
+LOCK_KEY: Lock key
+WHEEL_BUTTON: Wheel button
+FORWARD_BUTTON: Forward button
+BACK_BUTTON: Back button
+TOP_BUTTON: Top button
+THUMB_BUTTON: Thumb button
+TILT_LEFT_BUTTON: Tilt left button
+TILT_RIGHT_BUTTON: Tilt right button
+THUMB_WHEEL: Thumb wheel
+THUMB_WHEEL_UP: Thumb wheel up
+THUMB_WHEEL_DOWN: Thumb wheel down
